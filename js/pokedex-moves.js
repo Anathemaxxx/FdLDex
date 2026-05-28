@@ -767,8 +767,8 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 			results.push('a10% '+ BattleLocationdex[moveid].landslot5);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot6);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot7);
-			results.push('az10% '+ BattleLocationdex[moveid].landslot8);
-			results.push('az10% '+ BattleLocationdex[moveid].landslot9);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot8);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot9);
 			results.push('az5% '+ BattleLocationdex[moveid].landslot10);
 			results.push('az4% '+ BattleLocationdex[moveid].landslot11);
 			results.push('az1% '+ BattleLocationdex[moveid].landslot12);
