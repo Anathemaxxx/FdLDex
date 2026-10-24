@@ -773,31 +773,83 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 			results.push('az4% '+ BattleLocationdex[moveid].landslot11);
 			results.push('az1% '+ BattleLocationdex[moveid].landslot12);
 		}
-		if (typeof BattleLocationdex[moveid].fishslot1 !== 'undefined') {
-			results.push('b20% '+ BattleLocationdex[moveid].fishslot1);
-			results.push('b20% '+ BattleLocationdex[moveid].fishslot2);
-			results.push('b10% '+ BattleLocationdex[moveid].fishslot3);
-			results.push('b10% '+ BattleLocationdex[moveid].fishslot4);
-			results.push('b10% '+ BattleLocationdex[moveid].fishslot5);
-			results.push('b10% '+ BattleLocationdex[moveid].fishslot6);
-			results.push('b10% '+ BattleLocationdex[moveid].fishslot7);
-			results.push('bz5% '+ BattleLocationdex[moveid].fishslot8);
-			results.push('bz4% '+ BattleLocationdex[moveid].fishslot9);
-			results.push('bz1% '+ BattleLocationdex[moveid].fishslot10);
+		if (typeof BattleLocationdex[moveid].yellowslot1 !== 'undefined') {
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot1);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot2);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot3);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot4);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot5);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot6);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot7);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot8);
+			results.push('b10% '+ BattleLocationdex[moveid].yellowslot9);
+			results.push('bz5% '+ BattleLocationdex[moveid].yellowslot10);
+			results.push('bz4% '+ BattleLocationdex[moveid].yellowslot11);
+			results.push('bz1% '+ BattleLocationdex[moveid].yellowslot12);
+		}
+		if (typeof BattleLocationdex[moveid].redslot1 !== 'undefined') {
+			results.push('c10% '+ BattleLocationdex[moveid].redslot1);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot2);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot3);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot4);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot5);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot6);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot7);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot8);
+			results.push('c10% '+ BattleLocationdex[moveid].redslot9);
+			results.push('cz5% '+ BattleLocationdex[moveid].redslot10);
+			results.push('cz4% '+ BattleLocationdex[moveid].redslot11);
+			results.push('cz1% '+ BattleLocationdex[moveid].redslot12);
+		}
+		if (typeof BattleLocationdex[moveid].purpleslot1 !== 'undefined') {
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot1);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot2);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot3);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot4);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot5);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot6);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot7);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot8);
+			results.push('d10% '+ BattleLocationdex[moveid].purpleslot9);
+			results.push('dz5% '+ BattleLocationdex[moveid].purpleslot10);
+			results.push('dz4% '+ BattleLocationdex[moveid].purpleslot11);
+			results.push('dz1% '+ BattleLocationdex[moveid].purpleslot12);
+		}
+		if (typeof BattleLocationdex[moveid].roughslot1 !== 'undefined') {
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot1);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot2);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot3);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot4);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot5);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot6);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot7);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot8);
+			results.push('e10% '+ BattleLocationdex[moveid].roughslot9);
+			results.push('ez5% '+ BattleLocationdex[moveid].roughslot10);
+			results.push('ez4% '+ BattleLocationdex[moveid].roughslot11);
+			results.push('ez1% '+ BattleLocationdex[moveid].roughslot12);
 		}
 		if (typeof BattleLocationdex[moveid].waterslot1 !== 'undefined') {
-			results.push('c30% '+ BattleLocationdex[moveid].waterslot1);
-			results.push('c30% '+ BattleLocationdex[moveid].waterslot2);
-			results.push('c20% '+ BattleLocationdex[moveid].waterslot3);
-			results.push('c10% '+ BattleLocationdex[moveid].waterslot4);
-			results.push('c10% '+ BattleLocationdex[moveid].waterslot5);
+			results.push('f20% '+ BattleLocationdex[moveid].waterslot1);
+			results.push('f20% '+ BattleLocationdex[moveid].waterslot2);
+			results.push('f20% '+ BattleLocationdex[moveid].waterslot3);
+			results.push('f20% '+ BattleLocationdex[moveid].waterslot4);
+			results.push('f20% '+ BattleLocationdex[moveid].waterslot5);
 		}
-		if (typeof BattleLocationdex[moveid].rockslot1 !== 'undefined') {
-			results.push('d60% '+ BattleLocationdex[moveid].rockslot1);
-			results.push('d30% '+ BattleLocationdex[moveid].rockslot2);
-			results.push('dz5% '+ BattleLocationdex[moveid].rockslot3);
-			results.push('dz4% '+ BattleLocationdex[moveid].rockslot4);
-			results.push('dz1% '+ BattleLocationdex[moveid].rockslot5);
+		if (typeof BattleLocationdex[moveid].oldslot1 !== 'undefined') {
+			results.push('g40% '+ BattleLocationdex[moveid].oldslot1);
+			results.push('g40% '+ BattleLocationdex[moveid].oldslot2);
+			results.push('g20% '+ BattleLocationdex[moveid].oldslot3);
+		}
+		if (typeof BattleLocationdex[moveid].goodslot1 !== 'undefined') {
+			results.push('h40% '+ BattleLocationdex[moveid].goodslot1);
+			results.push('h40% '+ BattleLocationdex[moveid].goodslot2);
+			results.push('h20% '+ BattleLocationdex[moveid].goodslot3);
+		}
+		if (typeof BattleLocationdex[moveid].superslot1 !== 'undefined') {
+			results.push('i40% '+ BattleLocationdex[moveid].superslot1);
+			results.push('i40% '+ BattleLocationdex[moveid].superslot2);
+			results.push('i20% '+ BattleLocationdex[moveid].superslot3);
 		}
 		var last = '';
 		for (var i=0; i<results.length; i++) {
