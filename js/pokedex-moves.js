@@ -938,10 +938,19 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 				desc = results[i].substr(1,3).replace("z","");
 				break;
 			case 'e': // event
-				desc = '!';
+				desc = results[i].substr(1,3).replace("z","");
 				break;
 			case 'f': // past generation
-				desc = '...';
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'g': // event
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'h': // past generation
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'i': // past generation
+				desc = results[i].substr(1,3).replace("z","");
 				break;
 			}
 			return BattleSearch.renderTaggedLocationRowInner(template, desc);
