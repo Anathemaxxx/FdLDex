@@ -903,15 +903,21 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 			case 'A': // level-up move
 				return '<h3>Land</h3>';
 			case 'B': // tm/hm
-				return '<h3>Fishing</h3>';
+				return '<h3>Yellow Flowers</h3>';
 			case 'C': // tutor
-				return '<h3>Surfing</h3>';
+				return '<h3>Red Flowers</h3>';
 			case 'D': // egg move
-				return '<h3>Rock Smash</h3>';
+				return '<h3>Purple Flowers</h3>';
 			case 'E': // event
-				return '<h3>Event</h3>';
+				return '<h3>Rough Terrain</h3>';
 			case 'F': // past gen
-				return '<h3>Past generation only</h3>';
+				return '<h3>Surfing</h3>';
+			case 'G': // egg move
+				return '<h3>Old Rod</h3>';
+			case 'H': // event
+				return '<h3>Good Rod</h3>';
+			case 'I': // past gen
+				return '<h3>Super Rod</h3>';
 			}
 			return '<pre>error: "'+results[i]+'"</pre>';
 		} else if (offscreen) {
