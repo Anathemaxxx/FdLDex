@@ -449,6 +449,7 @@ exports.BattlePokedex = {
         heightm: 1.1,
         weightkg: 32,
         catchrate: 45,
+        itemRare: "Silver Powder",
         color: "White",
         prevo: "Metapod",
         evoLevel: 10,
@@ -572,8 +573,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Keen Eye"
-			"1": "Tangled Feet",
-            H: "Big Pecks"
         },
         heightm: 0.3,
         weightkg: 1.8,
@@ -597,8 +596,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Keen Eye"
-			"1": "Tangled Feet",
-            H: "Big Pecks"
         },
         heightm: 1.1,
         weightkg: 30,
@@ -618,21 +615,19 @@ exports.BattlePokedex = {
             hp: 83,
             atk: 80,
             def: 75,
-            spa: 100,
+            spa: 70,
             spd: 70,
-            spe: 111
+            spe: 101
         },
         abilities: {
-            "0": "No Guard"
-			"1": "Intimidate",
-            H: "Big Pecks"
+            "0": "Keen Eye"
         },
         heightm: 1.5,
         weightkg: 39.5,
         catchrate: 45,
         color: "Brown",
         prevo: "Pidgeotto",
-        evoLevel: 36,
+        evoLevel: 32,
         eggGroups: ["Flying"],
         otherFormes: ["Pidgeot-Mega"],
         formeOrder: ["Pidgeot", "Pidgeot-Mega"],
@@ -660,7 +655,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Flying"],
         requiredItem: "Pidgeotite",
-        tier: "2",
+        tier: "1",
     },
     rattata: {
         num: 19,
@@ -684,6 +679,36 @@ exports.BattlePokedex = {
         catchrate: 255,
         color: "Purple",
         evos: ["Raticate"],
+        eggGroups: ["Field"],
+        otherFormes: ["Rattata-Alola"],
+        formeOrder: ["Rattata", "Rattata-Alola"],
+        tier: "2",
+    },
+    rattataalola: {
+        num: 19,
+        name: "Rattata-Alola",
+        baseSpecies: "Rattata",
+        forme: "Alola",
+        types: ["Dark", "Normal"],
+        baseStats: {
+            hp: 30,
+            atk: 56,
+            def: 35,
+            spa: 25,
+            spd: 35,
+            spe: 72
+        },
+        abilities: {
+            "0": "Gluttony",
+            "1": "Hustle",
+            H: "Thick Fat"
+        },
+        heightm: 0.3,
+        weightkg: 3.8,
+        catchrate: 255,
+        itemRare: "Pecha Berry",
+        color: "Black",
+        evos: ["Raticate-Alola"],
         eggGroups: ["Field"],
         tier: "2",
     },
@@ -710,6 +735,37 @@ exports.BattlePokedex = {
         color: "Brown",
         prevo: "Rattata",
         evoLevel: 20,
+        eggGroups: ["Field"],
+        otherFormes: ["Raticate-Alola"],
+        formeOrder: ["Raticate", "Raticate-Alola"],
+        tier: "2",
+    },
+    raticatealola: {
+        num: 20,
+        name: "Raticate-Alola",
+        baseSpecies: "Raticate",
+        forme: "Alola",
+        types: ["Dark", "Normal"],
+        baseStats: {
+            hp: 75,
+            atk: 71,
+            def: 70,
+            spa: 40,
+            spd: 80,
+            spe: 77
+        },
+        abilities: {
+            "0": "Gluttony",
+            "1": "Hustle",
+            H: "Thick Fat"
+        },
+        heightm: 0.7,
+        weightkg: 25.5,
+        catchrate: 127,
+        color: "Black",
+        prevo: "Rattata-Alola",
+        evoLevel: 20,
+        evoCondition: "at night",
         eggGroups: ["Field"],
         tier: "2",
     },
@@ -744,7 +800,7 @@ exports.BattlePokedex = {
         types: ["Normal", "Flying"],
         baseStats: {
             hp: 65,
-            atk: 120,
+            atk: 90,
             def: 65,
             spa: 61,
             spd: 61,
@@ -778,7 +834,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Intimidate",
-			"1": "Unnerve",
             H: "Shed Skin"
         },
         heightm: 2,
@@ -803,7 +858,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Intimidate",
-			"1": "Unnerve",
             H: "Shed Skin"
         },
         heightm: 3.5,
@@ -811,7 +865,7 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Purple",
         prevo: "Ekans",
-        evoLevel: 16,
+        evoLevel: 22,
         eggGroups: ["Field", "Dragon"],
         tier: "1",
     },
@@ -838,9 +892,406 @@ exports.BattlePokedex = {
         color: "Yellow",
         prevo: "Pichu",
         evoLevel: 10,
-        evos: ["Raichu"],
+        evos: ["Raichu", "Raichu-Alola"],
         eggGroups: ["Field", "Fairy"],
+        otherFormes: ["Pikachu-Cosplay", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World"],
+        formeOrder: ["Pikachu", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Cosplay"],
+        canGigantamax: "G-Max Volt Crash",
         tier: "1"
+    },
+    pikachucosplay: {
+        num: 25,
+        name: "Pikachu-Cosplay",
+        baseSpecies: "Pikachu",
+        forme: "Cosplay",
+        types: ["Electric"],
+        gender: "F",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 6,
+        tier: "2",
+    },
+    pikachurockstar: {
+        num: 25,
+        name: "Pikachu-Rock-Star",
+        baseSpecies: "Pikachu",
+        forme: "Rock-Star",
+        types: ["Electric"],
+        gender: "F",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        changesFrom: "Pikachu-Cosplay",
+        gen: 6,
+        tier: "2",
+    },
+    pikachubelle: {
+        num: 25,
+        name: "Pikachu-Belle",
+        baseSpecies: "Pikachu",
+        forme: "Belle",
+        types: ["Electric"],
+        gender: "F",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        changesFrom: "Pikachu-Cosplay",
+        gen: 6,
+        tier: "2",
+    },
+    pikachupopstar: {
+        num: 25,
+        name: "Pikachu-Pop-Star",
+        baseSpecies: "Pikachu",
+        forme: "Pop-Star",
+        types: ["Electric"],
+        gender: "F",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        changesFrom: "Pikachu-Cosplay",
+        gen: 6,
+        tier: "2",
+    },
+    pikachuphd: {
+        num: 25,
+        name: "Pikachu-PhD",
+        baseSpecies: "Pikachu",
+        forme: "PhD",
+        types: ["Electric"],
+        gender: "F",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        changesFrom: "Pikachu-Cosplay",
+        gen: 6,
+        tier: "2",
+    },
+    pikachulibre: {
+        num: 25,
+        name: "Pikachu-Libre",
+        baseSpecies: "Pikachu",
+        forme: "Libre",
+        types: ["Electric"],
+        gender: "F",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        changesFrom: "Pikachu-Cosplay",
+        gen: 6,
+        tier: "2",
+    },
+    pikachuoriginal: {
+        num: 25,
+        name: "Pikachu-Original",
+        baseSpecies: "Pikachu",
+        forme: "Original",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachuhoenn: {
+        num: 25,
+        name: "Pikachu-Hoenn",
+        baseSpecies: "Pikachu",
+        forme: "Hoenn",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachusinnoh: {
+        num: 25,
+        name: "Pikachu-Sinnoh",
+        baseSpecies: "Pikachu",
+        forme: "Sinnoh",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachuunova: {
+        num: 25,
+        name: "Pikachu-Unova",
+        baseSpecies: "Pikachu",
+        forme: "Unova",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachukalos: {
+        num: 25,
+        name: "Pikachu-Kalos",
+        baseSpecies: "Pikachu",
+        forme: "Kalos",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachualola: {
+        num: 25,
+        name: "Pikachu-Alola",
+        baseSpecies: "Pikachu",
+        forme: "Alola",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachupartner: {
+        num: 25,
+        name: "Pikachu-Partner",
+        baseSpecies: "Pikachu",
+        forme: "Partner",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 7,
+        tier: "2"
+    },
+    pikachustarter: {
+        num: 25,
+        name: "Pikachu-Starter",
+        baseSpecies: "Pikachu",
+        forme: "Starter",
+        types: ["Electric"],
+        baseStats: {
+            hp: 45,
+            atk: 80,
+            def: 50,
+            spa: 75,
+            spd: 60,
+            spe: 120
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        tier: "2",
+        isNonstandard: "LGPE"
+    },
+    pikachuworld: {
+        num: 25,
+        name: "Pikachu-World",
+        baseSpecies: "Pikachu",
+        forme: "World",
+        types: ["Electric"],
+        gender: "M",
+        baseStats: {
+            hp: 35,
+            atk: 55,
+            def: 40,
+            spa: 50,
+            spd: 50,
+            spe: 90
+        },
+        abilities: {
+            "0": "Static",
+            H: "Lightning Rod"
+        },
+        heightm: 0.4,
+        weightkg: 6,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        gen: 8,
+        tier: "2"
     },
     raichu: {
         num: 26,
@@ -848,9 +1299,9 @@ exports.BattlePokedex = {
         types: ["Electric"],
         baseStats: {
             hp: 60,
-            atk: 100,
+            atk: 90,
             def: 55,
-            spa: 100,
+            spa: 90,
             spd: 80,
             spe: 110
         },
@@ -863,9 +1314,40 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Yellow",
         prevo: "Pikachu",
-        evoLevel: 34,
+        evoType: "useItem",
+        evoItem: "Thunder Stone",
         eggGroups: ["Field", "Fairy"],
+        otherFormes: ["Raichu-Alola"],
+        formeOrder: ["Raichu", "Raichu-Alola"],
         tier: "1"
+    },
+    raichualola: {
+        num: 26,
+        name: "Raichu-Alola",
+        baseSpecies: "Raichu",
+        forme: "Alola",
+        types: ["Electric", "Psychic"],
+        baseStats: {
+            hp: 60,
+            atk: 85,
+            def: 50,
+            spa: 95,
+            spd: 85,
+            spe: 110
+        },
+        abilities: {
+            "0": "Surge Surfer"
+        },
+        heightm: 0.7,
+        weightkg: 21,
+        catchrate: 75,
+        color: "Brown",
+        prevo: "Pikachu",
+        evoType: "useItem",
+        evoItem: "Sun Stone",
+        evoRegion: "Alola",
+        eggGroups: ["Field", "Fairy"],
+        tier: ""
     },
     sandshrew: {
         num: 27,
@@ -886,8 +1368,38 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 12,
         catchrate: 255,
+        itemRare: "Grip Claw",
         color: "Yellow",
         evos: ["Sandslash"],
+        eggGroups: ["Field"],
+        otherFormes: ["Sandshrew-Alola"],
+        formeOrder: ["Sandshrew", "Sandshrew-Alola"],
+        tier: "2",
+    },
+    sandshrewalola: {
+        num: 27,
+        name: "Sandshrew-Alola",
+        baseSpecies: "Sandshrew",
+        forme: "Alola",
+        types: ["Ice", "Steel"],
+        baseStats: {
+            hp: 50,
+            atk: 75,
+            def: 90,
+            spa: 10,
+            spd: 35,
+            spe: 40
+        },
+        abilities: {
+            "0": "Slush Rush",
+            H: "Snow Cloak"
+        },
+        heightm: 0.7,
+        weightkg: 40,
+        catchrate: 255,
+        itemRare: "Grip Claw",
+        color: "White",
+        evos: ["Sandslash-Alola"],
         eggGroups: ["Field"],
         tier: "1",
     },
@@ -904,16 +1416,47 @@ exports.BattlePokedex = {
             spe: 65
         },
         abilities: {
-            "0": "Sand Rush",
-			"1": "Rough Skin",
-            H: "Sand Veil"
+            "0": "Sand Veil",
+            H: "Sand Rush"
         },
         heightm: 1,
         weightkg: 29.5,
         catchrate: 90,
+        itemRare: "Grip Claw",
         color: "Yellow",
         prevo: "Sandshrew",
-        evoLevel: 20,
+        evoLevel: 22,
+        eggGroups: ["Field"],
+        otherFormes: ["Sandslash-Alola"],
+        formeOrder: ["Sandslash", "Sandslash-Alola"],
+        tier: "2",
+    },
+    sandslashalola: {
+        num: 28,
+        name: "Sandslash-Alola",
+        baseSpecies: "Sandslash",
+        forme: "Alola",
+        types: ["Ice", "Steel"],
+        baseStats: {
+            hp: 75,
+            atk: 100,
+            def: 120,
+            spa: 25,
+            spd: 65,
+            spe: 65
+        },
+        abilities: {
+            "0": "Slush Rush",
+            H: "Snow Cloak"
+        },
+        heightm: 1.2,
+        weightkg: 55,
+        catchrate: 90,
+        color: "Blue",
+        prevo: "Sandshrew-Alola",
+        evoType: "useItem",
+        evoItem: "Ice Stone",
+        eggGroups: ["Field"],
         tier: "1",
     },
     nidoranf: {
@@ -975,15 +1518,14 @@ exports.BattlePokedex = {
         gender: "F",
         baseStats: {
             hp: 90,
-            atk: 75,
+            atk: 92,
             def: 87,
-            spa: 92,
+            spa: 75,
             spd: 85,
             spe: 76
         },
         abilities: {
             "0": "Poison Point",
-			"1": "Battle Armor",
             H: "Sheer Force"
         },
         heightm: 1.3,
@@ -991,7 +1533,8 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Nidorina",
-        evoLevel: 34,
+        evoType: "useItem",
+        evoItem: "Moon Stone",
         eggGroups: ["Undiscovered"],
         tier: "1",
     },
@@ -1062,7 +1605,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Poison Point",
-			"1": "Mold Breaker",
             H: "Sheer Force"
         },
         heightm: 1.4,
@@ -1070,7 +1612,8 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Purple",
         prevo: "Nidorino",
-        evoLevel: 34,
+        evoType: "useItem",
+        evoItem: "Moon Stone",
         eggGroups: ["Monster", "Field"],
         tier: "1",
     },
@@ -1093,11 +1636,12 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Friend Guard",
             "1": "Magic Guard",
-            H: "Cute Charm"
+            H: "Friend Guard"
         },
         heightm: 0.6,
         weightkg: 7.5,
         catchrate: 150,
+        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Cleffa",
         evoLevel: "10",
@@ -1124,14 +1668,16 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Unaware",
             "1": "Magic Guard",
-            H: "Cute Charm"
+            H: "Unaware"
         },
         heightm: 1.3,
         weightkg: 40,
         catchrate: 25,
+        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Clefairy",
-        evoLevel: 46,
+        evoType: "useItem",
+        evoItem: "Moon Stone",
         eggGroups: ["Fairy"],
         tier: "1",
     },
@@ -1153,7 +1699,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Flash Fire",
-			"1": "Flame Body",
             H: "Drought"
         },
         heightm: 0.6,
@@ -1162,6 +1707,39 @@ exports.BattlePokedex = {
         itemRare: "Charcoal",
         color: "Brown",
         evos: ["Ninetales"],
+        eggGroups: ["Field"],
+        otherFormes: ["Vulpix-Alola"],
+        formeOrder: ["Vulpix", "Vulpix-Alola"],
+        tier: "2",
+    },
+    vulpixalola: {
+        num: 37,
+        name: "Vulpix-Alola",
+        baseSpecies: "Vulpix",
+        forme: "Alola",
+        types: ["Ice"],
+        genderRatio: {
+            M: 0.25,
+            F: 0.75
+        },
+        baseStats: {
+            hp: 38,
+            atk: 41,
+            def: 40,
+            spa: 50,
+            spd: 65,
+            spe: 65
+        },
+        abilities: {
+            "0": "Snow Cloak",
+            H: "Snow Warning"
+        },
+        heightm: 0.6,
+        weightkg: 9.9,
+        catchrate: 190,
+        itemRare: "Snowball",
+        color: "White",
+        evos: ["Ninetales-Alola"],
         eggGroups: ["Field"],
         tier: "2",
     },
@@ -1175,6 +1753,41 @@ exports.BattlePokedex = {
         },
         baseStats: {
             hp: 73,
+            atk: 76,
+            def: 75,
+            spa: 81,
+            spd: 100,
+            spe: 100
+        },
+        abilities: {
+            "0": "Flash Fire",
+            H: "Drought"
+        },
+        heightm: 1.1,
+        weightkg: 19.9,
+        catchrate: 75,
+        itemRare: "Charcoal",
+        color: "Yellow",
+        prevo: "Vulpix",
+        evoType: "useItem",
+        evoItem: "Fire Stone",
+        eggGroups: ["Field"],
+        otherFormes: ["Ninetales-Alola"],
+        formeOrder: ["Ninetales", "Ninetales-Alola"],
+        tier: "2",
+    },
+    ninetalesalola: {
+        num: 38,
+        name: "Ninetales-Alola",
+        baseSpecies: "Ninetales",
+        forme: "Alola",
+        types: ["Ice", "Fairy"],
+        genderRatio: {
+            M: 0.25,
+            F: 0.75
+        },
+        baseStats: {
+            hp: 73,
             atk: 67,
             def: 75,
             spa: 81,
@@ -1182,17 +1795,16 @@ exports.BattlePokedex = {
             spe: 109
         },
         abilities: {
-            "0": "Flash Fire",
-			"1": "Flame Body",
-            H: "Drought"
+            "0": "Snow Cloak",
+            H: "Snow Warning"
         },
         heightm: 1.1,
         weightkg: 19.9,
         catchrate: 75,
-        color: "Yellow",
-        prevo: "Vulpix",
+        color: "Blue",
+        prevo: "Vulpix-Alola",
         evoType: "useItem",
-        evoItem: "Fire Stone",
+        evoItem: "Ice Stone",
         eggGroups: ["Field"],
         tier: "2",
     },
@@ -1207,25 +1819,26 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 115,
             atk: 45,
-            def: 40,
+            def: 20,
             spa: 45,
-            spd: 45,
+            spd: 25,
             spe: 20
         },
         abilities: {
             "0": "Cute Charm",
-            "1": "Friend Guard",
-            H: "Competitive"
+            "1": "Competitive",
+            H: "Friend Guard"
         },
         heightm: 0.5,
         weightkg: 5.5,
         catchrate: 170,
+        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Igglybuff",
         evoType: "levelFriendship",
         evos: ["Wigglytuff"],
         eggGroups: ["Fairy"],
-        tier: "1"
+        tier: "2"
     },
     wigglytuff: {
         num: 40,
@@ -1244,18 +1857,20 @@ exports.BattlePokedex = {
             spe: 45
         },
         abilities: {
-            "0": "Fur Coat",
-            "1": "Friend Guard",
-            H: "Competitive"
+            "0": "Cute Charm",
+            "1": "Competitive",
+            H: "Frisk"
         },
         heightm: 1,
         weightkg: 12,
         catchrate: 50,
+        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Jigglypuff",
-        evoLevel: 46,
+        evoType: "useItem",
+        evoItem: "Moon Stone",
         eggGroups: ["Fairy"],
-        tier: "1"
+        tier: "2"
     },
     zubat: {
         num: 41,
@@ -1302,7 +1917,7 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Purple",
         prevo: "Zubat",
-        evoLevel: 28,
+        evoLevel: 22,
         evos: ["Crobat"],
         eggGroups: ["Flying"],
         tier: "1",
@@ -1329,7 +1944,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Gloom"],
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     gloom: {
         num: 44,
@@ -1352,10 +1967,10 @@ exports.BattlePokedex = {
         catchrate: 120,
         color: "Blue",
         prevo: "Oddish",
-        evoLevel: 16,
+        evoLevel: 21,
         evos: ["Vileplume", "Bellossom"],
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     vileplume: {
         num: 45,
@@ -1378,9 +1993,10 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Red",
         prevo: "Gloom",
-        evoLevel: 34,
+        evoType: "useItem",
+        evoItem: "Leaf Stone",
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     paras: {
         num: 46,
@@ -1396,12 +2012,13 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Effect Spore",
-			"1": "Dry Skin",
-            H: "Damp"
+            H: "Dry Skin"
         },
         heightm: 0.3,
         weightkg: 5.4,
         catchrate: 190,
+        itemCommon: "Tiny Mushroom",
+        itemRare: "Big Mushroom",
         color: "Red",
         evos: ["Parasect"],
         eggGroups: ["Bug", "Grass"],
@@ -1421,15 +2038,16 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Effect Spore",
-			"1": "Dry Skin",
-            H: "Damp"
+            H: "Dry Skin"
         },
         heightm: 1,
         weightkg: 29.5,
         catchrate: 75,
+        itemCommon: "Tiny Mushroom",
+        itemRare: "Big Mushroom",
         color: "Red",
         prevo: "Paras",
-        evoLevel: 24,
+        evoLevel: 22,
         eggGroups: ["Bug", "Grass"],
         tier: "1",
     },
@@ -1466,7 +2084,7 @@ exports.BattlePokedex = {
             hp: 70,
             atk: 65,
             def: 60,
-            spa: 110,
+            spa: 90,
             spd: 75,
             spe: 90
         },
@@ -1478,6 +2096,7 @@ exports.BattlePokedex = {
         heightm: 1.5,
         weightkg: 12.5,
         catchrate: 75,
+        itemRare: "Shed Shell",
         color: "Purple",
         prevo: "Venonat",
         evoLevel: 31,
@@ -1497,17 +2116,47 @@ exports.BattlePokedex = {
             spe: 95
         },
         abilities: {
-            "0": "Sand Force",
-			"1": "Arena Trap",
-            H: "Sand Veil"
+            "0": "Arena Trap",
+            H: "Sand Force"
         },
         heightm: 0.2,
         weightkg: 0.8,
         catchrate: 255,
+        itemRare: "Soft Sand",
         color: "Brown",
         evos: ["Dugtrio"],
         eggGroups: ["Field"],
-        tier: "1"
+        otherFormes: ["Diglett-Alola"],
+        formeOrder: ["Diglett", "Diglett-Alola"],
+        tier: "2"
+    },
+    diglettalola: {
+        num: 50,
+        name: "Diglett-Alola",
+        baseSpecies: "Diglett",
+        forme: "Alola",
+        types: ["Ground", "Steel"],
+        baseStats: {
+            hp: 10,
+            atk: 55,
+            def: 30,
+            spa: 35,
+            spd: 45,
+            spe: 90
+        },
+        abilities: {
+            "0": "Sand Veil",
+            "1": "Tangling Hair",
+            H: "Sand Force"
+        },
+        heightm: 0.2,
+        weightkg: 1,
+        catchrate: 255,
+        itemRare: "Soft Sand",
+        color: "Brown",
+        evos: ["Dugtrio-Alola"],
+        eggGroups: ["Field"],
+        tier: "2"
     },
     dugtrio: {
         num: 51,
@@ -1522,18 +2171,49 @@ exports.BattlePokedex = {
             spe: 120
         },
         abilities: {
-            "0": "Sand Force",
-			"1": "Arena Trap",
-            H: "Sand Veil"
+            "0": "Arena Trap",
+            H: "Sand Force"
         },
         heightm: 0.7,
         weightkg: 33.3,
         catchrate: 50,
+        itemRare: "Soft Sand",
         color: "Brown",
         prevo: "Diglett",
         evoLevel: 26,
         eggGroups: ["Field"],
-        tier: "1"
+        otherFormes: ["Dugtrio-Alola"],
+        formeOrder: ["Dugtrio", "Dugtrio-Alola"],
+        tier: "2"
+    },
+    dugtrioalola: {
+        num: 51,
+        name: "Dugtrio-Alola",
+        baseSpecies: "Dugtrio",
+        forme: "Alola",
+        types: ["Ground", "Steel"],
+        baseStats: {
+            hp: 35,
+            atk: 100,
+            def: 60,
+            spa: 50,
+            spd: 70,
+            spe: 110
+        },
+        abilities: {
+            "0": "Sand Veil",
+            "1": "Tangling Hair",
+            H: "Sand Force"
+        },
+        heightm: 0.7,
+        weightkg: 66.6,
+        catchrate: 50,
+        itemRare: "Soft Sand",
+        color: "Brown",
+        prevo: "Diglett-Alola",
+        evoLevel: 26,
+        eggGroups: ["Field"],
+        tier: "2"
     },
     meowth: {
         num: 52,
