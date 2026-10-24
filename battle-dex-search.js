@@ -826,26 +826,108 @@ var BattleTypedSearch = /** @class */ (function () {
             if (location.landslot12 === speciesid)
                 return true;
         }
-        if (typeof location.fishslot1 !== 'undefined') {
-            if (location.fishslot1 === speciesid)
+        if (typeof location.yellowslot1 !== 'undefined') {
+            if (location.yellowslot1 === speciesid)
                 return true;
-            if (location.fishslot2 === speciesid)
+            if (location.yellowslot2 === speciesid)
                 return true;
-            if (location.fishslot3 === speciesid)
+            if (location.yellowslot3 === speciesid)
                 return true;
-            if (location.fishslot4 === speciesid)
+            if (location.yellowslot4 === speciesid)
                 return true;
-            if (location.fishslot5 === speciesid)
+            if (location.yellowslot5 === speciesid)
                 return true;
-            if (location.fishslot6 === speciesid)
+            if (location.yellowslot6 === speciesid)
                 return true;
-            if (location.fishslot7 === speciesid)
+            if (location.yellowslot7 === speciesid)
                 return true;
-            if (location.fishslot8 === speciesid)
+            if (location.yellowslot8 === speciesid)
                 return true;
-            if (location.fishslot9 === speciesid)
+            if (location.yellowslot9 === speciesid)
                 return true;
-            if (location.fishslot10 === speciesid)
+            if (location.yellowslot10 === speciesid)
+                return true;
+            if (location.yellowslot11 === speciesid)
+                return true;
+            if (location.yellowslot12 === speciesid)
+                return true;
+        }
+        if (typeof location.redslot1 !== 'undefined') {
+            if (location.redslot1 === speciesid)
+                return true;
+            if (location.redslot2 === speciesid)
+                return true;
+            if (location.redslot3 === speciesid)
+                return true;
+            if (location.redslot4 === speciesid)
+                return true;
+            if (location.redslot5 === speciesid)
+                return true;
+            if (location.redslot6 === speciesid)
+                return true;
+            if (location.redslot7 === speciesid)
+                return true;
+            if (location.redslot8 === speciesid)
+                return true;
+            if (location.redslot9 === speciesid)
+                return true;
+            if (location.redslot10 === speciesid)
+                return true;
+            if (location.redslot11 === speciesid)
+                return true;
+            if (location.redslot12 === speciesid)
+                return true;
+        }
+         if (typeof location.purpleslot1 !== 'undefined') {
+            if (location.purpleslot1 === speciesid)
+                return true;
+            if (location.purpleslot2 === speciesid)
+                return true;
+            if (location.purpleslot3 === speciesid)
+                return true;
+            if (location.purpleslot4 === speciesid)
+                return true;
+            if (location.purpleslot5 === speciesid)
+                return true;
+            if (location.purpleslot6 === speciesid)
+                return true;
+            if (location.purpleslot7 === speciesid)
+                return true;
+            if (location.purpleslot8 === speciesid)
+                return true;
+            if (location.purpleslot9 === speciesid)
+                return true;
+            if (location.purpleslot10 === speciesid)
+                return true;
+            if (location.purpleslot11 === speciesid)
+                return true;
+            if (location.purpleslot12 === speciesid)
+                return true;
+        }
+         if (typeof location.roughslot1 !== 'undefined') {
+            if (location.roughslot1 === speciesid)
+                return true;
+            if (location.roughslot2 === speciesid)
+                return true;
+            if (location.roughslot3 === speciesid)
+                return true;
+            if (location.roughslot4 === speciesid)
+                return true;
+            if (location.roughslot5 === speciesid)
+                return true;
+            if (location.roughslot6 === speciesid)
+                return true;
+            if (location.roughslot7 === speciesid)
+                return true;
+            if (location.roughslot8 === speciesid)
+                return true;
+            if (location.roughslot9 === speciesid)
+                return true;
+            if (location.roughslot10 === speciesid)
+                return true;
+            if (location.roughslot11 === speciesid)
+                return true;
+            if (location.roughslot12 === speciesid)
                 return true;
         }
         if (typeof location.waterslot1 !== 'undefined') {
@@ -860,16 +942,28 @@ var BattleTypedSearch = /** @class */ (function () {
             if (location.waterslot5 === speciesid)
                 return true;
         }
-        if (typeof location.rockslot1 !== 'undefined') {
-            if (location.rockslot1 === speciesid)
+        if (typeof location.oldslot1 !== 'undefined') {
+            if (location.oldslot1 === speciesid)
                 return true;
-            if (location.rockslot2 === speciesid)
+            if (location.oldslot2 === speciesid)
                 return true;
-            if (location.rockslot3 === speciesid)
+            if (location.oldslot3 === speciesid)
                 return true;
-            if (location.rockslot4 === speciesid)
+        }
+         if (typeof location.goodslot1 !== 'undefined') {
+            if (location.goodslot1 === speciesid)
                 return true;
-            if (location.rockslot5 === speciesid)
+            if (location.goodslot2 === speciesid)
+                return true;
+            if (location.goodslot3 === speciesid)
+                return true;
+        }
+         if (typeof location.superslot1 !== 'undefined') {
+            if (location.superslot1 === speciesid)
+                return true;
+            if (location.superslot2 === speciesid)
+                return true;
+            if (location.superslot3 === speciesid)
                 return true;
         }
     };
