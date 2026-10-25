@@ -1408,7 +1408,7 @@ exports.BattleMovedex = {
         accuracy: 100,
         basePower: 40,
         category: "Physical",
-        name: "Quick Throw",
+        name: "Bone Rush",
         pp: 10,
         priority: 1,
         flags: {
