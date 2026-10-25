@@ -896,7 +896,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         prevo: "Pichu",
         evoLevel: 10,
-        evos: ["Raichu", "Raichu-Alola"],
+        evos: ["Raichu"],
         eggGroups: ["Field", "Fairy"],
         otherFormes: ["Pikachu-Cosplay", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World"],
         formeOrder: ["Pikachu", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Cosplay"],
@@ -4856,7 +4856,7 @@ exports.BattlePokedex = {
         weightkg: 56,
         catchrate: 45,
         color: "Green",
-        evos: ["Scizor", "Kleavor"],
+        evos: ["Scizor"],
         eggGroups: ["Bug"],
         tier: "1"
     },
