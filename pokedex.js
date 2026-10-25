@@ -4367,11 +4367,10 @@ exports.BattlePokedex = {
         heightm: 1.2,
         weightkg: 65.5,
         catchrate: 45,
-        itemRare: "Lagging Tail",
         color: "Pink",
         evos: ["Lickilicky"],
         eggGroups: ["Monster"],
-        tier: "2",
+        tier: "1",
     },
     koffing: {
         num: 109,
@@ -4392,7 +4391,6 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 1,
         catchrate: 190,
-        itemRare: "Smoke Ball",
         color: "Purple",
         evos: ["Weezing", "Weezing-Galar"],
         eggGroups: ["Amorphous"],
@@ -4424,7 +4422,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Weezing-Galar"],
         formeOrder: ["Weezing", "Weezing-Galar"],
-        tier: "1",
+        tier: "2",
     },
     weezinggalar: {
         num: 110,
@@ -4442,16 +4440,14 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Levitate",
-            "1": "Neutralizing Gas",
-            H: "Misty Surge"
+            H: "Stench"
         },
         heightm: 3,
         weightkg: 16,
-        catchrate: 60,
+        catchrate: 90,
         color: "Gray",
         prevo: "Koffing",
-        evoLevel: 35,
-        evoRegion: "Galar",
+        evoLevel: 34,
         eggGroups: ["Amorphous"],
         tier: "1",
     },
@@ -4501,7 +4497,7 @@ exports.BattlePokedex = {
         catchrate: 60,
         color: "Gray",
         prevo: "Rhyhorn",
-        evoLevel: 34,
+        evoLevel: 36,
         evos: ["Rhyperior"],
         eggGroups: ["Monster", "Field"],
         tier: "1",
@@ -4613,7 +4609,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Monster"],
         requiredItem: "Kangaskhanite",
-        tier: "2",
+        tier: "1",
     },
     horsea: {
         num: 116,
@@ -4664,7 +4660,7 @@ exports.BattlePokedex = {
         itemRare: "Dragon Scale",
         color: "Blue",
         prevo: "Horsea",
-        evoLevel: 20,
+        evoLevel: 28,
         evos: ["Kingdra"],
         eggGroups: ["Water 1", "Dragon"],
         tier: "1",
@@ -4773,8 +4769,7 @@ exports.BattlePokedex = {
         itemRare: "Star Piece",
         color: "Purple",
         prevo: "Staryu",
-        evoType: "useItem",
-        evoItem: "Water Stone",
+        evoLevel: 34,
         eggGroups: ["Water 3"],
         tier: "1",
     },
@@ -4791,9 +4786,9 @@ exports.BattlePokedex = {
             spe: 90
         },
         abilities: {
-            "0": "Soundproof",
+            "0": "Technician",
             "1": "Filter",
-            H: "Technician"
+            H: "Soundproof"
         },
         heightm: 1.3,
         weightkg: 54.5,
@@ -4806,7 +4801,7 @@ exports.BattlePokedex = {
         canHatch: true,
         otherFormes: ["Mr. Mime-Galar"],
         formeOrder: ["Mr. Mime", "Mr. Mime-Galar"],
-        tier: "2",
+        tier: "1",
     },
     mrmimegalar: {
         num: 122,
@@ -4854,7 +4849,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Swarm",
-            H: "Technician"
+			"1": "Technician",
+            H: "Steadfast"
         },
         heightm: 1.5,
         weightkg: 56,
@@ -4873,13 +4869,13 @@ exports.BattlePokedex = {
             hp: 65,
             atk: 50,
             def: 35,
-            spa: 115,
-            spd: 95,
-            spe: 95
+            spa: 125,
+            spd: 105,
+            spe: 115
         },
         abilities: {
             "0": "Oblivious",
-            "1": "Forewarn",
+            "1": "Inner Focus",
             H: "Dry Skin"
         },
         heightm: 1.4,
@@ -4901,20 +4897,20 @@ exports.BattlePokedex = {
         },
         baseStats: {
             hp: 65,
-            atk: 83,
+            atk: 88,
             def: 57,
             spa: 95,
             spd: 85,
             spe: 105
         },
         abilities: {
-            "0": "Vital Spirit",
-            H: "Static"
+            "0": "Static",
+			"1": "Vital Spirit",
+            H: "Volt Absorb"
         },
         heightm: 1.1,
         weightkg: 30,
         catchrate: 45,
-        itemRare: "Electirizer",
         color: "Yellow",
         prevo: "Elekid",
         evoLevel: 30,
@@ -4946,7 +4942,6 @@ exports.BattlePokedex = {
         heightm: 1.3,
         weightkg: 44.5,
         catchrate: 45,
-        itemRare: "Magmarizer",
         color: "Red",
         prevo: "Magby",
         evoLevel: 30,
@@ -5011,7 +5006,7 @@ exports.BattlePokedex = {
         gender: "M",
         baseStats: {
             hp: 75,
-            atk: 100,
+            atk: 110,
             def: 95,
             spa: 40,
             spd: 70,
@@ -5109,9 +5104,9 @@ exports.BattlePokedex = {
         types: ["Water", "Ice"],
         baseStats: {
             hp: 130,
-            atk: 85,
+            atk: 95,
             def: 80,
-            spa: 85,
+            spa: 95,
             spd: 95,
             spe: 60
         },
@@ -5123,8 +5118,6 @@ exports.BattlePokedex = {
         heightm: 2.5,
         weightkg: 220,
         catchrate: 45,
-        itemCommon: "Mystic Water",
-        itemRare: "Mystic Water",
         color: "Blue",
         eggGroups: ["Monster", "Water 1"],
         canGigantamax: "G-Max Resonance",
@@ -5136,7 +5129,7 @@ exports.BattlePokedex = {
         types: ["Normal"],
         gender: "N",
         baseStats: {
-            hp: 48,
+            hp: 100,
             atk: 48,
             def: 48,
             spa: 48,
@@ -5389,7 +5382,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Omanyte",
-        evoLevel: 40,
+        evoLevel: 39,
         eggGroups: ["Water 1", "Water 3"],
         tier: "1",
     },
@@ -5448,7 +5441,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Brown",
         prevo: "Kabuto",
-        evoLevel: 40,
+        evoLevel: 39,
         eggGroups: ["Water 1", "Water 3"],
         tier: "1",
     },
@@ -5534,15 +5527,13 @@ exports.BattlePokedex = {
         heightm: 2.1,
         weightkg: 460,
         catchrate: 25,
-        itemCommon: "Leftovers",
-        itemRare: "Leftovers",
         color: "Black",
         prevo: "Munchlax",
         evoType: "levelFriendship",
         eggGroups: ["Monster"],
         canHatch: true,
         canGigantamax: "G-Max Replenish",
-        tier: "2",
+        tier: "1",
     },
     articuno: {
         num: 144,
@@ -5609,8 +5600,8 @@ exports.BattlePokedex = {
             spe: 100
         },
         abilities: {
-            "0": "Pressure",
-            H: "Static"
+            "0": "Static",
+            H: "Pressure"
         },
         heightm: 1.6,
         weightkg: 52.6,
@@ -5620,7 +5611,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Zapdos-Galar"],
         formeOrder: ["Zapdos", "Zapdos-Galar"],
-        tier: "2"
+        tier: "1"
     },
     zapdosgalar: {
         num: 145,
@@ -5661,8 +5652,8 @@ exports.BattlePokedex = {
             spe: 90
         },
         abilities: {
-            "0": "Pressure",
-            H: "Flame Body"
+            "0": "Flame Body",
+            H: "Pressure"
         },
         heightm: 2,
         weightkg: 60,
@@ -5672,7 +5663,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Moltres-Galar"],
         formeOrder: ["Moltres", "Moltres-Galar"],
-        tier: "2"
+        tier: "1"
     },
     moltresgalar: {
         num: 146,
@@ -5718,7 +5709,6 @@ exports.BattlePokedex = {
         heightm: 1.8,
         weightkg: 3.3,
         catchrate: 45,
-        itemRare: "Dragon Scale",
         color: "Blue",
         evos: ["Dragonair"],
         eggGroups: ["Water 1", "Dragon"],
@@ -5743,7 +5733,6 @@ exports.BattlePokedex = {
         heightm: 4,
         weightkg: 16.5,
         catchrate: 45,
-        itemRare: "Dragon Scale",
         color: "Blue",
         prevo: "Dratini",
         evoLevel: 30,
@@ -5770,7 +5759,6 @@ exports.BattlePokedex = {
         heightm: 2.2,
         weightkg: 210,
         catchrate: 45,
-        itemRare: "Dragon Scale",
         color: "Brown",
         prevo: "Dragonair",
         evoLevel: 55,
@@ -5847,7 +5835,7 @@ exports.BattlePokedex = {
             spe: 140
         },
         abilities: {
-            "0": "Insomnia"
+            "0": "Mega Launcher"
         },
         heightm: 1.5,
         weightkg: 33,
@@ -5874,7 +5862,7 @@ exports.BattlePokedex = {
         },
         heightm: 0.4,
         weightkg: 4,
-        catchrate: 45,
+        catchrate: 255,
         color: "Pink",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
