@@ -17730,7 +17730,6 @@ exports.BattleMovedex = {
             contact: 1,
             protect: 1,
             mirror: 1,
-            defrost: 1
         },
         recoil: [33, 100],
         target: "normal",
