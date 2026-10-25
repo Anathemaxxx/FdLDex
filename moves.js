@@ -1403,7 +1403,7 @@ exports.BattleMovedex = {
         desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
         shortDesc: "Hits 2 times in one turn."
     },
-    bonerush: {
+    quickthrow: {
         num: 198,
         accuracy: 100,
         basePower: 40,
@@ -12454,7 +12454,7 @@ exports.BattleMovedex = {
         critRatio: 2,
         secondary: null,
         target: "allAdjacentFoes",
-        type: "Normal",
+        type: "Flying",
         contestType: "Cool",
         desc: "Has a higher chance for a critical hit.",
         shortDesc: "High crit ratio."
