@@ -363,7 +363,7 @@ exports.BattleMovedex = {
     ancientpower: {
         num: 246,
         accuracy: 100,
-        basePower: 60,
+        basePower: 80,
         category: "Special",
         name: "Ancient Power",
         pp: 5,
@@ -1405,29 +1405,23 @@ exports.BattleMovedex = {
     },
     bonerush: {
         num: 198,
-        accuracy: 90,
-        basePower: 25,
+        accuracy: 100,
+        basePower: 40,
         category: "Physical",
-        name: "Bone Rush",
+        name: "Quick Throw",
         pp: 10,
-        priority: 0,
+        priority: 1,
         flags: {
+            contact: 1,
             protect: 1,
             mirror: 1
         },
-        multihit: [2, 5],
         secondary: null,
         target: "normal",
         type: "Ground",
-        zMove: {
-            basePower: 140
-        },
-        maxMove: {
-            basePower: 130
-        },
         contestType: "Tough",
-        desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-        shortDesc: "Hits 2-5 times in one turn."
+        desc: "No additional effect.",
+        shortDesc: "Usually goes first."
     },
     boomburst: {
         num: 586,
@@ -12452,7 +12446,6 @@ exports.BattleMovedex = {
         pp: 10,
         priority: 0,
         flags: {
-            charge: 1,
             protect: 1,
             mirror: 1,
             nosleeptalk: 1,
@@ -12463,8 +12456,8 @@ exports.BattleMovedex = {
         target: "allAdjacentFoes",
         type: "Normal",
         contestType: "Cool",
-        desc: "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-        shortDesc: "Charges, then hits foe(s) turn 2. High crit ratio."
+        desc: "Has a higher chance for a critical hit.",
+        shortDesc: "High crit ratio."
     },
     recover: {
         num: 105,
