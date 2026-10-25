@@ -449,7 +449,6 @@ exports.BattlePokedex = {
         heightm: 1.1,
         weightkg: 32,
         catchrate: 45,
-        itemRare: "Silver Powder",
         color: "White",
         prevo: "Metapod",
         evoLevel: 10,
@@ -471,7 +470,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Shield Dust",
-            "1": "Run Away",
             H: "Run Away"
         },
         heightm: 0.3,
@@ -572,7 +570,9 @@ exports.BattlePokedex = {
             spe: 56
         },
         abilities: {
-            "0": "Keen Eye"
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
+            H: "Big Pecks"
         },
         heightm: 0.3,
         weightkg: 1.8,
@@ -595,7 +595,9 @@ exports.BattlePokedex = {
             spe: 71
         },
         abilities: {
-            "0": "Keen Eye"
+            "0": "Keen Eye",
+            "1": "Tangled Feet",
+            H: "Big Pecks"
         },
         heightm: 1.1,
         weightkg: 30,
@@ -615,19 +617,21 @@ exports.BattlePokedex = {
             hp: 83,
             atk: 80,
             def: 75,
-            spa: 70,
+            spa: 100,
             spd: 70,
-            spe: 101
+            spe: 111
         },
         abilities: {
-            "0": "Keen Eye"
+            "0": "No Guard",
+            "1": "Intimidate",
+            H: "Big Pecks"
         },
         heightm: 1.5,
         weightkg: 39.5,
         catchrate: 45,
         color: "Brown",
         prevo: "Pidgeotto",
-        evoLevel: 32,
+        evoLevel: 36,
         eggGroups: ["Flying"],
         otherFormes: ["Pidgeot-Mega"],
         formeOrder: ["Pidgeot", "Pidgeot-Mega"],
@@ -655,7 +659,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Flying"],
         requiredItem: "Pidgeotite",
-        tier: "1",
+        tier: "2",
     },
     rattata: {
         num: 19,
@@ -788,7 +792,6 @@ exports.BattlePokedex = {
         heightm: 0.3,
         weightkg: 2,
         catchrate: 255,
-        itemRare: "Sharp Beak",
         color: "Brown",
         evos: ["Fearow"],
         eggGroups: ["Flying"],
@@ -800,7 +803,7 @@ exports.BattlePokedex = {
         types: ["Normal", "Flying"],
         baseStats: {
             hp: 65,
-            atk: 90,
+            atk: 120,
             def: 65,
             spa: 61,
             spd: 61,
@@ -813,7 +816,6 @@ exports.BattlePokedex = {
         heightm: 1.2,
         weightkg: 38,
         catchrate: 90,
-        itemRare: "Sharp Beak",
         color: "Brown",
         prevo: "Spearow",
         evoLevel: 20,
@@ -834,6 +836,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Intimidate",
+			"1": "Unnerve",
             H: "Shed Skin"
         },
         heightm: 2,
@@ -858,6 +861,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Intimidate",
+			"1": "Unnerve",
             H: "Shed Skin"
         },
         heightm: 3.5,
@@ -865,7 +869,7 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Purple",
         prevo: "Ekans",
-        evoLevel: 22,
+        evoLevel: 16,
         eggGroups: ["Field", "Dragon"],
         tier: "1",
     },
@@ -1299,9 +1303,9 @@ exports.BattlePokedex = {
         types: ["Electric"],
         baseStats: {
             hp: 60,
-            atk: 90,
+            atk: 100,
             def: 55,
-            spa: 90,
+            spa: 100,
             spd: 80,
             spe: 110
         },
@@ -1314,8 +1318,7 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Yellow",
         prevo: "Pikachu",
-        evoType: "useItem",
-        evoItem: "Thunder Stone",
+        evoLevel: 34,
         eggGroups: ["Field", "Fairy"],
         otherFormes: ["Raichu-Alola"],
         formeOrder: ["Raichu", "Raichu-Alola"],
@@ -1347,7 +1350,7 @@ exports.BattlePokedex = {
         evoItem: "Sun Stone",
         evoRegion: "Alola",
         eggGroups: ["Field", "Fairy"],
-        tier: ""
+        tier: "2"
     },
     sandshrew: {
         num: 27,
@@ -1368,13 +1371,12 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 12,
         catchrate: 255,
-        itemRare: "Grip Claw",
         color: "Yellow",
         evos: ["Sandslash"],
         eggGroups: ["Field"],
         otherFormes: ["Sandshrew-Alola"],
         formeOrder: ["Sandshrew", "Sandshrew-Alola"],
-        tier: "2",
+        tier: "1",
     },
     sandshrewalola: {
         num: 27,
@@ -1401,7 +1403,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Sandslash-Alola"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     sandslash: {
         num: 28,
@@ -1416,20 +1418,20 @@ exports.BattlePokedex = {
             spe: 65
         },
         abilities: {
-            "0": "Sand Veil",
-            H: "Sand Rush"
+            "0": "Sand Rush",
+            "1": "Rough Skin",
+            H: "Sand Veil"
         },
         heightm: 1,
         weightkg: 29.5,
         catchrate: 90,
-        itemRare: "Grip Claw",
         color: "Yellow",
         prevo: "Sandshrew",
-        evoLevel: 22,
+        evoLevel: 20,
         eggGroups: ["Field"],
         otherFormes: ["Sandslash-Alola"],
         formeOrder: ["Sandslash", "Sandslash-Alola"],
-        tier: "2",
+        tier: "1",
     },
     sandslashalola: {
         num: 28,
@@ -1457,7 +1459,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Ice Stone",
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     nidoranf: {
         num: 29,
@@ -1518,14 +1520,15 @@ exports.BattlePokedex = {
         gender: "F",
         baseStats: {
             hp: 90,
-            atk: 92,
+            atk: 75,
             def: 87,
-            spa: 75,
+            spa: 92,
             spd: 85,
             spe: 76
         },
         abilities: {
             "0": "Poison Point",
+            "1": "Battle Armor",
             H: "Sheer Force"
         },
         heightm: 1.3,
@@ -1533,8 +1536,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Nidorina",
-        evoType: "useItem",
-        evoItem: "Moon Stone",
+        evoLevel: 34,
         eggGroups: ["Undiscovered"],
         tier: "1",
     },
@@ -1605,6 +1607,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Poison Point",
+            "1": "Mold Breaker",
             H: "Sheer Force"
         },
         heightm: 1.4,
@@ -1612,8 +1615,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Purple",
         prevo: "Nidorino",
-        evoType: "useItem",
-        evoItem: "Moon Stone",
+        evoLevel: 34,
         eggGroups: ["Monster", "Field"],
         tier: "1",
     },
@@ -1636,12 +1638,11 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Friend Guard",
             "1": "Magic Guard",
-            H: "Friend Guard"
+            H: "Cute Charm"
         },
         heightm: 0.6,
         weightkg: 7.5,
         catchrate: 150,
-        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Cleffa",
         evoLevel: "10",
@@ -1668,16 +1669,14 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Unaware",
             "1": "Magic Guard",
-            H: "Unaware"
+            H: "Cute Charm"
         },
         heightm: 1.3,
         weightkg: 40,
         catchrate: 25,
-        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Clefairy",
-        evoType: "useItem",
-        evoItem: "Moon Stone",
+        evoLevel: 46,
         eggGroups: ["Fairy"],
         tier: "1",
     },
@@ -1699,6 +1698,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Flash Fire",
+			"1": "Flame Body",
             H: "Drought"
         },
         heightm: 0.6,
@@ -1753,20 +1753,20 @@ exports.BattlePokedex = {
         },
         baseStats: {
             hp: 73,
-            atk: 76,
+            atk: 67,
             def: 75,
             spa: 81,
             spd: 100,
-            spe: 100
+            spe: 109
         },
         abilities: {
             "0": "Flash Fire",
+			"1": "Flame Body",
             H: "Drought"
         },
         heightm: 1.1,
         weightkg: 19.9,
         catchrate: 75,
-        itemRare: "Charcoal",
         color: "Yellow",
         prevo: "Vulpix",
         evoType: "useItem",
@@ -1819,26 +1819,25 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 115,
             atk: 45,
-            def: 20,
+            def: 40,
             spa: 45,
-            spd: 25,
+            spd: 45,
             spe: 20
         },
         abilities: {
             "0": "Cute Charm",
-            "1": "Competitive",
-            H: "Friend Guard"
+            "1": "Friend Guard",
+            H: "Competitive"
         },
         heightm: 0.5,
         weightkg: 5.5,
         catchrate: 170,
-        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Igglybuff",
         evoType: "levelFriendship",
         evos: ["Wigglytuff"],
         eggGroups: ["Fairy"],
-        tier: "2"
+        tier: "1"
     },
     wigglytuff: {
         num: 40,
@@ -1857,20 +1856,18 @@ exports.BattlePokedex = {
             spe: 45
         },
         abilities: {
-            "0": "Cute Charm",
-            "1": "Competitive",
-            H: "Frisk"
+            "0": "Fur Coat",
+            "1": "Friend Guard",
+            H: "Competitive"
         },
         heightm: 1,
         weightkg: 12,
         catchrate: 50,
-        itemRare: "Moon Stone",
         color: "Pink",
         prevo: "Jigglypuff",
-        evoType: "useItem",
-        evoItem: "Moon Stone",
+        evoLevel: 46,
         eggGroups: ["Fairy"],
-        tier: "2"
+        tier: "1"
     },
     zubat: {
         num: 41,
@@ -1917,7 +1914,7 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Purple",
         prevo: "Zubat",
-        evoLevel: 22,
+        evoLevel: 28,
         evos: ["Crobat"],
         eggGroups: ["Flying"],
         tier: "1",
@@ -1944,7 +1941,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Gloom"],
         eggGroups: ["Grass"],
-        tier: "2",
+        tier: "1",
     },
     gloom: {
         num: 44,
@@ -1967,10 +1964,10 @@ exports.BattlePokedex = {
         catchrate: 120,
         color: "Blue",
         prevo: "Oddish",
-        evoLevel: 21,
+        evoLevel: 16,
         evos: ["Vileplume", "Bellossom"],
         eggGroups: ["Grass"],
-        tier: "2",
+        tier: "1",
     },
     vileplume: {
         num: 45,
@@ -1993,10 +1990,9 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Red",
         prevo: "Gloom",
-        evoType: "useItem",
-        evoItem: "Leaf Stone",
+        evoLevel: 34,
         eggGroups: ["Grass"],
-        tier: "2",
+        tier: "1",
     },
     paras: {
         num: 46,
@@ -2012,7 +2008,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Effect Spore",
-            H: "Dry Skin"
+			"1": "Dry Skin",
+            H: "Damp"
         },
         heightm: 0.3,
         weightkg: 5.4,
@@ -2038,7 +2035,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Effect Spore",
-            H: "Dry Skin"
+			"1": "Dry Skin",
+            H: "Damp"
         },
         heightm: 1,
         weightkg: 29.5,
@@ -2047,7 +2045,7 @@ exports.BattlePokedex = {
         itemRare: "Big Mushroom",
         color: "Red",
         prevo: "Paras",
-        evoLevel: 22,
+        evoLevel: 24,
         eggGroups: ["Bug", "Grass"],
         tier: "1",
     },
@@ -2084,7 +2082,7 @@ exports.BattlePokedex = {
             hp: 70,
             atk: 65,
             def: 60,
-            spa: 90,
+            spa: 110,
             spd: 75,
             spe: 90
         },
@@ -2096,7 +2094,6 @@ exports.BattlePokedex = {
         heightm: 1.5,
         weightkg: 12.5,
         catchrate: 75,
-        itemRare: "Shed Shell",
         color: "Purple",
         prevo: "Venonat",
         evoLevel: 31,
@@ -2116,19 +2113,19 @@ exports.BattlePokedex = {
             spe: 95
         },
         abilities: {
-            "0": "Arena Trap",
-            H: "Sand Force"
+            "0": "Sand Force",
+			"1": "Arena Trap",
+            H: "Sand Veil"
         },
         heightm: 0.2,
         weightkg: 0.8,
         catchrate: 255,
-        itemRare: "Soft Sand",
         color: "Brown",
         evos: ["Dugtrio"],
         eggGroups: ["Field"],
         otherFormes: ["Diglett-Alola"],
         formeOrder: ["Diglett", "Diglett-Alola"],
-        tier: "2"
+        tier: "1"
     },
     diglettalola: {
         num: 50,
@@ -2171,20 +2168,20 @@ exports.BattlePokedex = {
             spe: 120
         },
         abilities: {
-            "0": "Arena Trap",
-            H: "Sand Force"
+            "0": "Sand Force",
+			"1": "Arena Trap",
+            H: "Sand Veil"
         },
         heightm: 0.7,
         weightkg: 33.3,
         catchrate: 50,
-        itemRare: "Soft Sand",
         color: "Brown",
         prevo: "Diglett",
         evoLevel: 26,
         eggGroups: ["Field"],
         otherFormes: ["Dugtrio-Alola"],
         formeOrder: ["Dugtrio", "Dugtrio-Alola"],
-        tier: "2"
+        tier: "1"
     },
     dugtrioalola: {
         num: 51,
