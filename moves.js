@@ -11899,6 +11899,33 @@ exports.BattleMovedex = {
         desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
         shortDesc: "Destroys screens, unless the target is immune."
     },
+    psychicnoise: {
+        num: 917,
+        accuracy: 100,
+        basePower: 75,
+        category: "Special",
+        name: "Psychic Noise",
+        pp: 10,
+        priority: 0,
+        flags: {
+            protect: 1,
+            mirror: 1,
+            sound: 1,
+            bypasssub: 1
+        },
+        volatileStatus: "healblock",
+        condition: {
+            duration: 2,
+            onBeforeMovePriority: 6,
+            onResidualOrder: 20
+        },
+        secondary: null,
+        target: "normal",
+        type: "Psychic",
+        contestType: "Clever",
+        desc: "For 2 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing and draining moves are unusable, and Abilities and items that grant healing will not heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain unable to restore its HP. Pain Split and the Regenerator Ability are unaffected.",
+        shortDesc: "For 2 turns, the foe(s) is prevented from healing."
+    },
     psychicterrain: {
         num: 678,
         accuracy: true,
@@ -12339,6 +12366,30 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.",
         shortDesc: "The foes' moves target the user on the turn used."
+    },
+    ragingfury: {
+        num: 833,
+        accuracy: 100,
+        basePower: 120,
+        category: "Physical",
+        name: "Raging Fury",
+        pp: 10,
+        priority: 0,
+        flags: {
+            contact: 1,
+            protect: 1,
+            mirror: 1,
+            failinstruct: 1
+        },
+        self: {
+            volatileStatus: "lockedmove"
+        },
+        secondary: null,
+        target: "randomNormal",
+        type: "Fire",
+        contestType: "Cool",
+        desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+        shortDesc: "Lasts 2-3 turns. Confuses the user afterwards."
     },
     raindance: {
         num: 240,
