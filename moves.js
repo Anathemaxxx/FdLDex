@@ -1403,7 +1403,7 @@ exports.BattleMovedex = {
         desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
         shortDesc: "Hits 2 times in one turn."
     },
-    quickthrow: {
+    bonerush: {
         num: 198,
         accuracy: 100,
         basePower: 40,
