@@ -17718,6 +17718,27 @@ exports.BattleMovedex = {
         desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
         shortDesc: "Less power as user's HP decreases. Hits foe(s)."
     },
+    wavecrash: {
+        num: 834,
+        accuracy: 100,
+        basePower: 120,
+        category: "Physical",
+        name: "Wave Crash",
+        pp: 10,
+        priority: 0,
+        flags: {
+            contact: 1,
+            protect: 1,
+            mirror: 1,
+            defrost: 1
+        },
+        recoil: [33, 100],
+        target: "normal",
+        type: "Water",
+        contestType: "Cool",
+        desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+        shortDesc: "Has 33% recoil."
+    },
     weatherball: {
         num: 311,
         accuracy: 100,
