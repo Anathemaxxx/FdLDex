@@ -6040,7 +6040,41 @@ exports.BattlePokedex = {
         prevo: "Quilava",
         evoLevel: 36,
         eggGroups: ["Field"],
+		otherFormes: ["Typhlosion-Hisui"],
+        formeOrder: ["Typhlosion", "Typhlosion-Hisui"],
         tier: "1"
+    },
+	 typhlosionhisui: {
+        num: 157,
+        name: "Typhlosion-Hisui",
+        baseSpecies: "Typhlosion",
+        forme: "Hisui",
+        types: ["Fire", "Ghost"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 73,
+            atk: 84,
+            def: 78,
+            spa: 119,
+            spd: 85,
+            spe: 95
+        },
+        abilities: {
+            "0": "Blaze",
+            H: "Flash Fire"
+        },
+        heightm: 1.6,
+        weightkg: 69.8,
+        catchrate: 45,
+        color: "Yellow",
+		prevo: "Quilava",
+        evoType: "levelExtra",
+        evoCondition: "at Mt. Pyre",
+        eggGroups: ["Field"],
+        tier: "2"
     },
     totodile: {
         num: 158,
@@ -7955,6 +7989,38 @@ exports.BattlePokedex = {
         weightkg: 5,
         catchrate: 60,
         color: "Pink",
+        eggGroups: ["Water 1", "Water 3"],
+		otherFormes: ["Corsola-Galar"],
+        formeOrder: ["Corsola", "Corsola-Galar"],
+        tier: "2",
+    },
+	corsolagalar: {
+        num: 222,
+        name: "Corsola-Galar",
+        baseSpecies: "Corsola",
+        forme: "Galar",
+        types: ["Ghost"],
+        genderRatio: {
+            M: 0.25,
+            F: 0.75
+        },
+        baseStats: {
+            hp: 60,
+            atk: 55,
+            def: 100,
+            spa: 65,
+            spd: 100,
+            spe: 30
+        },
+        abilities: {
+            "0": "Weak Armor",
+            H: "Cursed Body"
+        },
+        heightm: 0.6,
+        weightkg: 0.5,
+        catchrate: 60,
+        color: "White",
+        evos: ["Cursola"],
         eggGroups: ["Water 1", "Water 3"],
         tier: "2",
     },
@@ -28654,6 +28720,35 @@ exports.BattlePokedex = {
         evoLevel: 26,
         eggGroups: ["Field"],
         tier: "1"
+    },
+	cursola: {
+        num: 864,
+        name: "Cursola",
+        types: ["Ghost"],
+        genderRatio: {
+            M: 0.25,
+            F: 0.75
+        },
+        baseStats: {
+            hp: 60,
+            atk: 95,
+            def: 50,
+            spa: 145,
+            spd: 130,
+            spe: 30
+        },
+        abilities: {
+            "0": "Weak Armor",
+            H: "Perish Body"
+        },
+        heightm: 1,
+        weightkg: 0.4,
+        catchrate: 30,
+        color: "White",
+        prevo: "Corsola-Galar",
+        evoLevel: 38,
+        eggGroups: ["Water 1", "Water 3"],
+        tier: "2",
     },
     sirfetchd: {
         num: 865,
