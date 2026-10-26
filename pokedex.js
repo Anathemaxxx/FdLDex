@@ -17169,7 +17169,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Samurott-Hisui"],
         formeOrder: ["Samurott", "Samurott-Hisui"],
-        tier: "1"
+        tier: "2"
     },
     samurotthisui: {
         num: 503,
@@ -17190,8 +17190,8 @@ exports.BattlePokedex = {
             spe: 85
         },
         abilities: {
-            "0": "Torrent",
-            H: "Shell Armor"
+            "0": "Sharpness",
+            H: "Torrent"
         },
         heightm: 1.5,
         weightkg: 58.2,
