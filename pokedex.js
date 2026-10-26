@@ -8849,7 +8849,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Grovyle"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "1",
+        tier: "2",
     },
     grovyle: {
         num: 253,
@@ -8879,7 +8879,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Sceptile"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "1",
+        tier: "2",
     },
     sceptile: {
         num: 254,
@@ -8891,7 +8891,7 @@ exports.BattlePokedex = {
         },
         baseStats: {
             hp: 70,
-            atk: 85,
+            atk: 105,
             def: 65,
             spa: 105,
             spd: 85,
@@ -8899,6 +8899,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Overgrow",
+			"1": "Lightning Rod",
             H: "Unburden"
         },
         heightm: 1.7,
@@ -8910,7 +8911,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Dragon"],
         otherFormes: ["Sceptile-Mega"],
         formeOrder: ["Sceptile", "Sceptile-Mega"],
-        tier: "1",
+        tier: "2",
     },
     sceptilemega: {
         num: 254,
@@ -8966,7 +8967,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Combusken"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     combusken: {
         num: 256,
@@ -8996,7 +8997,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Blaziken"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     blaziken: {
         num: 257,
@@ -9027,7 +9028,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Blaziken-Mega"],
         formeOrder: ["Blaziken", "Blaziken-Mega"],
-        tier: "1",
+        tier: "2",
     },
     blazikenmega: {
         num: 257,
@@ -9083,7 +9084,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Marshtomp"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "1",
+        tier: "2",
     },
     marshtomp: {
         num: 259,
@@ -9113,7 +9114,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Swampert"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "1",
+        tier: "2",
     },
     swampert: {
         num: 260,
@@ -9133,7 +9134,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Torrent",
-            H: "Damp"
+            H: "Swift Swim"
         },
         heightm: 1.5,
         weightkg: 81.9,
@@ -9144,7 +9145,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Water 1"],
         otherFormes: ["Swampert-Mega"],
         formeOrder: ["Swampert", "Swampert-Mega"],
-        tier: "1",
+        tier: "2",
     },
     swampertmega: {
         num: 260,
@@ -9172,7 +9173,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Monster", "Water 1"],
         requiredItem: "Swampertite",
-        tier: "1",
+        tier: "2",
     },
     poochyena: {
         num: 261,
@@ -9188,6 +9189,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Run Away",
+			"1": "Quick Feet",
             H: "Rattled"
         },
         heightm: 0.5,
@@ -9236,7 +9238,7 @@ exports.BattlePokedex = {
             spe: 60
         },
         abilities: {
-            "0": "Pickup",
+            "0": "Reckless",
             "1": "Gluttony",
             H: "Quick Feet"
         },
@@ -9276,7 +9278,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Linoone-Galar"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     linoone: {
         num: 264,
@@ -9291,7 +9293,7 @@ exports.BattlePokedex = {
             spe: 100
         },
         abilities: {
-            "0": "Pickup",
+            "0": "Reckless",
             "1": "Gluttony",
             H: "Quick Feet"
         },
@@ -9334,7 +9336,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Obstagoon"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     wurmple: {
         num: 265,
@@ -9590,7 +9592,7 @@ exports.BattlePokedex = {
         catchrate: 120,
         color: "Brown",
         prevo: "Seedot",
-        evoLevel: 14,
+        evoLevel: 12,
         evos: ["Shiftry"],
         eggGroups: ["Field", "Grass"],
         tier: "1",
@@ -9654,7 +9656,7 @@ exports.BattlePokedex = {
             hp: 60,
             atk: 85,
             def: 60,
-            spa: 75,
+            spa: 95,
             spd: 50,
             spe: 125
         },
@@ -9702,17 +9704,17 @@ exports.BattlePokedex = {
         name: "Pelipper",
         types: ["Water", "Flying"],
         baseStats: {
-            hp: 60,
+            hp: 80,
             atk: 50,
             def: 100,
             spa: 95,
-            spd: 70,
+            spd: 90,
             spe: 65
         },
         abilities: {
             "0": "Keen Eye",
-            "1": "Drizzle",
-            H: "Rain Dish"
+            "1": "Rain Dish",
+            H: "Drizzle"
         },
         heightm: 1.2,
         weightkg: 28,
@@ -9754,12 +9756,12 @@ exports.BattlePokedex = {
         name: "Kirlia",
         types: ["Psychic", "Fairy"],
         baseStats: {
-            hp: 38,
+            hp: 48,
             atk: 35,
-            def: 35,
-            spa: 65,
-            spd: 55,
-            spe: 50
+            def: 45,
+            spa: 85,
+            spd: 75,
+            spe: 60
         },
         abilities: {
             "0": "Synchronize",
@@ -9798,7 +9800,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "White",
         prevo: "Kirlia",
-        evoLevel: 38,
+        evoLevel: 45,
         eggGroups: ["Human-Like", "Amorphous"],
         otherFormes: ["Gardevoir-Mega"],
         formeOrder: ["Gardevoir", "Gardevoir-Mega"],
@@ -9836,7 +9838,7 @@ exports.BattlePokedex = {
             hp: 40,
             atk: 30,
             def: 32,
-            spa: 50,
+            spa: 60,
             spd: 52,
             spe: 65
         },
@@ -9847,7 +9849,6 @@ exports.BattlePokedex = {
         heightm: 0.5,
         weightkg: 1.7,
         catchrate: 255,
-        itemRare: "Honey",
         color: "Blue",
         evos: ["Masquerain"],
         eggGroups: ["Water 1", "Bug"],
@@ -9872,10 +9873,9 @@ exports.BattlePokedex = {
         heightm: 0.8,
         weightkg: 3.6,
         catchrate: 75,
-        itemRare: "Silver Powder",
         color: "Blue",
         prevo: "Surskit",
-        evoLevel: 22,
+        evoLevel: 16,
         eggGroups: ["Water 1", "Bug"],
         tier: "1"
     },
@@ -9920,8 +9920,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Effect Spore",
-            "1": "Poison Heal",
-            H: "Technician"
+            "1": "Technician",
+            H: "Poison Heal"
         },
         heightm: 1.2,
         weightkg: 39.2,
@@ -9963,10 +9963,10 @@ exports.BattlePokedex = {
         types: ["Normal"],
         baseStats: {
             hp: 80,
-            atk: 80,
+            atk: 100,
             def: 80,
             spa: 55,
-            spd: 55,
+            spd: 75,
             spe: 90
         },
         abilities: {
@@ -10037,7 +10037,7 @@ exports.BattlePokedex = {
         types: ["Bug", "Flying"],
         baseStats: {
             hp: 61,
-            atk: 90,
+            atk: 120,
             def: 45,
             spa: 50,
             spd: 50,
@@ -10063,11 +10063,11 @@ exports.BattlePokedex = {
         gender: "N",
         baseStats: {
             hp: 1,
-            atk: 90,
+            atk: 120,
             def: 45,
             spa: 30,
             spd: 30,
-            spe: 40
+            spe: 80
         },
         maxHP: 1,
         abilities: {
@@ -10140,7 +10140,7 @@ exports.BattlePokedex = {
             hp: 104,
             atk: 91,
             def: 63,
-            spa: 91,
+            spa: 111,
             spd: 73,
             spe: 68
         },
@@ -10181,7 +10181,6 @@ exports.BattlePokedex = {
         heightm: 1,
         weightkg: 86.4,
         catchrate: 180,
-        itemRare: "Black Belt",
         color: "Yellow",
         evos: ["Hariyama"],
         eggGroups: ["Human-Like"],
@@ -10211,10 +10210,9 @@ exports.BattlePokedex = {
         heightm: 2.3,
         weightkg: 253.8,
         catchrate: 200,
-        itemRare: "Kings Rock",
         color: "Brown",
         prevo: "Makuhita",
-        evoLevel: 24,
+        evoLevel: 34,
         eggGroups: ["Human-Like"],
         tier: "1"
     },
@@ -10260,13 +10258,13 @@ exports.BattlePokedex = {
             spe: 30
         },
         abilities: {
-            "0": "Magnet Pull",
-            H: "Sand Force"
+            "0": "Sand Force",
+			"1": "Magnet Pull",
+            H: "Sturdy"
         },
         heightm: 1,
         weightkg: 97,
         catchrate: 255,
-        itemRare: "Magnet",
         color: "Gray",
         evos: ["Probopass"],
         eggGroups: ["Mineral"],
@@ -10281,12 +10279,12 @@ exports.BattlePokedex = {
             F: 0.75
         },
         baseStats: {
-            hp: 50,
-            atk: 45,
+            hp: 60,
+            atk: 55,
             def: 45,
             spa: 35,
             spd: 35,
-            spe: 50
+            spe: 70
         },
         abilities: {
             "0": "Normalize"
@@ -10294,8 +10292,6 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 11,
         catchrate: 255,
-        itemCommon: "Moon Stone",
-        itemRare: "Moon Stone",
         color: "Pink",
         evos: ["Delcatty"],
         eggGroups: ["Field", "Fairy"],
@@ -10310,8 +10306,8 @@ exports.BattlePokedex = {
             F: 0.75
         },
         baseStats: {
-            hp: 70,
-            atk: 65,
+            hp: 80,
+            atk: 75,
             def: 65,
             spa: 55,
             spd: 55,
@@ -10325,8 +10321,7 @@ exports.BattlePokedex = {
         catchrate: 60,
         color: "Purple",
         prevo: "Skitty",
-        evoType: "useItem",
-        evoItem: "Moon Stone",
+        evoLevel: 28,
         eggGroups: ["Field", "Fairy"],
         tier: "1",
     },
@@ -10336,16 +10331,16 @@ exports.BattlePokedex = {
         types: ["Dark", "Ghost"],
         baseStats: {
             hp: 50,
-            atk: 75,
-            def: 75,
-            spa: 65,
-            spd: 65,
-            spe: 50
+            atk: 85,
+            def: 125,
+            spa: 85,
+            spd: 115,
+            spe: 20
         },
         abilities: {
-            "0": "Keen Eye",
+            "0": "Prankster",
             "1": "Stall",
-            H: "Prankster"
+            H: "Magic Bounce"
         },
         heightm: 0.5,
         weightkg: 11,
@@ -10354,7 +10349,7 @@ exports.BattlePokedex = {
         eggGroups: ["Human-Like"],
         otherFormes: ["Sableye-Mega"],
         formeOrder: ["Sableye", "Sableye-Mega"],
-        tier: "1"
+        tier: "2"
     },
     sableyemega: {
         num: 302,
@@ -10385,7 +10380,7 @@ exports.BattlePokedex = {
         name: "Mawile",
         types: ["Steel", "Fairy"],
         baseStats: {
-            hp: 50,
+            hp: 70,
             atk: 85,
             def: 85,
             spa: 55,
@@ -10413,7 +10408,7 @@ exports.BattlePokedex = {
         forme: "Mega",
         types: ["Steel", "Fairy"],
         baseStats: {
-            hp: 50,
+            hp: 70,
             atk: 105,
             def: 125,
             spa: 55,
@@ -10450,7 +10445,6 @@ exports.BattlePokedex = {
         heightm: 0.4,
         weightkg: 60,
         catchrate: 180,
-        itemRare: "Hard Stone",
         color: "Gray",
         evos: ["Lairon"],
         eggGroups: ["Monster"],
@@ -10476,10 +10470,9 @@ exports.BattlePokedex = {
         heightm: 0.9,
         weightkg: 120,
         catchrate: 90,
-        itemRare: "Hard Stone",
         color: "Gray",
         prevo: "Aron",
-        evoLevel: 26,
+        evoLevel: 32,
         evos: ["Aggron"],
         eggGroups: ["Monster"],
         tier: "1",
@@ -10504,10 +10497,9 @@ exports.BattlePokedex = {
         heightm: 2.1,
         weightkg: 360,
         catchrate: 45,
-        itemRare: "Hard Stone",
         color: "Gray",
         prevo: "Lairon",
-        evoLevel: 42,
+        evoLevel: 46,
         eggGroups: ["Monster"],
         otherFormes: ["Aggron-Mega"],
         formeOrder: ["Aggron", "Aggron-Mega"],
@@ -10551,7 +10543,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Pure Power",
-            H: "Inner Focus"
+            H: "Telepathy"
         },
         heightm: 0.6,
         weightkg: 11.2,
@@ -10575,14 +10567,14 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Pure Power",
-            H: "Inner Focus"
+            H: "Telepathy"
         },
         heightm: 1.3,
         weightkg: 31.5,
         catchrate: 90,
         color: "Red",
         prevo: "Meditite",
-        evoLevel: 34,
+        evoLevel: 37,
         eggGroups: ["Human-Like"],
         otherFormes: ["Medicham-Mega"],
         formeOrder: ["Medicham", "Medicham-Mega"],
@@ -10617,12 +10609,12 @@ exports.BattlePokedex = {
         name: "Electrike",
         types: ["Electric"],
         baseStats: {
-            hp: 40,
+            hp: 50,
             atk: 45,
-            def: 40,
-            spa: 65,
-            spd: 40,
-            spe: 65
+            def: 50,
+            spa: 75,
+            spd: 50,
+            spe: 75
         },
         abilities: {
             "0": "Static",
@@ -10782,10 +10774,9 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 17.7,
         catchrate: 150,
-        itemRare: "Bright Powder",
         color: "Purple",
         eggGroups: ["Bug", "Human-Like"],
-        tier: "2",
+        tier: "1",
     },
     roselia: {
         num: 315,
@@ -10809,7 +10800,7 @@ exports.BattlePokedex = {
         catchrate: 150,
         color: "Green",
         prevo: "Budew",
-        evoLevel: "16",
+        evoLevel: "10",
         evos: ["Roserade"],
         eggGroups: ["Fairy", "Grass"],
         canHatch: true,
@@ -10835,12 +10826,10 @@ exports.BattlePokedex = {
         heightm: 0.4,
         weightkg: 10.3,
         catchrate: 225,
-        itemCommon: "Oran Berry",
-        itemRare: "Sitrus Berry",
         color: "Green",
         evos: ["Swalot"],
         eggGroups: ["Amorphous"],
-        tier: "2"
+        tier: "1"
     },
     swalot: {
         num: 317,
@@ -10862,13 +10851,11 @@ exports.BattlePokedex = {
         heightm: 1.7,
         weightkg: 80,
         catchrate: 75,
-        itemCommon: "Oran Berry",
-        itemRare: "Sitrus Berry",
         color: "Purple",
         prevo: "Gulpin",
         evoLevel: 26,
         eggGroups: ["Amorphous"],
-        tier: "2"
+        tier: "1"
     },
     carvanha: {
         num: 318,
@@ -10884,12 +10871,12 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Rough Skin",
+			"1": "Strong Jaw",
             H: "Speed Boost"
         },
         heightm: 0.8,
         weightkg: 20.8,
         catchrate: 220,
-        itemRare: "Deep Sea Tooth",
         color: "Red",
         evos: ["Sharpedo"],
         eggGroups: ["Water 2"],
@@ -10901,23 +10888,23 @@ exports.BattlePokedex = {
         types: ["Water", "Dark"],
         baseStats: {
             hp: 70,
-            atk: 120,
+            atk: 130,
             def: 40,
             spa: 95,
             spd: 40,
-            spe: 95
+            spe: 105
         },
         abilities: {
             "0": "Rough Skin",
+			"1": "Strong Jaw",
             H: "Speed Boost"
         },
         heightm: 1.8,
         weightkg: 88.8,
         catchrate: 60,
-        itemRare: "Deep Sea Tooth",
         color: "Blue",
         prevo: "Carvanha",
-        evoLevel: 30,
+        evoLevel: 38,
         eggGroups: ["Water 2"],
         otherFormes: ["Sharpedo-Mega"],
         formeOrder: ["Sharpedo", "Sharpedo-Mega"],
@@ -10945,7 +10932,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Water 2"],
         requiredItem: "Sharpedonite",
-        tier: "1",
+        tier: "2",
     },
     wailmer: {
         num: 320,
@@ -10970,7 +10957,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Wailord"],
         eggGroups: ["Field", "Water 2"],
-        tier: "1",
+        tier: "2",
     },
     wailord: {
         num: 321,
@@ -10979,9 +10966,9 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 170,
             atk: 90,
-            def: 45,
+            def: 65,
             spa: 90,
-            spd: 45,
+            spd: 65,
             spe: 60
         },
         abilities: {
@@ -10996,7 +10983,7 @@ exports.BattlePokedex = {
         prevo: "Wailmer",
         evoLevel: 40,
         eggGroups: ["Field", "Water 2"],
-        tier: "1",
+        tier: "2",
     },
     numel: {
         num: 322,
@@ -11012,8 +10999,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Oblivious",
-            "1": "Simple",
-            H: "Own Tempo"
+            "1": "Own Tempo",
+            H: "Simple"
         },
         heightm: 0.7,
         weightkg: 24,
@@ -11036,16 +11023,16 @@ exports.BattlePokedex = {
             spe: 40
         },
         abilities: {
-            "0": "Magma Armor",
+            "0": "Battle Armor",
             "1": "Solid Rock",
-            H: "Anger Point"
+            H: "Sheer Force"
         },
         heightm: 1.9,
         weightkg: 220,
         catchrate: 150,
         color: "Red",
         prevo: "Numel",
-        evoLevel: 33,
+        evoLevel: 28,
         eggGroups: ["Field"],
         otherFormes: ["Camerupt-Mega"],
         formeOrder: ["Camerupt", "Camerupt-Mega"],
@@ -11073,7 +11060,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Field"],
         requiredItem: "Cameruptite",
-        tier: "1",
+        tier: "2",
     },
     torkoal: {
         num: 324,
@@ -11088,13 +11075,13 @@ exports.BattlePokedex = {
             spe: 20
         },
         abilities: {
-            "0": "Shell Armor",
+            "0": "White Smoke",
+			"1": "Shell Armor",
             H: "Drought"
         },
         heightm: 0.5,
         weightkg: 80.4,
         catchrate: 90,
-        itemRare: "Charcoal",
         color: "Brown",
         eggGroups: ["Field"],
         tier: "1"
@@ -13665,7 +13652,6 @@ exports.BattlePokedex = {
         heightm: 0.2,
         weightkg: 1.2,
         catchrate: 255,
-        itemRare: "Poison Barb",
         color: "Green",
         evos: ["Roselia"],
         eggGroups: ["Undiscovered"],
@@ -13692,11 +13678,9 @@ exports.BattlePokedex = {
         heightm: 0.9,
         weightkg: 14.5,
         catchrate: 75,
-        itemRare: "Poison Barb",
         color: "Green",
         prevo: "Roselia",
-        evoType: "useItem",
-        evoItem: "Shiny Stone",
+        evoLevel: 36,
         eggGroups: ["Fairy", "Grass"],
         tier: "1",
     },
@@ -15697,10 +15681,11 @@ exports.BattlePokedex = {
             def: 65,
             spa: 65,
             spd: 115,
-            spe: 80
+            spe: 100
         },
         abilities: {
-            "0": "Inner Focus",
+            "0": "Steadfast",
+			"1": "Sharpness",
             H: "Justified"
         },
         heightm: 1.6,
@@ -15708,8 +15693,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "White",
         prevo: "Kirlia",
-        evoType: "useItem",
-        evoItem: "Dawn Stone",
+        evoLevel: 45,
         eggGroups: ["Human-Like", "Amorphous"],
         otherFormes: ["Gallade-Mega"],
         formeOrder: ["Gallade", "Gallade-Mega"],
@@ -15738,7 +15722,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Amorphous"],
         requiredItem: "Galladite",
-        tier: "1",
+        tier: "2",
     },
     probopass: {
         num: 476,
@@ -15753,17 +15737,17 @@ exports.BattlePokedex = {
             spe: 40
         },
         abilities: {
-            "0": "Magnet Pull",
-            H: "Sand Force"
+            "0": "Sand Force",
+			"1": "Magnet Pull",
+            H: "Sturdy"
         },
         heightm: 1.4,
         weightkg: 340,
         catchrate: 60,
-        itemRare: "Magnet",
         color: "Gray",
         prevo: "Nosepass",
         evoType: "levelExtra",
-        evoCondition: "at New Mauville",
+        evoCondition: "at Route 13",
         eggGroups: ["Mineral"],
         tier: "1",
     },
