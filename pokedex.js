@@ -5938,7 +5938,7 @@ exports.BattlePokedex = {
             hp: 80,
             atk: 82,
             def: 100,
-            spa: 83,
+            spa: 93,
             spd: 100,
             spe: 80
         },
@@ -5951,7 +5951,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Green",
         prevo: "Bayleef",
-        evoLevel: 32,
+        evoLevel: 36,
         eggGroups: ["Monster", "Grass"],
         tier: "1",
     },
@@ -6009,7 +6009,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         prevo: "Cyndaquil",
         evoLevel: 14,
-        evos: ["Typhlosion", "Typhlosion-Hisui"],
+        evos: ["Typhlosion"],
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -6074,7 +6074,7 @@ exports.BattlePokedex = {
         evoType: "levelExtra",
         evoCondition: "at Mt. Pyre",
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     totodile: {
         num: 158,
@@ -6129,7 +6129,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Totodile",
-        evoLevel: 16,
+        evoLevel: 18,
         evos: ["Feraligatr"],
         eggGroups: ["Monster", "Water 1"],
         tier: "1",
@@ -6152,6 +6152,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Torrent",
+			"1": "Strong Jaw",
             H: "Sheer Force"
         },
         heightm: 2.3,
@@ -6159,7 +6160,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Croconaw",
-        evoLevel: 30,
+        evoLevel: 36,
         eggGroups: ["Monster", "Water 1"],
         tier: "1",
     },
@@ -6201,8 +6202,8 @@ exports.BattlePokedex = {
             spe: 90
         },
         abilities: {
-            "0": "Run Away",
-            "1": "Keen Eye",
+            "0": "Adaptability",
+            "1": "Inner Focus",
             H: "Frisk"
         },
         heightm: 1.8,
@@ -6228,7 +6229,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Insomnia",
-            "1": "Keen Eye",
             H: "Tinted Lens"
         },
         heightm: 0.7,
@@ -6237,7 +6237,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Noctowl"],
         eggGroups: ["Flying"],
-        tier: "2",
+        tier: "1",
     },
     noctowl: {
         num: 164,
@@ -6253,7 +6253,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Insomnia",
-            "1": "Keen Eye",
             H: "Tinted Lens"
         },
         heightm: 1.6,
@@ -6261,9 +6260,9 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Brown",
         prevo: "Hoothoot",
-        evoLevel: 20,
+        evoLevel: 16,
         eggGroups: ["Flying"],
-        tier: "2",
+        tier: "1",
     },
     ledyba: {
         num: 165,
@@ -6280,7 +6279,7 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Rattled",
             "1": "Early Bird",
-            H: "Early Bird"
+            H: "Iron Fist"
         },
         heightm: 1,
         weightkg: 10.8,
@@ -6312,7 +6311,7 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Red",
         prevo: "Ledyba",
-        evoLevel: 18,
+        evoLevel: 16,
         eggGroups: ["Bug"],
         tier: "1",
     },
@@ -6329,7 +6328,7 @@ exports.BattlePokedex = {
             spe: 30
         },
         abilities: {
-            "0": "Swarm",
+            "0": "Poison Touch",
             "1": "Insomnia",
             H: "Sniper"
         },
@@ -6339,22 +6338,22 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Ariados"],
         eggGroups: ["Bug"],
-        tier: "2",
+        tier: "1",
     },
     ariados: {
         num: 168,
         name: "Ariados",
         types: ["Bug", "Poison"],
         baseStats: {
-            hp: 70,
-            atk: 90,
+            hp: 90,
+            atk: 120,
             def: 70,
             spa: 60,
             spd: 70,
             spe: 40
         },
         abilities: {
-            "0": "Swarm",
+            "0": "Poison Touch",
             "1": "Insomnia",
             H: "Sniper"
         },
@@ -6365,7 +6364,7 @@ exports.BattlePokedex = {
         prevo: "Spinarak",
         evoLevel: 22,
         eggGroups: ["Bug"],
-        tier: "2",
+        tier: "1",
     },
     crobat: {
         num: 169,
@@ -6388,7 +6387,7 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Purple",
         prevo: "Golbat",
-        evoLevel: "38",
+        evoLevel: "46",
         eggGroups: ["Flying"],
         tier: "1",
     },
@@ -6411,7 +6410,6 @@ exports.BattlePokedex = {
         heightm: 0.5,
         weightkg: 12,
         catchrate: 220,
-        itemRare: "Deep Sea Scale",
         color: "Blue",
         evos: ["Lanturn"],
         eggGroups: ["Water 2"],
@@ -6436,10 +6434,9 @@ exports.BattlePokedex = {
         heightm: 1.2,
         weightkg: 22.5,
         catchrate: 75,
-        itemRare: "Deep Sea Scale",
         color: "Blue",
         prevo: "Chinchou",
-        evoLevel: 27,
+        evoLevel: 30,
         eggGroups: ["Water 2"],
         tier: "1",
     },
@@ -6512,14 +6509,13 @@ exports.BattlePokedex = {
             spe: 15
         },
         abilities: {
-            "0": "Friend Guard",
+            "0": "Cute Charm",
             "1": "Magic Guard",
             H: "Friend Guard"
         },
         heightm: 0.3,
         weightkg: 3,
         catchrate: 150,
-        itemRare: "Moon Stone",
         color: "Pink",
         evos: ["Clefairy"],
         eggGroups: ["Undiscovered"],
@@ -6554,7 +6550,7 @@ exports.BattlePokedex = {
         evos: ["Jigglypuff"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "2"
+        tier: "1"
     },
     togepi: {
         num: 175,
@@ -6575,7 +6571,7 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Super Luck",
             "1": "Serene Grace",
-            H: "Hustle"
+            H: "Friend Guard"
         },
         heightm: 0.3,
         weightkg: 1.5,
@@ -6605,14 +6601,14 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Super Luck",
             "1": "Serene Grace",
-            H: "Hustle"
+            H: "Friend Guard"
         },
         heightm: 0.6,
         weightkg: 3.2,
         catchrate: 75,
         color: "White",
         prevo: "Togepi",
-        evoLevel: "10",
+        evoLevel: "20",
         evos: ["Togekiss"],
         eggGroups: ["Flying", "Fairy"],
         tier: "1",
@@ -6632,11 +6628,11 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Synchronize",
             "1": "Early Bird",
-            H: "Magic Bounce"
+            H: "Early Bird"
         },
         heightm: 0.2,
         weightkg: 2,
-        catchrate: 220,
+        catchrate: 75,
         color: "Green",
         evos: ["Xatu"],
         eggGroups: ["Flying"],
@@ -6656,15 +6652,15 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Synchronize",
-            "1": "Early Bird",
-            H: "Magic Bounce"
+            "1": "Magic Bounce",
+            H: "Early Bird"
         },
         heightm: 1.5,
         weightkg: 15,
-        catchrate: 75,
+        catchrate: 45,
         color: "Green",
         prevo: "Natu",
-        evoLevel: 22,
+        evoLevel: 38,
         eggGroups: ["Flying"],
         tier: "1",
     },
@@ -6681,7 +6677,8 @@ exports.BattlePokedex = {
             spe: 35
         },
         abilities: {
-            "0": "Static"
+            "0": "Static",
+            H: "Plus"
         },
         heightm: 0.6,
         weightkg: 7.8,
@@ -6704,7 +6701,8 @@ exports.BattlePokedex = {
             spe: 45
         },
         abilities: {
-            "0": "Static"
+            "0": "Static",
+            H: "Plus"
         },
         heightm: 0.8,
         weightkg: 13.3,
@@ -6729,7 +6727,8 @@ exports.BattlePokedex = {
             spe: 55
         },
         abilities: {
-            "0": "Static"
+            "0": "Static",
+            H: "Plus"
         },
         heightm: 1.4,
         weightkg: 61.5,
@@ -6772,7 +6771,7 @@ exports.BattlePokedex = {
         types: ["Grass"],
         baseStats: {
             hp: 75,
-            atk: 80,
+            atk: 90,
             def: 95,
             spa: 90,
             spd: 100,
@@ -6787,10 +6786,9 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Green",
         prevo: "Gloom",
-        evoType: "useItem",
-        evoItem: "Sun Stone",
+        evoLevel: 34,
         eggGroups: ["Grass"],
-        tier: "2",
+        tier: "1",
     },
     marill: {
         num: 183,
@@ -6806,7 +6804,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Thick Fat",
-            H: "Huge Power"
+			"1": "Huge Power",
+            H: "Sap Sipper"
         },
         heightm: 0.4,
         weightkg: 8.5,
@@ -6827,13 +6826,14 @@ exports.BattlePokedex = {
             hp: 100,
             atk: 65,
             def: 80,
-            spa: 90,
+            spa: 80,
             spd: 80,
             spe: 50
         },
         abilities: {
             "0": "Thick Fat",
-            H: "Huge Power"
+			"1": "Huge Power",
+            H: "Sap Sipper"
         },
         heightm: 0.8,
         weightkg: 28.5,
@@ -6849,7 +6849,7 @@ exports.BattlePokedex = {
         name: "Sudowoodo",
         types: ["Rock"],
         baseStats: {
-            hp: 70,
+            hp: 90,
             atk: 100,
             def: 115,
             spa: 30,
@@ -6857,20 +6857,18 @@ exports.BattlePokedex = {
             spe: 30
         },
         abilities: {
-            "0": "Sturdy",
-            "1": "Rock Head",
-            H: "Rock Head"
+            "0": "Rock Head",
+            H: "Sturdy"
         },
         heightm: 1.2,
         weightkg: 38,
         catchrate: 65,
         color: "Brown",
         prevo: "Bonsly",
-        evoType: "levelMove",
-        evoMove: "Mimic",
+        evoLevel: 20,
         eggGroups: ["Mineral"],
         canHatch: true,
-        tier: "2"
+        tier: "1"
     },
     politoed: {
         num: 186,
@@ -6879,20 +6877,19 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 90,
             atk: 75,
-            def: 75,
-            spa: 90,
-            spd: 100,
+            def: 85,
+            spa: 100,
+            spd: 110,
             spe: 70
         },
         abilities: {
             "0": "Water Absorb",
-            "1": "Damp",
+            "1": "Swift Swim",
             H: "Drizzle"
         },
         heightm: 1.1,
         weightkg: 33.9,
         catchrate: 45,
-        itemRare: "Kings Rock",
         color: "Green",
         prevo: "Poliwhirl",
         evoType: "trade",
@@ -6991,7 +6988,7 @@ exports.BattlePokedex = {
             spe: 85
         },
         abilities: {
-            "0": "Run Away",
+            "0": "Technician",
             H: "Skill Link"
         },
         heightm: 0.8,
@@ -7091,9 +7088,8 @@ exports.BattlePokedex = {
             spe: 15
         },
         abilities: {
-            "0": "Damp",
-            "1": "Water Absorb",
-            H: "Unaware"
+            "0": "Unaware",
+            H: "Water Absorb"
         },
         heightm: 0.4,
         weightkg: 8.5,
@@ -7101,7 +7097,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Quagsire"],
         eggGroups: ["Water 1", "Field"],
-        tier: "2"
+        tier: "1"
     },
     quagsire: {
         num: 195,
@@ -7116,18 +7112,17 @@ exports.BattlePokedex = {
             spe: 35
         },
         abilities: {
-            "0": "Damp",
-            "1": "Water Absorb",
-            H: "Unaware"
+            "0": "Unaware",
+            H: "Water Absorb"
         },
         heightm: 1.4,
         weightkg: 75,
         catchrate: 90,
         color: "Blue",
         prevo: "Wooper",
-        evoLevel: 20,
+        evoLevel: 16,
         eggGroups: ["Water 1", "Field"],
-        tier: "2"
+        tier: "1"
     },
     espeon: {
         num: 196,
@@ -7203,6 +7198,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Insomnia",
+			"1": "Super Luck",
             H: "Prankster"
         },
         heightm: 0.5,
@@ -7219,25 +7215,23 @@ exports.BattlePokedex = {
         types: ["Water", "Psychic"],
         baseStats: {
             hp: 95,
-            atk: 75,
+            atk: 65,
             def: 80,
-            spa: 100,
+            spa: 110,
             spd: 110,
             spe: 30
         },
         abilities: {
-            "0": "Oblivious",
+            "0": "Regenerator",
             "1": "Own Tempo",
-            H: "Regenerator"
+            H: "Oblivious"
         },
         heightm: 2,
         weightkg: 79.5,
         catchrate: 70,
-        itemRare: "Kings Rock",
         color: "Pink",
         prevo: "Slowpoke",
-        evoType: "useItem",
-        evoItem: "King's Rock",
+        evoLevel: 70,
         eggGroups: ["Monster", "Water 1"],
         otherFormes: ["Slowking-Galar"],
         formeOrder: ["Slowking", "Slowking-Galar"],
@@ -7293,7 +7287,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Mismagius"],
         eggGroups: ["Amorphous"],
-        tier: "2"
+        tier: "1"
     },
     unown: {
         num: 201,
@@ -7393,7 +7387,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Forretress"],
         eggGroups: ["Bug"],
-        tier: "2"
+        tier: "1"
     },
     forretress: {
         num: 205,
@@ -7408,8 +7402,9 @@ exports.BattlePokedex = {
             spe: 40
         },
         abilities: {
-            "0": "Sturdy",
-            H: "Overcoat"
+            "0": "Overcoat",
+			"1": "Battle Armor",
+            H: "Sturdy"
         },
         heightm: 1.2,
         weightkg: 125.8,
@@ -7418,19 +7413,19 @@ exports.BattlePokedex = {
         prevo: "Pineco",
         evoLevel: 31,
         eggGroups: ["Bug"],
-        tier: "2"
+        tier: "1"
     },
     dunsparce: {
         num: 206,
         name: "Dunsparce",
         types: ["Normal"],
         baseStats: {
-            hp: 100,
-            atk: 70,
-            def: 70,
-            spa: 65,
-            spd: 65,
-            spe: 45
+            hp: 125,
+            atk: 100,
+            def: 80,
+            spa: 85,
+            spd: 75,
+            spe: 55
         },
         abilities: {
             "0": "Serene Grace",
@@ -7540,6 +7535,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Intimidate",
+			"1": "Quick Feet",
             H: "Rattled"
         },
         heightm: 0.6,
@@ -7568,14 +7564,15 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Intimidate",
-            H: "Quick Feet"
+			"1": "Quick Feet",
+            H: "Rattled"
         },
         heightm: 1.4,
         weightkg: 48.7,
         catchrate: 75,
         color: "Purple",
         prevo: "Snubbull",
-        evoLevel: 23,
+        evoLevel: 28,
         eggGroups: ["Field", "Fairy"],
         tier: "1",
     },
@@ -7585,21 +7582,20 @@ exports.BattlePokedex = {
         types: ["Water", "Poison"],
         baseStats: {
             hp: 65,
-            atk: 95,
+            atk: 105,
             def: 85,
             spa: 55,
             spd: 55,
             spe: 85
         },
         abilities: {
-            "0": "Intimidate",
+            "0": "Poison Point",
+			"1": "Intimidate",
             H: "Swift Swim"
         },
         heightm: 0.5,
         weightkg: 3.9,
         catchrate: 45,
-        catchrate: 45,
-        itemRare: "Poison Barb",
         color: "Gray",
         eggGroups: ["Water 2"],
         otherFormes: ["Qwilfish-Hisui"],
@@ -7631,7 +7627,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Overqwil"],
         eggGroups: ["Water 2"],
-        tier: "1"
+        tier: "2"
     },
     scizor: {
         num: 212,
@@ -7647,7 +7643,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Swarm",
-            H: "Technician"
+			"1": "Technician",
+            H: "Light Metal"
         },
         heightm: 1.8,
         weightkg: 118,
@@ -7655,7 +7652,7 @@ exports.BattlePokedex = {
         color: "Red",
         prevo: "Scyther",
         evoType: "useItem",
-        evoItem: "Metal Coat",
+        evoItem: "Metal Powder",
         eggGroups: ["Bug"],
         otherFormes: ["Scizor-Mega"],
         formeOrder: ["Scizor", "Scizor-Mega"],
@@ -7690,7 +7687,7 @@ exports.BattlePokedex = {
         name: "Shuckle",
         types: ["Bug", "Rock"],
         baseStats: {
-            hp: 20,
+            hp: 50,
             atk: 10,
             def: 230,
             spa: 10,
@@ -7776,7 +7773,7 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Inner Focus",
             "1": "Keen Eye",
-            H: "Pickpocket"
+            H: "Technician"
         },
         heightm: 0.9,
         weightkg: 28,
@@ -7812,7 +7809,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Sneasler"],
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     teddiursa: {
         num: 216,
@@ -7824,7 +7821,7 @@ exports.BattlePokedex = {
             def: 50,
             spa: 50,
             spd: 50,
-            spe: 40
+            spe: 60
         },
         abilities: {
             "0": "Quick Feet",
@@ -7844,7 +7841,7 @@ exports.BattlePokedex = {
         types: ["Normal"],
         baseStats: {
             hp: 90,
-            atk: 130,
+            atk: 140,
             def: 75,
             spa: 75,
             spd: 75,
@@ -7861,7 +7858,6 @@ exports.BattlePokedex = {
         color: "Brown",
         prevo: "Teddiursa",
         evoLevel: 30,
-        evos: ["Ursaluna"],
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -7888,7 +7884,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Magcargo"],
         eggGroups: ["Amorphous"],
-        tier: "2",
+        tier: "1",
     },
     magcargo: {
         num: 219,
@@ -7903,8 +7899,7 @@ exports.BattlePokedex = {
             spe: 30
         },
         abilities: {
-            "0": "Magma Armor",
-            "1": "Flame Body",
+            "0": "Flame Body",
             H: "Weak Armor"
         },
         heightm: 0.8,
@@ -7912,9 +7907,9 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Red",
         prevo: "Slugma",
-        evoLevel: 38,
+        evoLevel: 16,
         eggGroups: ["Amorphous"],
-        tier: "2",
+        tier: "1",
     },
     swinub: {
         num: 220,
@@ -7963,7 +7958,7 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Brown",
         prevo: "Swinub",
-        evoLevel: 30,
+        evoLevel: 33,
         evos: ["Mamoswine"],
         eggGroups: ["Field"],
         tier: "1",
@@ -8043,7 +8038,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Hustle",
-            H: "Sniper"
+			"1": "Sniper",
+            H: "Moody"
         },
         heightm: 0.6,
         weightkg: 12,
@@ -8066,8 +8062,9 @@ exports.BattlePokedex = {
             spe: 45
         },
         abilities: {
-            "0": "Suction Cups",
-            H: "Sniper"
+            "0": "Hustle",
+			"1": "Sniper",
+            H: "Moody"
         },
         heightm: 0.9,
         weightkg: 28.5,
@@ -8107,7 +8104,7 @@ exports.BattlePokedex = {
         name: "Mantine",
         types: ["Water", "Flying"],
         baseStats: {
-            hp: 85,
+            hp: 65,
             atk: 40,
             def: 70,
             spa: 80,
@@ -8144,16 +8141,14 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Keen Eye",
-            "1": "Sturdy",
-            H: "Weak Armor"
+            H: "Sturdy"
         },
         heightm: 1.7,
         weightkg: 50.5,
         catchrate: 25,
-        itemRare: "Metal Coat",
         color: "Gray",
         eggGroups: ["Flying"],
-        tier: "2",
+        tier: "1",
     },
     houndour: {
         num: 228,
@@ -8168,8 +8163,7 @@ exports.BattlePokedex = {
             spe: 65
         },
         abilities: {
-            "0": "Early Bird",
-            "1": "Unnerve",
+            "0": "Unnerve",
             H: "Flash Fire"
         },
         heightm: 0.6,
@@ -8193,8 +8187,7 @@ exports.BattlePokedex = {
             spe: 95
         },
         abilities: {
-            "0": "Early Bird",
-            "1": "Unnerve",
+            "0": "Unnerve",
             H: "Flash Fire"
         },
         heightm: 1.4,
@@ -8202,7 +8195,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Black",
         prevo: "Houndour",
-        evoLevel: 24,
+        evoLevel: 34,
         eggGroups: ["Field"],
         otherFormes: ["Houndoom-Mega"],
         formeOrder: ["Houndoom", "Houndoom-Mega"],
@@ -8252,7 +8245,6 @@ exports.BattlePokedex = {
         heightm: 1.8,
         weightkg: 152,
         catchrate: 45,
-        itemRare: "Dragon Scale",
         color: "Blue",
         prevo: "Seadra",
         evoType: "useItem",
@@ -8306,7 +8298,7 @@ exports.BattlePokedex = {
         catchrate: 60,
         color: "Gray",
         prevo: "Phanpy",
-        evoLevel: 25,
+        evoLevel: 34,
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -8333,8 +8325,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Red",
         prevo: "Porygon",
-        evoType: "useItem",
-        evoItem: "Up-Grade",
+        evoLevel: 55,
         evos: ["Porygon-Z"],
         eggGroups: ["Mineral"],
         tier: "1",
@@ -8344,24 +8335,24 @@ exports.BattlePokedex = {
         name: "Stantler",
         types: ["Normal"],
         baseStats: {
-            hp: 73,
-            atk: 95,
-            def: 62,
-            spa: 85,
-            spd: 65,
-            spe: 85
+            hp: 103,
+            atk: 105,
+            def: 72,
+            spa: 105,
+            spd: 75,
+            spe: 65
         },
         abilities: {
             "0": "Intimidate",
+			1": "Frisk",
             H: "Sap Sipper"
         },
         heightm: 1.4,
         weightkg: 71.2,
         catchrate: 45,
         color: "Brown",
-        evos: ["Wyrdeer"],
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     smeargle: {
         num: 235,
@@ -8420,7 +8411,7 @@ exports.BattlePokedex = {
         types: ["Fighting"],
         gender: "M",
         baseStats: {
-            hp: 50,
+            hp: 75,
             atk: 95,
             def: 95,
             spa: 35,
@@ -8457,7 +8448,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Oblivious",
-            "1": "Forewarn",
             H: "Hydration"
         },
         heightm: 0.4,
@@ -8486,13 +8476,13 @@ exports.BattlePokedex = {
             spe: 95
         },
         abilities: {
-            "0": "Vital Spirit",
-            H: "Static"
+            "0": "Static",
+			"1": "Vital Spirit",
+            H: "Volt Absorb"
         },
         heightm: 0.6,
         weightkg: 23.5,
-        catchrate: 45,
-        itemRare: "Electirizer",
+        catchrate: 120,
         color: "Yellow",
         evos: ["Electabuzz"],
         eggGroups: ["Undiscovered"],
@@ -8522,8 +8512,7 @@ exports.BattlePokedex = {
         },
         heightm: 0.7,
         weightkg: 21.4,
-        catchrate: 45,
-        itemRare: "Magmarizer",
+        catchrate: 120,
         color: "Red",
         evos: ["Magmar"],
         eggGroups: ["Undiscovered"],
@@ -8540,7 +8529,7 @@ exports.BattlePokedex = {
             atk: 80,
             def: 105,
             spa: 40,
-            spd: 70,
+            spd: 80,
             spe: 100
         },
         abilities: {
@@ -8551,8 +8540,6 @@ exports.BattlePokedex = {
         heightm: 1.2,
         weightkg: 75.5,
         catchrate: 45,
-        itemCommon: "Moomoo Milk",
-        itemRare: "Moomoo Milk",
         color: "Pink",
         eggGroups: ["Field"],
         tier: "1",
@@ -8565,7 +8552,7 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 255,
             atk: 10,
-            def: 10,
+            def: 30,
             spa: 75,
             spd: 135,
             spe: 55
@@ -8599,8 +8586,8 @@ exports.BattlePokedex = {
             spe: 115
         },
         abilities: {
-            "0": "Pressure",
-            H: "Inner Focus"
+            "0": "Inner Focus",
+            H: "Pressure"
         },
         heightm: 1.9,
         weightkg: 178,
@@ -8624,8 +8611,8 @@ exports.BattlePokedex = {
             spe: 100
         },
         abilities: {
-            "0": "Pressure",
-            H: "Inner Focus"
+            "0": "Inner Focus",
+            H: "Pressure"
         },
         heightm: 2.1,
         weightkg: 198,
@@ -8649,8 +8636,8 @@ exports.BattlePokedex = {
             spe: 85
         },
         abilities: {
-            "0": "Pressure",
-            H: "Inner Focus"
+            "0": "Inner Focus",
+            H: "Pressure"
         },
         heightm: 2,
         weightkg: 187,
@@ -8658,7 +8645,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "2",
+        tier: "1",
     },
     larvitar: {
         num: 246,
@@ -8723,7 +8710,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Unnerve",
-            H: "Sand Stream"
+            H: "Intimidate"
         },
         heightm: 2,
         weightkg: 202,
@@ -8751,14 +8738,15 @@ exports.BattlePokedex = {
             spe: 71
         },
         abilities: {
-            "0": "Sand Stream"
+            "0": "Unnerve",
+            H: "Sand Stream"
         },
         heightm: 2.5,
         weightkg: 255,
         color: "Green",
         eggGroups: ["Monster"],
         requiredItem: "Tyranitarite",
-        tier: "1",
+        tier: "2",
     },
     lugia: {
         num: 249,
@@ -8829,8 +8817,6 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 5,
         catchrate: 45,
-        itemCommon: "Lum Berry",
-        itemRare: "Lum Berry",
         color: "Green",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
@@ -14255,8 +14241,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Purple",
         prevo: "Aipom",
-        evoType: "levelMove",
-        evoMove: "Double Hit",
+        evoLevel: 40,
         eggGroups: ["Field"],
         tier: "1",
     },
@@ -14396,9 +14381,9 @@ exports.BattlePokedex = {
             hp: 60,
             atk: 60,
             def: 60,
-            spa: 105,
-            spd: 105,
-            spe: 105
+            spa: 115,
+            spd: 115,
+            spe: 115
         },
         abilities: {
             "0": "Levitate"
@@ -14409,9 +14394,9 @@ exports.BattlePokedex = {
         color: "Purple",
         prevo: "Misdreavus",
         evoType: "useItem",
-        evoItem: "Dusk Stone",
+        evoItem: "Cleanse Tag",
         eggGroups: ["Amorphous"],
-        tier: "2"
+        tier: "1"
     },
     honchkrow: {
         num: 430,
@@ -14427,15 +14412,15 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Insomnia",
-            H: "Super Luck"
+			"1": "Super Luck",
+            H: "Moxie"
         },
         heightm: 0.9,
         weightkg: 27.3,
         catchrate: 30,
         color: "Black",
         prevo: "Murkrow",
-        evoType: "useItem",
-        evoItem: "Dusk Stone",
+        evoLevel: "38",
         eggGroups: ["Flying"],
         tier: "1"
     },
@@ -14643,7 +14628,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Sturdy",
-            "1": "Rock Head",
             H: "Rock Head"
         },
         heightm: 0.5,
@@ -14653,7 +14637,7 @@ exports.BattlePokedex = {
         evos: ["Sudowoodo"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "2"
+        tier: "1"
     },
     mimejr: {
         num: 439,
@@ -14676,10 +14660,10 @@ exports.BattlePokedex = {
         weightkg: 13,
         catchrate: 145,
         color: "Pink",
-        evos: ["Mr. Mime", "Mr. Mime-Galar"],
+        evos: ["Mr. Mime"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "2",
+        tier: "1",
     },
     happiny: {
         num: 440,
@@ -15327,9 +15311,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Black",
         prevo: "Sneasel",
-        evoType: "useItem",
-        evoItem: "Razor Claw",
-        evoCondition: "at night",
+        evoLevel: 46,
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -15526,15 +15508,14 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Super Luck",
             "1": "Serene Grace",
-            H: "Hustle"
+            H: "Friend Guard"
         },
         heightm: 1.5,
         weightkg: 38,
         catchrate: 30,
         color: "White",
         prevo: "Togetic",
-        evoType: "useItem",
-        evoItem: "Shiny Stone",
+        evoLevel: 42,
         eggGroups: ["Flying", "Fairy"],
         tier: "1",
     },
@@ -15645,9 +15626,7 @@ exports.BattlePokedex = {
         catchrate: 30,
         color: "Purple",
         prevo: "Gligar",
-        evoType: "useItem",
-        evoItem: "Razor Fang",
-        evoCondition: "at night",
+        evoLevel: 48,
         eggGroups: ["Bug"],
         tier: "1",
     },
@@ -15664,7 +15643,7 @@ exports.BattlePokedex = {
             spe: 80
         },
         abilities: {
-            "0": "Oblivious",
+            "0": "Hyper Cutter",
             "1": "Thick Fat",
             H: "Snow Cloak"
         },
@@ -29914,10 +29893,8 @@ exports.BattlePokedex = {
         weightkg: 95.1,
         catchrate: 45,
         color: "White",
-        prevo: "Stantler",
-        evoLevel: "34",
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     kleavor: {
         num: 900,
@@ -29967,11 +29944,8 @@ exports.BattlePokedex = {
         weightkg: 290,
         catchrate: 75,
         color: "Brown",
-        prevo: "Ursaring",
-        evoType: "useItem",
-        evoItem: "Honey",
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     basculegion: {
         num: 902,
