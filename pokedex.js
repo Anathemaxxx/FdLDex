@@ -11174,12 +11174,13 @@ exports.BattlePokedex = {
             spe: 10
         },
         abilities: {
-            "0": "Arena Trap"
+            "0": "Hyper Cutter",
+            "1": "Arena Trap",
+            H: "Sheer Force"
         },
         heightm: 0.7,
         weightkg: 15,
         catchrate: 180,
-        itemRare: "Soft Sand",
         color: "Brown",
         evos: ["Vibrava"],
         eggGroups: ["Bug", "Dragon"],
@@ -11205,7 +11206,7 @@ exports.BattlePokedex = {
         catchrate: 120,
         color: "Green",
         prevo: "Trapinch",
-        evoLevel: 30,
+        evoLevel: 34,
         evos: ["Flygon"],
         eggGroups: ["Bug", "Dragon"],
         tier: "1",
@@ -11230,7 +11231,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Green",
         prevo: "Vibrava",
-        evoLevel: 40,
+        evoLevel: 45,
         eggGroups: ["Bug", "Dragon"],
         tier: "1",
     },
@@ -11265,9 +11266,9 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 70,
             atk: 115,
-            def: 60,
+            def: 80,
             spa: 115,
-            spd: 60,
+            spd: 80,
             spe: 55
         },
         abilities: {
@@ -11321,6 +11322,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Natural Cure",
+			"1": "Cloud Nine",
             H: "Cloud Nine"
         },
         heightm: 1.1,
@@ -11372,7 +11374,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Immunity",
-            H: "Toxic Boost"
+			"1": "Toxic Boost",
+            H: "Guts"
         },
         heightm: 1.3,
         weightkg: 40.3,
@@ -11414,8 +11417,8 @@ exports.BattlePokedex = {
             hp: 90,
             atk: 55,
             def: 65,
-            spa: 95,
-            spd: 85,
+            spa: 105,
+            spd: 95,
             spe: 70
         },
         abilities: {
@@ -11424,11 +11427,9 @@ exports.BattlePokedex = {
         heightm: 1,
         weightkg: 168,
         catchrate: 45,
-        itemCommon: "Stardust",
-        itemRare: "Moon Stone",
         color: "Yellow",
         eggGroups: ["Mineral"],
-        tier: "2",
+        tier: "1",
     },
     solrock: {
         num: 338,
@@ -11437,8 +11438,8 @@ exports.BattlePokedex = {
         gender: "N",
         baseStats: {
             hp: 90,
-            atk: 95,
-            def: 85,
+            atk: 105,
+            def: 95,
             spa: 55,
             spd: 65,
             spe: 70
@@ -11449,11 +11450,9 @@ exports.BattlePokedex = {
         heightm: 1.2,
         weightkg: 154,
         catchrate: 45,
-        itemCommon: "Stardust",
-        itemRare: "Sun Stone",
         color: "Red",
         eggGroups: ["Mineral"],
-        tier: "2",
+        tier: "1",
     },
     barboach: {
         num: 339,
@@ -11469,7 +11468,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Oblivious",
-            "1": "Anticipation",
             H: "Hydration"
         },
         heightm: 0.4,
@@ -11486,15 +11484,14 @@ exports.BattlePokedex = {
         types: ["Water", "Ground"],
         baseStats: {
             hp: 110,
-            atk: 78,
-            def: 73,
-            spa: 76,
-            spd: 71,
+            atk: 98,
+            def: 83,
+            spa: 96,
+            spd: 81,
             spe: 60
         },
         abilities: {
             "0": "Oblivious",
-            "1": "Anticipation",
             H: "Hydration"
         },
         heightm: 0.9,
@@ -11553,7 +11550,7 @@ exports.BattlePokedex = {
         catchrate: 155,
         color: "Red",
         prevo: "Corphish",
-        evoLevel: 26,
+        evoLevel: 30,
         eggGroups: ["Water 1", "Water 3"],
         tier: "1",
     },
@@ -11629,7 +11626,6 @@ exports.BattlePokedex = {
         heightm: 1,
         weightkg: 23.8,
         catchrate: 45,
-        itemRare: "Big Root",
         color: "Purple",
         evos: ["Cradily"],
         eggGroups: ["Water 3"],
@@ -11658,10 +11654,9 @@ exports.BattlePokedex = {
         heightm: 1.5,
         weightkg: 60.4,
         catchrate: 45,
-        itemRare: "Big Root",
         color: "Green",
         prevo: "Lileep",
-        evoLevel: 40,
+        evoLevel: 39,
         eggGroups: ["Water 3"],
         tier: "1",
     },
@@ -11718,7 +11713,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Gray",
         prevo: "Anorith",
-        evoLevel: 40,
+        evoLevel: 39,
         eggGroups: ["Water 3"],
         tier: "1",
     },
@@ -11735,7 +11730,9 @@ exports.BattlePokedex = {
             spe: 80
         },
         abilities: {
-            "0": "Swift Swim"
+            "0": "Swift Swim",
+            "1": "Oblivious",
+            H: "Adaptability"
         },
         heightm: 0.6,
         weightkg: 7.4,
@@ -11795,7 +11792,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Amorphous"],
         otherFormes: ["Castform-Sunny", "Castform-Rainy", "Castform-Snowy"],
         formeOrder: ["Castform", "Castform-Sunny", "Castform-Rainy", "Castform-Snowy"],
-        tier: "1",
+        tier: "2",
     },
     castformsunny: {
         num: 351,
@@ -11908,13 +11905,13 @@ exports.BattlePokedex = {
             spe: 45
         },
         abilities: {
-            "0": "Insomnia",
-            H: "Cursed Body"
+             "0": "Insomnia",
+            "1": "Cursed Body",
+            H: "Frisk"
         },
         heightm: 0.6,
         weightkg: 2.3,
         catchrate: 225,
-        itemRare: "Spell Tag",
         color: "Black",
         evos: ["Banette"],
         eggGroups: ["Amorphous"],
@@ -11933,13 +11930,13 @@ exports.BattlePokedex = {
             spe: 65
         },
         abilities: {
-            "0": "Insomnia",
-            H: "Cursed Body"
+             "0": "Insomnia",
+            "1": "Cursed Body",
+            H: "Frisk"
         },
         heightm: 1.1,
         weightkg: 12.5,
         catchrate: 45,
-        itemRare: "Spell Tag",
         color: "Black",
         prevo: "Shuppet",
         evoLevel: 37,
@@ -11967,7 +11964,6 @@ exports.BattlePokedex = {
         },
         heightm: 1.2,
         weightkg: 13,
-        itemRare: "Spell Tag",
         color: "Black",
         eggGroups: ["Amorphous"],
         requiredItem: "Banettite",
@@ -11992,11 +11988,10 @@ exports.BattlePokedex = {
         heightm: 0.8,
         weightkg: 15,
         catchrate: 190,
-        itemRare: "Spell Tag",
         color: "Black",
         evos: ["Dusclops"],
         eggGroups: ["Amorphous"],
-        tier: "2",
+        tier: "1",
     },
     dusclops: {
         num: 356,
@@ -12011,19 +12006,18 @@ exports.BattlePokedex = {
             spe: 25
         },
         abilities: {
-            "0": "Pressure",
-            H: "Frisk"
+            "0": "Levitate",
+            H: "Pressure"
         },
         heightm: 1.6,
         weightkg: 30.6,
         catchrate: 90,
-        itemRare: "Spell Tag",
         color: "Black",
         prevo: "Duskull",
         evoLevel: 37,
         evos: ["Dusknoir"],
         eggGroups: ["Amorphous"],
-        tier: "2",
+        tier: "1",
     },
     tropius: {
         num: 357,
@@ -12067,14 +12061,13 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 1,
         catchrate: 45,
-        itemRare: "Cleanse Tag",
         color: "Blue",
         prevo: "Chingling",
         evoType: "levelFriendship",
         evoCondition: "at night",
         eggGroups: ["Amorphous"],
         canHatch: true,
-        tier: "2",
+        tier: "1",
     },
     absol: {
         num: 359,
@@ -12089,7 +12082,8 @@ exports.BattlePokedex = {
             spe: 75
         },
         abilities: {
-            "0": "Pressure",
+            "0": "Sharpness",
+			"1": "Cursed Body",
             H: "Super Luck"
         },
         heightm: 1.2,
@@ -12164,12 +12158,12 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Inner Focus",
+			"1": "Ice Body",
             H: "Moody"
         },
         heightm: 0.7,
         weightkg: 16.8,
         catchrate: 190,
-        itemRare: "Snowball",
         color: "Gray",
         evos: ["Glalie", "Froslass"],
         eggGroups: ["Fairy", "Mineral"],
@@ -12181,14 +12175,15 @@ exports.BattlePokedex = {
         types: ["Ice"],
         baseStats: {
             hp: 80,
-            atk: 80,
+            atk: 100,
             def: 80,
             spa: 80,
             spd: 80,
-            spe: 80
+            spe: 100
         },
         abilities: {
-            "0": "Inner Focus",
+            "0": "Refrigerate",
+			"1": "Intimidate",
             H: "Moody"
         },
         heightm: 1.5,
@@ -12196,7 +12191,7 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Gray",
         prevo: "Snorunt",
-        evoLevel: 25,
+        evoLevel: 50,
         eggGroups: ["Fairy", "Mineral"],
         otherFormes: ["Glalie-Mega"],
         formeOrder: ["Glalie", "Glalie-Mega"],
@@ -12224,7 +12219,7 @@ exports.BattlePokedex = {
         color: "Gray",
         eggGroups: ["Fairy", "Mineral"],
         requiredItem: "Glalitite",
-        tier: "1",
+        tier: "2",
     },
     spheal: {
         num: 363,
@@ -12240,8 +12235,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Thick Fat",
-            "1": "Oblivious",
-            H: "Ice Body"
+            "1": "Ice Body",
+            H: "Oblivious"
         },
         heightm: 0.8,
         weightkg: 39.5,
@@ -12265,15 +12260,15 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Thick Fat",
-            "1": "Oblivious",
-            H: "Ice Body"
+            "1": "Ice Body",
+            H: "Oblivious"
         },
         heightm: 1.1,
         weightkg: 87.6,
         catchrate: 120,
         color: "Blue",
         prevo: "Spheal",
-        evoLevel: 20,
+        evoLevel: 25,
         evos: ["Walrein"],
         eggGroups: ["Water 1", "Field"],
         tier: "1",
@@ -12292,15 +12287,15 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Thick Fat",
-            "1": "Oblivious",
-            H: "Ice Body"
+            "1": "Ice Body",
+            H: "Oblivious"
         },
         heightm: 1.4,
         weightkg: 150.6,
         catchrate: 45,
         color: "Blue",
         prevo: "Sealeo",
-        evoLevel: 34,
+        evoLevel: 39,
         eggGroups: ["Water 1", "Field"],
         tier: "1",
     },
@@ -12349,11 +12344,9 @@ exports.BattlePokedex = {
         heightm: 1.7,
         weightkg: 27,
         catchrate: 60,
-        itemRare: "Deep Sea Tooth",
         color: "Blue",
         prevo: "Clamperl",
-        evoType: "useItem",
-        evoItem: "Moon Stone",
+        evoLevel: 25,
         eggGroups: ["Water 1"],
         tier: "1",
     },
@@ -12376,11 +12369,9 @@ exports.BattlePokedex = {
         heightm: 1.8,
         weightkg: 22.6,
         catchrate: 60,
-        itemRare: "Deep Sea Scale",
         color: "Pink",
         prevo: "Clamperl",
-        evoType: "useItem",
-        evoItem: "Sun Stone",
+        evoLevel: 25,
         eggGroups: ["Water 1"],
         tier: "1",
     },
@@ -12408,10 +12399,9 @@ exports.BattlePokedex = {
         heightm: 1,
         weightkg: 23.4,
         catchrate: 25,
-        itemRare: "Deep Sea Scale",
         color: "Gray",
         eggGroups: ["Water 1", "Water 2"],
-        tier: "1",
+        tier: "2",
     },
     luvdisc: {
         num: 370,
@@ -12459,7 +12449,6 @@ exports.BattlePokedex = {
         heightm: 0.6,
         weightkg: 42.1,
         catchrate: 45,
-        itemRare: "Dragon Fang",
         color: "Blue",
         evos: ["Shelgon"],
         eggGroups: ["Dragon"],
@@ -12484,7 +12473,6 @@ exports.BattlePokedex = {
         heightm: 1.1,
         weightkg: 110.5,
         catchrate: 45,
-        itemRare: "Dragon Fang",
         color: "White",
         prevo: "Bagon",
         evoLevel: 30,
@@ -12511,10 +12499,9 @@ exports.BattlePokedex = {
         heightm: 1.5,
         weightkg: 102.6,
         catchrate: 45,
-        itemRare: "Dragon Fang",
         color: "Blue",
         prevo: "Shelgon",
-        evoLevel: 50,
+        evoLevel: 55,
         eggGroups: ["Dragon"],
         otherFormes: ["Salamence-Mega"],
         formeOrder: ["Salamence", "Salamence-Mega"],
@@ -12558,12 +12545,12 @@ exports.BattlePokedex = {
             spe: 30
         },
         abilities: {
-            "0": "Clear Body"
+            "0": "Clear Body",
+            H: "Light Metal"
         },
         heightm: 0.6,
         weightkg: 95.2,
         catchrate: 3,
-        itemRare: "Metal Coat",
         color: "Blue",
         evos: ["Metang"],
         eggGroups: ["Mineral"],
@@ -12583,15 +12570,15 @@ exports.BattlePokedex = {
             spe: 50
         },
         abilities: {
-            "0": "Clear Body"
+            "0": "Clear Body",
+            H: "Light Metal"
         },
         heightm: 1.2,
         weightkg: 202.5,
         catchrate: 3,
-        itemRare: "Metal Coat",
         color: "Blue",
         prevo: "Beldum",
-        evoLevel: 20,
+        evoLevel: 40,
         evos: ["Metagross"],
         eggGroups: ["Mineral"],
         tier: "1",
@@ -12610,15 +12597,15 @@ exports.BattlePokedex = {
             spe: 70
         },
         abilities: {
-            "0": "Clear Body"
+            "0": "Clear Body",
+            H: "Tough Claws"
         },
         heightm: 1.6,
         weightkg: 550,
         catchrate: 3,
-        itemRare: "Metal Coat",
         color: "Blue",
         prevo: "Metang",
-        evoLevel: 45,
+        evoLevel: 55,
         eggGroups: ["Mineral"],
         otherFormes: ["Metagross-Mega"],
         formeOrder: ["Metagross", "Metagross-Mega"],
@@ -12672,7 +12659,7 @@ exports.BattlePokedex = {
         color: "Brown",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "1",
+        tier: "2",
     },
     regice: {
         num: 378,
@@ -12722,7 +12709,7 @@ exports.BattlePokedex = {
         color: "Gray",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "1",
+        tier: "2",
     },
     latias: {
         num: 380,
@@ -12998,8 +12985,6 @@ exports.BattlePokedex = {
         heightm: 0.3,
         weightkg: 1.1,
         catchrate: 3,
-        itemCommon: "Star Piece",
-        itemRare: "Star Piece",
         color: "Yellow",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
@@ -15756,27 +15741,26 @@ exports.BattlePokedex = {
         name: "Dusknoir",
         types: ["Ghost"],
         baseStats: {
-            hp: 45,
+            hp: 60,
             atk: 100,
             def: 135,
-            spa: 65,
+            spa: 90,
             spd: 135,
             spe: 45
         },
         abilities: {
-            "0": "Pressure",
-            H: "Frisk"
+            "0": "Levitate",
+            H: "Pressure"
         },
         heightm: 2.2,
         weightkg: 106.6,
         catchrate: 45,
-        itemRare: "Spell Tag",
         color: "Black",
         prevo: "Dusclops",
-        evoType: "trade",
+        evoType: "useItem",
         evoItem: "Reaper Cloth",
         eggGroups: ["Amorphous"],
-        tier: "2",
+        tier: "1",
     },
     froslass: {
         num: 478,
@@ -15787,12 +15771,13 @@ exports.BattlePokedex = {
             hp: 70,
             atk: 80,
             def: 70,
-            spa: 80,
+            spa: 110,
             spd: 70,
-            spe: 110
+            spe: 120
         },
         abilities: {
-            "0": "Cursed Body",
+            "0": "Levitate",
+			"1": "Cursed Body",
             H: "Snow Cloak"
         },
         heightm: 1.3,
@@ -15800,8 +15785,7 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "White",
         prevo: "Snorunt",
-        evoType: "useItem",
-        evoItem: "Dawn Stone",
+        evoLevel: 50,
         eggGroups: ["Fairy", "Mineral"],
         tier: "1"
     },
