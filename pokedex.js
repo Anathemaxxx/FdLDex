@@ -4799,7 +4799,41 @@ exports.BattlePokedex = {
         evoMove: "Mimic",
         eggGroups: ["Human-Like"],
         canHatch: true,
+		otherFormes: ["Mr. Mime-Galar"],
+        formeOrder: ["Mr. Mime", "Mr. Mime-Galar"],
         tier: "1",
+    },
+	mrmimegalar: {
+        num: 122,
+        name: "Mr. Mime-Galar",
+        baseSpecies: "Mr. Mime",
+        forme: "Galar",
+        types: ["Ice", "Psychic"],
+        baseStats: {
+            hp: 50,
+            atk: 65,
+            def: 65,
+            spa: 90,
+            spd: 90,
+            spe: 100
+        },
+        abilities: {
+            "0": "Vital Spirit",
+            "1": "Screen Cleaner",
+            H: "Ice Body"
+        },
+        heightm: 1.4,
+        weightkg: 56.8,
+        catchrate: 45,
+        color: "White",
+		prevo: "Mime Jr.",
+        evoType: "levelMove",
+        evoMove: "Mimic",
+        evoRegion: "Galar",
+        evos: ["Mr. Rime"],
+        eggGroups: ["Human-Like"],
+        canHatch: true,
+        tier: "2",
     },
     scyther: {
         num: 123,
@@ -5975,7 +6009,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         prevo: "Cyndaquil",
         evoLevel: 14,
-        evos: ["Typhlosion"],
+        evos: ["Typhlosion", "Typhlosion-Hisui"],
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -6006,7 +6040,41 @@ exports.BattlePokedex = {
         prevo: "Quilava",
         evoLevel: 36,
         eggGroups: ["Field"],
+		otherFormes: ["Typhlosion-Hisui"],
+        formeOrder: ["Typhlosion", "Typhlosion-Hisui"],
         tier: "1"
+    },
+	  typhlosionhisui: {
+        num: 157,
+        name: "Typhlosion-Hisui",
+        baseSpecies: "Typhlosion",
+        forme: "Hisui",
+        types: ["Fire", "Ghost"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 73,
+            atk: 84,
+            def: 78,
+            spa: 119,
+            spd: 85,
+            spe: 95
+        },
+        abilities: {
+            "0": "Blaze",
+            H: "Flash Fire"
+        },
+        heightm: 1.6,
+        weightkg: 69.8,
+        catchrate: 45,
+        color: "Yellow",
+		prevo: "Quilava",
+        evoType: "levelExtra",
+        evoCondition: "at Mt. Pyre",
+        eggGroups: ["Field"],
+        tier: "2"
     },
     totodile: {
         num: 158,
@@ -7790,6 +7858,7 @@ exports.BattlePokedex = {
         color: "Brown",
         prevo: "Teddiursa",
         evoLevel: 30,
+		evos: ["Ursaluna"],
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -8283,6 +8352,7 @@ exports.BattlePokedex = {
         weightkg: 71.2,
         catchrate: 45,
         color: "Brown",
+		evos: ["Wyrdeer"],
         eggGroups: ["Field"],
         tier: "2"
     },
@@ -14592,7 +14662,7 @@ exports.BattlePokedex = {
         weightkg: 13,
         catchrate: 145,
         color: "Pink",
-        evos: ["Mr. Mime"],
+        evos: ["Mr. Mime", "Mr. Mime-Galar"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
         tier: "1",
@@ -28707,6 +28777,32 @@ exports.BattlePokedex = {
         eggGroups: ["Flying", "Field"],
         tier: "1",
     },
+	    mrrime: {
+        num: 866,
+        name: "Mr. Rime",
+        types: ["Ice", "Psychic"],
+        baseStats: {
+            hp: 80,
+            atk: 85,
+            def: 75,
+            spa: 110,
+            spd: 100,
+            spe: 70
+        },
+        abilities: {
+            "0": "Tangled Feet",
+            "1": "Screen Cleaner",
+            H: "Ice Body"
+        },
+        heightm: 1.5,
+        weightkg: 58.2,
+        catchrate: 45,
+        color: "Purple",
+        prevo: "Mr. Mime-Galar",
+        evoLevel: 42,
+        eggGroups: ["Human-Like"],
+        tier: "2",
+    },
     runerigus: {
         num: 867,
         name: "Runerigus",
@@ -29779,6 +29875,31 @@ exports.BattlePokedex = {
         changesFrom: "Calyrex",
         tier: "2"
     },
+    wyrdeer: {
+        num: 899,
+        name: "Wyrdeer",
+        types: ["Normal", "Psychic"],
+        baseStats: {
+            hp: 103,
+            atk: 105,
+            def: 72,
+            spa: 105,
+            spd: 75,
+            spe: 65
+        },
+        abilities: {
+            "0": "Intimidate",
+            H: "Sap Sipper"
+        },
+        heightm: 1.8,
+        weightkg: 95.1,
+        catchrate: 45,
+        color: "White",
+		prevo: "Stantler",
+        evoLevel: "34",
+        eggGroups: ["Field"],
+        tier: "2"
+    },
     kleavor: {
         num: 900,
         name: "Kleavor",
@@ -29805,6 +29926,33 @@ exports.BattlePokedex = {
         evoCondition: "Protector",
         eggGroups: ["Bug"],
         tier: "1"
+    },
+	    ursaluna: {
+        num: 901,
+        name: "Ursaluna",
+        types: ["Ground", "Normal"],
+        baseStats: {
+            hp: 130,
+            atk: 140,
+            def: 105,
+            spa: 45,
+            spd: 80,
+            spe: 50
+        },
+        abilities: {
+            "0": "Guts",
+            "1": "Unnerve",
+            H: "Bulletproof"
+        },
+        heightm: 2.4,
+        weightkg: 290,
+        catchrate: 75,
+        color: "Brown",
+		prevo: "Ursaring",
+        evoType: "useItem",
+        evoItem: "Honey",
+        eggGroups: ["Field"],
+        tier: "2"
     },
     basculegion: {
         num: 902,
