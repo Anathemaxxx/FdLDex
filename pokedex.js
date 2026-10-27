@@ -21685,7 +21685,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Blaze",
-            H: "Magic Guard"
+            H: "Magician"
         },
         heightm: 0.4,
         weightkg: 9.4,
@@ -21713,7 +21713,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Blaze",
-            H: "Magic Guard"
+            H: "Magician"
         },
         heightm: 1,
         weightkg: 14.5,
@@ -21831,7 +21831,6 @@ exports.BattlePokedex = {
         abilities: {
             "0": "Torrent",
             H: "Protean",
-            S: "Battle Bond"
         },
         heightm: 1.5,
         weightkg: 40,
@@ -21900,16 +21899,16 @@ exports.BattlePokedex = {
         name: "Bunnelby",
         types: ["Normal"],
         baseStats: {
-            hp: 38,
+            hp: 65,
             atk: 36,
-            def: 38,
+            def: 47,
             spa: 32,
-            spd: 36,
+            spd: 47,
             spe: 57
         },
         abilities: {
-            "0": "Cheek Pouch",
-            H: "Huge Power"
+            "0": "Huge Power",
+            H: "Cheek Pouch"
         },
         heightm: 0.4,
         weightkg: 5,
@@ -21925,22 +21924,22 @@ exports.BattlePokedex = {
         types: ["Normal", "Ground"],
         baseStats: {
             hp: 85,
-            atk: 71,
+            atk: 66,
             def: 77,
             spa: 50,
             spd: 77,
             spe: 78
         },
         abilities: {
-            "0": "Cheek Pouch",
-            H: "Huge Power"
+            "0": "Huge Power",
+            H: "Cheek Pouch"
         },
         heightm: 1,
         weightkg: 42.4,
         catchrate: 127,
         color: "Brown",
         prevo: "Bunnelby",
-        evoLevel: 20,
+        evoLevel: 38,
         eggGroups: ["Field"],
         tier: "1",
     },
@@ -21957,7 +21956,7 @@ exports.BattlePokedex = {
             spe: 62
         },
         abilities: {
-            "0": "Keen Eye",
+            "0": "Big Pecks",
             H: "Gale Wings"
         },
         heightm: 0.3,
@@ -21989,7 +21988,7 @@ exports.BattlePokedex = {
         catchrate: 120,
         color: "Red",
         prevo: "Fletchling",
-        evoLevel: 17,
+        evoLevel: 16,
         evos: ["Talonflame"],
         eggGroups: ["Flying"],
         tier: "1"
@@ -22015,7 +22014,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Red",
         prevo: "Fletchinder",
-        evoLevel: 35,
+        evoLevel: 39,
         eggGroups: ["Flying"],
         tier: "1"
     },
@@ -22162,14 +22161,15 @@ exports.BattlePokedex = {
         },
         baseStats: {
             hp: 62,
-            atk: 50,
+            atk: 60,
             def: 58,
             spa: 73,
             spd: 54,
             spe: 72
         },
         abilities: {
-            "0": "Unnerve"
+            "0": "Unnerve",
+            H: "Moxie"
         },
         heightm: 0.6,
         weightkg: 13.5,
@@ -22189,21 +22189,22 @@ exports.BattlePokedex = {
         },
         baseStats: {
             hp: 86,
-            atk: 68,
+            atk: 88,
             def: 72,
             spa: 109,
             spd: 66,
             spe: 106
         },
         abilities: {
-            "0": "Unnerve"
+            "0": "Unnerve",
+            H: "Moxie"
         },
         heightm: 1.5,
         weightkg: 81.5,
         catchrate: 65,
         color: "Brown",
         prevo: "Litleo",
-        evoLevel: 35,
+        evoLevel: 38,
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -22245,8 +22246,8 @@ exports.BattlePokedex = {
             hp: 54,
             atk: 45,
             def: 47,
-            spa: 75,
-            spd: 98,
+            spa: 85,
+            spd: 108,
             spe: 52
         },
         abilities: {
@@ -22313,8 +22314,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "White",
         prevo: "Floette",
-        evoType: "useItem",
-        evoItem: "Shiny Stone",
+        evoLevel: 42,
         eggGroups: ["Fairy"],
         cosmeticFormes: ["Florges-Blue", "Florges-Orange", "Florges-White", "Florges-Yellow"],
         formeOrder: ["Florges", "Florges-Blue", "Florges-Orange", "Florges-White", "Florges-Yellow"],
@@ -22333,8 +22333,9 @@ exports.BattlePokedex = {
             spe: 52
         },
         abilities: {
-            "0": "Sap Sipper",
-            H: "Grass Pelt"
+            "0": "Grass Pelt",
+			"1": "Rock Head",
+            H: "Sap Sipper"
         },
         heightm: 0.9,
         weightkg: 31,
@@ -22342,7 +22343,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Gogoat"],
         eggGroups: ["Field"],
-        tier: "2"
+        tier: "1"
     },
     gogoat: {
         num: 673,
@@ -22357,8 +22358,9 @@ exports.BattlePokedex = {
             spe: 68
         },
         abilities: {
-            "0": "Sap Sipper",
-            H: "Grass Pelt"
+            "0": "Grass Pelt",
+			"1": "Rock Head",
+            H: "Sap Sipper"
         },
         heightm: 1.7,
         weightkg: 91,
@@ -22367,7 +22369,7 @@ exports.BattlePokedex = {
         prevo: "Skiddo",
         evoLevel: 32,
         eggGroups: ["Field"],
-        tier: "2"
+        tier: "1"
     },
     pancham: {
         num: 674,
@@ -22443,7 +22445,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         cosmeticFormes: ["Furfrou-Dandy", "Furfrou-Debutante", "Furfrou-Diamond", "Furfrou-Heart", "Furfrou-Kabuki", "Furfrou-La Reine", "Furfrou-Matron", "Furfrou-Pharaoh", "Furfrou-Star"],
         formeOrder: ["Furfrou", "Furfrou-Heart", "Furfrou-Star", "Furfrou-Diamond", "Furfrou-Debutante", "Furfrou-Matron", "Furfrou-Dandy", "Furfrou-La Reine", "Furfrou-Kabuki", "Furfrou-Pharaoh"],
-        tier: "2",
+        tier: "1",
     },
     espurr: {
         num: 677,
@@ -22458,9 +22460,9 @@ exports.BattlePokedex = {
             spe: 68
         },
         abilities: {
-            "0": "Keen Eye",
+            "0": "Own Tempo",
             "1": "Infiltrator",
-            H: "Own Tempo"
+            H: "Keen Eye"
         },
         heightm: 0.3,
         weightkg: 3.5,
@@ -22468,7 +22470,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Meowstic", "Meowstic-F"],
         eggGroups: ["Field"],
-        tier: "2",
+        tier: "1",
     },
     meowstic: {
         num: 678,
@@ -22485,7 +22487,7 @@ exports.BattlePokedex = {
             spe: 104
         },
         abilities: {
-            "0": "Keen Eye",
+            "0": "Own Tempo",
             "1": "Infiltrator",
             H: "Prankster"
         },
@@ -22494,11 +22496,11 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Blue",
         prevo: "Espurr",
-        evoLevel: 25,
+        evoLevel: 16,
         eggGroups: ["Field"],
         otherFormes: ["Meowstic-F"],
         formeOrder: ["Meowstic", "Meowstic-F"],
-        tier: "2",
+        tier: "1",
     },
     meowsticf: {
         num: 678,
@@ -22516,7 +22518,7 @@ exports.BattlePokedex = {
             spe: 104
         },
         abilities: {
-            "0": "Keen Eye",
+            "0": "Own Tempo",
             "1": "Infiltrator",
             H: "Competitive"
         },
@@ -22525,9 +22527,9 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "White",
         prevo: "Espurr",
-        evoLevel: 25,
+        evoLevel: 16,
         eggGroups: ["Field"],
-        tier: "2",
+        tier: "1",
     },
     honedge: {
         num: 679,
@@ -22550,7 +22552,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Doublade"],
         eggGroups: ["Mineral"],
-        tier: "2",
+        tier: "1",
     },
     doublade: {
         num: 680,
@@ -22572,10 +22574,10 @@ exports.BattlePokedex = {
         catchrate: 90,
         color: "Brown",
         prevo: "Honedge",
-        evoLevel: 35,
+        evoLevel: 40,
         evos: ["Aegislash"],
         eggGroups: ["Mineral"],
-        tier: "2",
+        tier: "1",
     },
     aegislash: {
         num: 681,
@@ -22585,9 +22587,9 @@ exports.BattlePokedex = {
         baseStats: {
             hp: 60,
             atk: 50,
-            def: 140,
+            def: 150,
             spa: 50,
-            spd: 140,
+            spd: 150,
             spe: 60
         },
         abilities: {
@@ -22598,12 +22600,11 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Brown",
         prevo: "Doublade",
-        evoType: "useItem",
-        evoItem: "Dusk Stone",
+        evoLevel: 75,
         eggGroups: ["Mineral"],
         otherFormes: ["Aegislash-Blade"],
         formeOrder: ["Aegislash", "Aegislash-Blade"],
-        tier: "2",
+        tier: "1",
     },
     aegislashblade: {
         num: 681,
@@ -22613,9 +22614,9 @@ exports.BattlePokedex = {
         types: ["Steel", "Ghost"],
         baseStats: {
             hp: 60,
-            atk: 140,
+            atk: 150,
             def: 50,
-            spa: 140,
+            spa: 150,
             spd: 50,
             spe: 60
         },
@@ -22644,6 +22645,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Healer",
+			"1": "Aroma Veil",
             H: "Aroma Veil"
         },
         heightm: 0.2,
@@ -22652,7 +22654,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Aromatisse"],
         eggGroups: ["Fairy"],
-        tier: "2",
+        tier: "1",
     },
     aromatisse: {
         num: 683,
@@ -22668,6 +22670,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Healer",
+			"1": "Aroma Veil",
             H: "Aroma Veil"
         },
         heightm: 0.8,
@@ -22675,10 +22678,9 @@ exports.BattlePokedex = {
         catchrate: 140,
         color: "Pink",
         prevo: "Spritzee",
-        evoType: "trade",
-        evoItem: "Sachet",
+        evoLevel: 34,
         eggGroups: ["Fairy"],
-        tier: "2",
+        tier: "1",
     },
     swirlix: {
         num: 684,
@@ -22694,6 +22696,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Sweet Veil",
+			"1": "Unburden",
             H: "Unburden"
         },
         heightm: 0.4,
@@ -22702,7 +22705,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Slurpuff"],
         eggGroups: ["Fairy"],
-        tier: "2",
+        tier: "1",
     },
     slurpuff: {
         num: 685,
@@ -22718,6 +22721,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Sweet Veil",
+			"1": "Unburden",
             H: "Unburden"
         },
         heightm: 0.8,
@@ -22725,10 +22729,9 @@ exports.BattlePokedex = {
         catchrate: 140,
         color: "White",
         prevo: "Swirlix",
-        evoType: "trade",
-        evoItem: "Whipped Dream",
+        evoLevel: 34,
         eggGroups: ["Fairy"],
-        tier: "2",
+        tier: "1",
     },
     inkay: {
         num: 686,
@@ -22743,9 +22746,9 @@ exports.BattlePokedex = {
             spe: 45
         },
         abilities: {
-            "0": "Contrary",
+            "0": "Infiltrator",
             "1": "Suction Cups",
-            H: "Infiltrator"
+            H: "Contrary"
         },
         heightm: 0.4,
         weightkg: 3.5,
@@ -22753,7 +22756,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Malamar"],
         eggGroups: ["Water 1", "Water 2"],
-        tier: "2",
+        tier: "1",
     },
     malamar: {
         num: 687,
@@ -22768,19 +22771,18 @@ exports.BattlePokedex = {
             spe: 73
         },
         abilities: {
-            "0": "Contrary",
+            "0": "Infiltrator",
             "1": "Suction Cups",
-            H: "Infiltrator"
+            H: "Contrary"
         },
         heightm: 1.5,
         weightkg: 47,
         catchrate: 80,
         color: "Blue",
         prevo: "Inkay",
-        evoLevel: 30,
-        evoCondition: "with the console turned upside-down",
+        evoLevel: 34,
         eggGroups: ["Water 1", "Water 2"],
-        tier: "2",
+        tier: "1",
     },
     binacle: {
         num: 688,
@@ -22805,7 +22807,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Barbaracle"],
         eggGroups: ["Water 3"],
-        tier: "2",
+        tier: "1",
     },
     barbaracle: {
         num: 689,
@@ -22831,7 +22833,7 @@ exports.BattlePokedex = {
         prevo: "Binacle",
         evoLevel: 39,
         eggGroups: ["Water 3"],
-        tier: "2",
+        tier: "1",
     },
     skrelp: {
         num: 690,
@@ -22847,6 +22849,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Poison Point",
+			"1": "Poison Touch",
             H: "Adaptability"
         },
         heightm: 0.5,
@@ -22871,6 +22874,7 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Poison Point",
+			"1": "Poison Touch",
             H: "Adaptability"
         },
         heightm: 1.8,
@@ -22878,7 +22882,7 @@ exports.BattlePokedex = {
         catchrate: 55,
         color: "Brown",
         prevo: "Skrelp",
-        evoLevel: 38,
+        evoLevel: 45,
         eggGroups: ["Water 1", "Dragon"],
         tier: "1"
     },
@@ -22925,7 +22929,7 @@ exports.BattlePokedex = {
         catchrate: 55,
         color: "Blue",
         prevo: "Clauncher",
-        evoLevel: 32,
+        evoLevel: 37,
         eggGroups: ["Water 1", "Water 3"],
         tier: "1"
     },
@@ -22942,9 +22946,9 @@ exports.BattlePokedex = {
             spe: 70
         },
         abilities: {
-            "0": "Dry Skin",
+            "0": "Solar Power",
             "1": "Sand Veil",
-            H: "Solar Power"
+            H: "Dry Skin"
         },
         heightm: 0.5,
         weightkg: 6,
@@ -22952,7 +22956,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Heliolisk"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "2",
+        tier: "1",
     },
     heliolisk: {
         num: 695,
@@ -22967,19 +22971,18 @@ exports.BattlePokedex = {
             spe: 109
         },
         abilities: {
-            "0": "Dry Skin",
+            "0": "Solar Power",
             "1": "Sand Veil",
-            H: "Solar Power"
+            H: "Dry Skin"
         },
         heightm: 1,
         weightkg: 21,
         catchrate: 75,
         color: "Yellow",
         prevo: "Helioptile",
-        evoType: "useItem",
-        evoItem: "Sun Stone",
+        evoLevel: 38,
         eggGroups: ["Monster", "Dragon"],
-        tier: "2",
+        tier: "1",
     },
     tyrunt: {
         num: 696,
@@ -23035,7 +23038,6 @@ exports.BattlePokedex = {
         color: "Red",
         prevo: "Tyrunt",
         evoLevel: 39,
-        evoCondition: "during the day",
         eggGroups: ["Monster", "Dragon"],
         tier: "1",
     },
@@ -23092,8 +23094,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Amaura",
-        evoLevel: 34,
-        evoCondition: "at night",
+        evoLevel: 39,
         eggGroups: ["Monster"],
         tier: "1",
     },
@@ -23147,7 +23148,6 @@ exports.BattlePokedex = {
         heightm: 0.8,
         weightkg: 21.5,
         catchrate: 100,
-        itemRare: "Kings Rock",
         color: "Green",
         eggGroups: ["Flying", "Human-Like"],
         tier: "1"
@@ -23166,7 +23166,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Cheek Pouch",
-            "1": "Pickup",
             H: "Plus"
         },
         heightm: 0.2,
@@ -23174,7 +23173,7 @@ exports.BattlePokedex = {
         catchrate: 180,
         color: "Yellow",
         eggGroups: ["Field", "Fairy"],
-        tier: "2"
+        tier: "1"
     },
     carbink: {
         num: 703,
@@ -23197,8 +23196,9 @@ exports.BattlePokedex = {
         weightkg: 5.7,
         catchrate: 60,
         color: "Gray",
+		evos: ["Diancie"],
         eggGroups: ["Fairy", "Mineral"],
-        tier: "2"
+        tier: "1"
     },
     goomy: {
         num: 704,
@@ -23221,7 +23221,7 @@ exports.BattlePokedex = {
         weightkg: 2.8,
         catchrate: 45,
         color: "Purple",
-        evos: ["Sliggoo", "Sliggoo-Hisui"],
+        evos: ["Sliggoo"],
         eggGroups: ["Dragon"],
         tier: "1"
     },
@@ -23277,12 +23277,9 @@ exports.BattlePokedex = {
         weightkg: 68.5,
         catchrate: 45,
         color: "Purple",
-        prevo: "Goomy",
-        evoType: "useItem",
-        evoItem: "Metal Coat",
         evos: ["Goodra-Hisui"],
         eggGroups: ["Dragon"],
-        tier: "1"
+        tier: "2"
     },
     goodra: {
         num: 706,
@@ -23307,7 +23304,6 @@ exports.BattlePokedex = {
         color: "Purple",
         prevo: "Sliggoo",
         evoLevel: 50,
-        evoCondition: "on a rainy route",
         eggGroups: ["Dragon"],
         otherFormes: ["Goodra-Hisui"],
         formeOrder: ["Goodra", "Goodra-Hisui"],
@@ -23340,7 +23336,7 @@ exports.BattlePokedex = {
         evoLevel: 50,
         evoCondition: "on a rainy route",
         eggGroups: ["Dragon"],
-        tier: "1"
+        tier: "2"
     },
     klefki: {
         num: 707,
@@ -23363,7 +23359,7 @@ exports.BattlePokedex = {
         catchrate: 75,
         color: "Gray",
         eggGroups: ["Mineral"],
-        tier: "2"
+        tier: "1"
     },
     phantump: {
         num: 708,
@@ -23379,7 +23375,8 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Natural Cure",
-            H: "Harvest"
+			"1": "Harvest",
+            H: "Frisk"
         },
         heightm: 0.4,
         weightkg: 7,
@@ -23397,13 +23394,14 @@ exports.BattlePokedex = {
             hp: 85,
             atk: 110,
             def: 76,
-            spa: 65,
-            spd: 82,
-            spe: 56
+            spa: 84,
+            spd: 92,
+            spe: 70
         },
         abilities: {
             "0": "Natural Cure",
-            H: "Harvest"
+			"1": "Harvest",
+            H: "Frisk"
         },
         heightm: 1.5,
         weightkg: 71,
@@ -23463,7 +23461,7 @@ exports.BattlePokedex = {
         weightkg: 3.5,
         catchrate: 120,
         color: "Brown",
-        evos: ["Gourgeist-Small"],
+        evos: ["Gourgeist-Kalos"],
         eggGroups: ["Amorphous"],
     },
     pumpkaboolarge: {
@@ -23505,14 +23503,13 @@ exports.BattlePokedex = {
             spe: 41
         },
         abilities: {
-            "0": "Frisk",
-            H: "Insomnia"
+            "0": "Insomnia",
+			"1": "Frisk",
+            H: "Pickup"
         },
         heightm: 0.8,
         weightkg: 15,
         catchrate: 120,
-        itemCommon: "Miracle Seed",
-        itemRare: "Miracle Seed",
         color: "Brown",
         evos: ["Gourgeist-Super"],
         eggGroups: ["Amorphous"],
@@ -23541,27 +23538,28 @@ exports.BattlePokedex = {
         prevo: "Pumpkaboo",
         evoLevel: "36",
         eggGroups: ["Amorphous"],
-        otherFormes: ["Gourgeist-Small", "Gourgeist-Large", "Gourgeist-Super"],
-        formeOrder: ["Gourgeist", "Gourgeist-Small", "Gourgeist-Large", "Gourgeist-Super"],
+        otherFormes: ["Gourgeist-Kalos", "Gourgeist-Large", "Gourgeist-Super"],
+        formeOrder: ["Gourgeist", "Gourgeist-Kalos", "Gourgeist-Large", "Gourgeist-Super"],
         tier: "1",
     },
-    gourgeistsmall: {
+    gourgeistkalos: {
         num: 711,
-        name: "Gourgeist-Small",
+        name: "Gourgeist-Kalos",
         baseSpecies: "Gourgeist",
         forme: "Small",
         types: ["Ghost", "Grass"],
         baseStats: {
-            hp: 55,
-            atk: 85,
-            def: 122,
-            spa: 58,
+            hp: 75,
+            atk: 56,
+            def: 102,
+            spa: 110,
             spd: 75,
             spe: 99
         },
         abilities: {
-            "0": "Frisk",
-            H: "Insomnia"
+            "0": "Insomnia",
+			"1": "Flare Boost",
+            H: "Pickup"
         },
         heightm: 0.7,
         weightkg: 9.5,
@@ -23605,21 +23603,20 @@ exports.BattlePokedex = {
         types: ["Ghost", "Grass"],
         baseStats: {
             hp: 85,
-            atk: 100,
+            atk: 110,
             def: 122,
             spa: 58,
-            spd: 75,
+            spd: 88,
             spe: 54
         },
         abilities: {
-            "0": "Frisk",
-            H: "Insomnia"
+            "0": "Insomnia",
+			"1": "Cursed Body",
+            H: "Pickup"
         },
         heightm: 1.7,
         weightkg: 39,
         catchrate: 60,
-        itemCommon: "Miracle Seed",
-        itemRare: "Miracle Seed",
         color: "Brown",
         prevo: "Pumpkaboo-Super",
         evoLevel: "36",
@@ -23646,7 +23643,7 @@ exports.BattlePokedex = {
         weightkg: 99.5,
         catchrate: 190,
         color: "Blue",
-        evos: ["Avalugg", "Avalugg-Hisui"],
+        evos: ["Avalugg"],
         eggGroups: ["Monster", "Mineral"],
         tier: "1"
     },
@@ -23672,8 +23669,7 @@ exports.BattlePokedex = {
         catchrate: 55,
         color: "Blue",
         prevo: "Bergmite",
-        evoType: "useItem",
-        evoItem: "Ice Stone",
+        evoLevel: "37",
         eggGroups: ["Monster", "Mineral"],
         otherFormes: ["Avalugg-Hisui"],
         formeOrder: ["Avalugg", "Avalugg-Hisui"],
@@ -23702,11 +23698,8 @@ exports.BattlePokedex = {
         weightkg: 262.4,
         catchrate: 55,
         color: "Blue",
-        prevo: "Bergmite",
-        evoType: "levelMove",
-        evoMove: "Ancient Power",
         eggGroups: ["Monster", "Mineral"],
-        tier: "1"
+        tier: "2"
     },
     noibat: {
         num: 714,
@@ -23852,7 +23845,6 @@ exports.BattlePokedex = {
         },
         abilities: {
             "0": "Aura Break",
-            S: "Power Construct"
         },
         heightm: 5,
         weightkg: 305,
@@ -23862,7 +23854,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Zygarde-10%", "Zygarde-Complete"],
         formeOrder: ["Zygarde", "Zygarde-10%", "Zygarde-10%", "Zygarde", "Zygarde-Complete"],
-        tier: "2",
+        tier: "1",
     },
     zygarde10: {
         num: 718,
@@ -23934,17 +23926,20 @@ exports.BattlePokedex = {
             spe: 50
         },
         abilities: {
-            "0": "Clear Body"
+            "0": "Clear Body",
+            H: "Magic Bounce"
         },
         heightm: 0.7,
         weightkg: 8.8,
         catchrate: 3,
         color: "Pink",
+		prevo: "Carbink",
+        evoLevel: 60,
         eggGroups: ["Undiscovered"],
         tags: ["Mythical"],
         otherFormes: ["Diancie-Mega"],
         formeOrder: ["Diancie", "Diancie-Mega"],
-        tier: "2"
+        tier: "1"
     },
     dianciemega: {
         num: 719,
@@ -24072,7 +24067,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Dartrix"],
         eggGroups: ["Flying"],
-        tier: "1"
+        tier: "2"
     },
     dartrix: {
         num: 723,
@@ -24102,7 +24097,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Decidueye", "Decidueye-Hisui"],
         eggGroups: ["Flying"],
-        tier: "1"
+        tier: "2"
     },
     decidueye: {
         num: 724,
@@ -24133,7 +24128,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying"],
         otherFormes: ["Decidueye-Hisui"],
         formeOrder: ["Decidueye", "Decidueye-Hisui"],
-        tier: "1"
+        tier: "2"
     },
     decidueyehisui: {
         num: 724,
@@ -24164,7 +24159,7 @@ exports.BattlePokedex = {
         prevo: "Dartrix",
         evoLevel: 34,
         eggGroups: ["Flying"],
-        tier: "1"
+        tier: "2"
     },
     litten: {
         num: 725,
@@ -24192,7 +24187,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Torracat"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     torracat: {
         num: 726,
@@ -24222,7 +24217,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Incineroar"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     incineroar: {
         num: 727,
@@ -24251,7 +24246,7 @@ exports.BattlePokedex = {
         prevo: "Torracat",
         evoLevel: 34,
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     popplio: {
         num: 728,
@@ -24279,7 +24274,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Brionne"],
         eggGroups: ["Water 1", "Field"],
-        tier: "1",
+        tier: "2",
     },
     brionne: {
         num: 729,
@@ -24309,7 +24304,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Primarina"],
         eggGroups: ["Water 1", "Field"],
-        tier: "1",
+        tier: "2",
     },
     primarina: {
         num: 730,
@@ -24338,7 +24333,7 @@ exports.BattlePokedex = {
         prevo: "Brionne",
         evoLevel: 34,
         eggGroups: ["Water 1", "Field"],
-        tier: "1",
+        tier: "2",
     },
     pikipek: {
         num: 731,
@@ -24744,7 +24739,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Ribombee"],
         eggGroups: ["Bug", "Fairy"],
-        tier: "1",
+        tier: "2",
     },
     ribombee: {
         num: 743,
@@ -24771,7 +24766,7 @@ exports.BattlePokedex = {
         prevo: "Cutiefly",
         evoLevel: 25,
         eggGroups: ["Bug", "Fairy"],
-        tier: "1",
+        tier: "2",
     },
     rockruff: {
         num: 744,
@@ -24798,7 +24793,7 @@ exports.BattlePokedex = {
         evos: ["Lycanroc", "Lycanroc-Midnight", "Lycanroc-Dusk"],
         eggGroups: ["Field"],
         formeOrder: ["Rockruff", "Rockruff"],
-        tier: "1"
+        tier: "2"
     },
     lycanroc: {
         num: 745,
@@ -24827,7 +24822,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Lycanroc-Midnight", "Lycanroc-Dusk"],
         formeOrder: ["Lycanroc", "Lycanroc-Midnight", "Lycanroc-Dusk"],
-        tier: "1"
+        tier: "2"
     },
     lycanrocmidnight: {
         num: 745,
@@ -24855,7 +24850,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     lycanrocdusk: {
         num: 745,
@@ -24882,7 +24877,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     wishiwashi: {
         num: 746,
@@ -25010,7 +25005,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Mudsdale"],
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     mudsdale: {
         num: 750,
@@ -25036,7 +25031,7 @@ exports.BattlePokedex = {
         prevo: "Mudbray",
         evoLevel: 30,
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     dewpider: {
         num: 751,
@@ -25061,7 +25056,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Araquanid"],
         eggGroups: ["Water 1", "Bug"],
-        tier: "1",
+        tier: "2",
     },
     araquanid: {
         num: 752,
@@ -25087,7 +25082,7 @@ exports.BattlePokedex = {
         prevo: "Dewpider",
         evoLevel: 22,
         eggGroups: ["Water 1", "Bug"],
-        tier: "1",
+        tier: "2",
     },
     fomantis: {
         num: 753,
@@ -25165,7 +25160,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Shiinotic"],
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     shiinotic: {
         num: 756,
@@ -25192,7 +25187,7 @@ exports.BattlePokedex = {
         prevo: "Morelull",
         evoLevel: 24,
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     salandit: {
         num: 757,
@@ -25220,7 +25215,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Salazzle"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "1"
+        tier: "2"
     },
     salazzle: {
         num: 758,
@@ -25246,7 +25241,7 @@ exports.BattlePokedex = {
         prevo: "Salandit",
         evoLevel: 30,
         eggGroups: ["Monster", "Dragon"],
-        tier: "1"
+        tier: "2"
     },
     stufful: {
         num: 759,
@@ -25269,7 +25264,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Bewear"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     bewear: {
         num: 760,
@@ -25293,7 +25288,7 @@ exports.BattlePokedex = {
         prevo: "Stufful",
         evoLevel: 26,
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     bounsweet: {
         num: 761,
@@ -25319,7 +25314,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Steenee"],
         eggGroups: ["Grass"],
-        tier: "1"
+        tier: "2"
     },
     steenee: {
         num: 762,
@@ -25347,7 +25342,7 @@ exports.BattlePokedex = {
         evoLevel: 12,
         evos: ["Tsareena"],
         eggGroups: ["Grass"],
-        tier: "1"
+        tier: "2"
     },
     tsareena: {
         num: 763,
@@ -25375,7 +25370,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Stomp",
         eggGroups: ["Grass"],
-        tier: "1"
+        tier: "2"
     },
     comfey: {
         num: 764,
@@ -25472,7 +25467,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Golisopod"],
         eggGroups: ["Bug", "Water 3"],
-        tier: "1",
+        tier: "2",
     },
     golisopod: {
         num: 768,
@@ -25496,7 +25491,7 @@ exports.BattlePokedex = {
         prevo: "Wimpod",
         evoLevel: 30,
         eggGroups: ["Bug", "Water 3"],
-        tier: "1",
+        tier: "2",
     },
     sandygast: {
         num: 769,
@@ -26162,7 +26157,7 @@ exports.BattlePokedex = {
         itemRare: "Charcoal",
         color: "Red",
         eggGroups: ["Monster", "Dragon"],
-        tier: "1",
+        tier: "2",
     },
     togedemaru: {
         num: 777,
@@ -26185,7 +26180,7 @@ exports.BattlePokedex = {
         catchrate: 120,
         color: "Gray",
         eggGroups: ["Field", "Fairy"],
-        tier: "1",
+        tier: "2",
     },
     mimikyu: {
         num: 778,
@@ -26210,7 +26205,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Mimikyu-Busted"],
         formeOrder: ["Mimikyu", "Mimikyu-Busted"],
-        tier: "1"
+        tier: "2"
     },
     mimikyubusted: {
         num: 778,
@@ -26258,7 +26253,7 @@ exports.BattlePokedex = {
         catchrate: 80,
         color: "Pink",
         eggGroups: ["Water 2"],
-        tier: "1"
+        tier: "2"
     },
     drampa: {
         num: 780,
@@ -26306,7 +26301,7 @@ exports.BattlePokedex = {
         catchrate: 25,
         color: "Green",
         eggGroups: ["Mineral"],
-        tier: "1",
+        tier: "2",
     },
     jangmoo: {
         num: 782,
@@ -26332,7 +26327,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Hakamo-o"],
         eggGroups: ["Dragon"],
-        tier: "1",
+        tier: "2",
     },
     hakamoo: {
         num: 783,
@@ -26360,7 +26355,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         evos: ["Kommo-o"],
         eggGroups: ["Dragon"],
-        tier: "1",
+        tier: "2",
     },
     kommoo: {
         num: 784,
@@ -26387,7 +26382,7 @@ exports.BattlePokedex = {
         prevo: "Hakamo-o",
         evoLevel: 45,
         eggGroups: ["Dragon"],
-        tier: "1",
+        tier: "2",
     },
     tapukoko: {
         num: 785,
@@ -27114,7 +27109,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Thwackey"],
         eggGroups: ["Field", "Grass"],
-        tier: "1"
+        tier: "2"
     },
     thwackey: {
         num: 811,
@@ -27144,7 +27139,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Rillaboom"],
         eggGroups: ["Field", "Grass"],
-        tier: "1"
+        tier: "2"
     },
     rillaboom: {
         num: 812,
@@ -27174,7 +27169,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         eggGroups: ["Field", "Grass"],
         canGigantamax: "G-Max Drum Solo",
-        tier: "1"
+        tier: "2"
     },
     scorbunny: {
         num: 813,
@@ -27202,7 +27197,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Raboot"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "1"
+        tier: "2"
     },
     raboot: {
         num: 814,
@@ -27232,7 +27227,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Cinderace"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "1"
+        tier: "2"
     },
     cinderace: {
         num: 815,
@@ -27262,7 +27257,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         eggGroups: ["Field", "Human-Like"],
         canGigantamax: "G-Max Fireball",
-        tier: "1"
+        tier: "2"
     },
     sobble: {
         num: 816,
@@ -27290,7 +27285,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Drizzile"],
         eggGroups: ["Water 1", "Field"],
-        tier: "1"
+        tier: "2"
     },
     drizzile: {
         num: 817,
@@ -27320,7 +27315,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Inteleon"],
         eggGroups: ["Water 1", "Field"],
-        tier: "1"
+        tier: "2"
     },
     inteleon: {
         num: 818,
@@ -27350,7 +27345,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         eggGroups: ["Water 1", "Field"],
         canGigantamax: "G-Max Hydrosnipe",
-        tier: "1"
+        tier: "2"
     },
     skwovet: {
         num: 819,
@@ -27425,7 +27420,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Corvisquire"],
         eggGroups: ["Flying"],
-        tier: "1"
+        tier: "2"
     },
     corvisquire: {
         num: 822,
@@ -27451,7 +27446,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Corviknight"],
         eggGroups: ["Flying"],
-        tier: "1"
+        tier: "2"
     },
     corviknight: {
         num: 823,
@@ -27477,7 +27472,7 @@ exports.BattlePokedex = {
         evoLevel: 44,
         eggGroups: ["Flying"],
         canGigantamax: "G-Max Wind Rage",
-        tier: "1"
+        tier: "2"
     },
     blipbug: {
         num: 824,
@@ -27502,7 +27497,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Dottler"],
         eggGroups: ["Bug"],
-        tier: "1",
+        tier: "2",
     },
     dottler: {
         num: 825,
@@ -27529,7 +27524,7 @@ exports.BattlePokedex = {
         evoLevel: 10,
         evos: ["Orbeetle"],
         eggGroups: ["Bug"],
-        tier: "1",
+        tier: "2",
     },
     orbeetle: {
         num: 826,
@@ -27556,7 +27551,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         eggGroups: ["Bug"],
         canGigantamax: "G-Max Gravitas",
-        tier: "1",
+        tier: "2",
     },
     nickit: {
         num: 827,
@@ -27631,7 +27626,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Eldegoss"],
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     eldegoss: {
         num: 830,
@@ -27656,7 +27651,7 @@ exports.BattlePokedex = {
         prevo: "Gossifleur",
         evoLevel: 20,
         eggGroups: ["Grass"],
-        tier: "1",
+        tier: "2",
     },
     wooloo: {
         num: 831,
@@ -27732,7 +27727,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Drednaw"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "1"
+        tier: "2"
     },
     drednaw: {
         num: 834,
@@ -27759,7 +27754,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         eggGroups: ["Monster", "Water 1"],
         canGigantamax: "G-Max Stonesurge",
-        tier: "1"
+        tier: "2"
     },
     yamper: {
         num: 835,
@@ -27783,7 +27778,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Boltund"],
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     boltund: {
         num: 836,
@@ -27808,7 +27803,7 @@ exports.BattlePokedex = {
         prevo: "Yamper",
         evoLevel: 22,
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     rolycoly: {
         num: 837,
@@ -28115,7 +28110,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Barraskewda"],
         eggGroups: ["Water 2"],
-        tier: "1"
+        tier: "2"
     },
     barraskewda: {
         num: 847,
@@ -28140,7 +28135,7 @@ exports.BattlePokedex = {
         prevo: "Arrokuda",
         evoLevel: 26,
         eggGroups: ["Water 2"],
-        tier: "1"
+        tier: "2"
     },
     toxel: {
         num: 848,
@@ -28166,7 +28161,7 @@ exports.BattlePokedex = {
         evos: ["Toxtricity", "Toxtricity-Low-Key"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "1"
+        tier: "2"
     },
     toxtricity: {
         num: 849,
@@ -28195,7 +28190,7 @@ exports.BattlePokedex = {
         otherFormes: ["Toxtricity-Low-Key"],
         formeOrder: ["Toxtricity", "Toxtricity-Low-Key"],
         canGigantamax: "G-Max Stun Shock",
-        tier: "1"
+        tier: "2"
     },
     toxtricitylowkey: {
         num: 849,
@@ -28247,7 +28242,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Centiskorch"],
         eggGroups: ["Bug"],
-        tier: "1",
+        tier: "2",
     },
     centiskorch: {
         num: 851,
@@ -28274,7 +28269,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         eggGroups: ["Bug"],
         canGigantamax: "G-Max Centiferno",
-        tier: "1",
+        tier: "2",
     },
     clobbopus: {
         num: 852,
@@ -28461,7 +28456,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Hattrem"],
         eggGroups: ["Fairy"],
-        tier: "1"
+        tier: "2"
     },
     hattrem: {
         num: 857,
@@ -28488,7 +28483,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         evos: ["Hatterene"],
         eggGroups: ["Fairy"],
-        tier: "1"
+        tier: "2"
     },
     hatterene: {
         num: 858,
@@ -28515,7 +28510,7 @@ exports.BattlePokedex = {
         evoLevel: 38,
         eggGroups: ["Fairy"],
         canGigantamax: "G-Max Smite",
-        tier: "1"
+        tier: "2"
     },
     impidimp: {
         num: 859,
@@ -28540,7 +28535,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Morgrem"],
         eggGroups: ["Fairy", "Human-Like"],
-        tier: "1"
+        tier: "2"
     },
     morgrem: {
         num: 860,
@@ -28567,7 +28562,7 @@ exports.BattlePokedex = {
         evoLevel: 32,
         evos: ["Grimmsnarl"],
         eggGroups: ["Fairy", "Human-Like"],
-        tier: "1"
+        tier: "2"
     },
     grimmsnarl: {
         num: 861,
@@ -28594,7 +28589,7 @@ exports.BattlePokedex = {
         evoLevel: 42,
         eggGroups: ["Fairy", "Human-Like"],
         canGigantamax: "G-Max Snooze",
-        tier: "1"
+        tier: "2"
     },
     obstagoon: {
         num: 862,
@@ -28620,7 +28615,7 @@ exports.BattlePokedex = {
         prevo: "Linoone-Galar",
         evoLevel: 35,
         eggGroups: ["Field"],
-        tier: "1",
+        tier: "2",
     },
     perrserker: {
         num: 863,
@@ -28646,7 +28641,7 @@ exports.BattlePokedex = {
         prevo: "Meowth-Galar",
         evoLevel: 26,
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
 	cursola: {
         num: 864,
@@ -28701,7 +28696,7 @@ exports.BattlePokedex = {
         prevo: "Farfetch’d-Galar",
         evoLevel: "36",
         eggGroups: ["Flying", "Field"],
-        tier: "1",
+        tier: "2",
     },
 	    mrrime: {
         num: 866,
@@ -29103,7 +29098,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Copperajah"],
         eggGroups: ["Field", "Mineral"],
-        tier: "1"
+        tier: "2"
     },
     copperajah: {
         num: 879,
@@ -29130,7 +29125,7 @@ exports.BattlePokedex = {
         evoLevel: 34,
         eggGroups: ["Field", "Mineral"],
         canGigantamax: "G-Max Steelsurge",
-        tier: "1"
+        tier: "2"
     },
     dracozolt: {
         num: 880,
@@ -29255,7 +29250,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Mineral", "Dragon"],
         canGigantamax: "G-Max Depletion",
-        tier: "1",
+        tier: "2",
     },
     dreepy: {
         num: 885,
@@ -29280,7 +29275,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Drakloak"],
         eggGroups: ["Amorphous", "Dragon"],
-        tier: "1"
+        tier: "2"
     },
     drakloak: {
         num: 886,
@@ -29307,7 +29302,7 @@ exports.BattlePokedex = {
         evoLevel: 50,
         evos: ["Dragapult"],
         eggGroups: ["Amorphous", "Dragon"],
-        tier: "1"
+        tier: "2"
     },
     dragapult: {
         num: 887,
@@ -29333,7 +29328,7 @@ exports.BattlePokedex = {
         prevo: "Drakloak",
         evoLevel: 60,
         eggGroups: ["Amorphous", "Dragon"],
-        tier: "1"
+        tier: "2"
     },
     zacian: {
         num: 888,
@@ -29520,7 +29515,7 @@ exports.BattlePokedex = {
         tags: ["Sub-Legendary"],
         evos: ["Urshifu", "Urshifu-Rapid-Strike"],
         eggGroups: ["Undiscovered"],
-        tier: "1"
+        tier: "2"
     },
     urshifu: {
         num: 892,
@@ -29553,7 +29548,7 @@ exports.BattlePokedex = {
         otherFormes: ["Urshifu-Rapid-Strike"],
         formeOrder: ["Urshifu", "Urshifu-Rapid-Strike"],
         canGigantamax: "G-Max One Blow",
-        tier: "1"
+        tier: "2"
     },
     urshifurapidstrike: {
         num: 892,
@@ -29584,7 +29579,7 @@ exports.BattlePokedex = {
         evoLevel: "50",
         eggGroups: ["Undiscovered"],
         canGigantamax: "G-Max Rapid Flow",
-        tier: "1"
+        tier: "2"
     },
     zarude: {
         num: 893,
@@ -29851,7 +29846,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoCondition: "Protector",
         eggGroups: ["Bug"],
-        tier: "1"
+        tier: "2"
     },
 	    ursaluna: {
         num: 901,
@@ -29959,7 +29954,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Razor Claw",
         eggGroups: ["Field"],
-        tier: "1"
+        tier: "2"
     },
     overqwil: {
         num: 904,
@@ -29986,7 +29981,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Explosion",
         eggGroups: ["Water 2"],
-        tier: "1"
+        tier: "2"
     },
     enamorus: {
         num: 905,
@@ -30014,7 +30009,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Enamorus-Therian"],
         formeOrder: ["Enamorus", "Enamorus-Therian"],
-        tier: "1"
+        tier: "2"
     },
     enamorustherian: {
         num: 905,
