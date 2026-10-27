@@ -23461,7 +23461,7 @@ exports.BattlePokedex = {
         weightkg: 3.5,
         catchrate: 120,
         color: "Brown",
-        evos: ["Gourgeist-Kalos"],
+        evos: ["Gourgeist-Small"],
         eggGroups: ["Amorphous"],
     },
     pumpkaboolarge: {
@@ -23538,11 +23538,11 @@ exports.BattlePokedex = {
         prevo: "Pumpkaboo",
         evoLevel: "36",
         eggGroups: ["Amorphous"],
-        otherFormes: ["Gourgeist-Kalos", "Gourgeist-Large", "Gourgeist-Super"],
-        formeOrder: ["Gourgeist", "Gourgeist-Kalos", "Gourgeist-Large", "Gourgeist-Super"],
+        otherFormes: ["Gourgeist-Small", "Gourgeist-Large", "Gourgeist-Super"],
+        formeOrder: ["Gourgeist", "Gourgeist-Small", "Gourgeist-Large", "Gourgeist-Super"],
         tier: "1",
     },
-    gourgeistkalos: {
+    gourgeistsmall: {
         num: 711,
         name: "Gourgeist-Kalos",
         baseSpecies: "Gourgeist",
