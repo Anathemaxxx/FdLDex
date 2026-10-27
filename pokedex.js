@@ -17007,8 +17007,9 @@ exports.BattlePokedex = {
             spe: 65
         },
         abilities: {
-            "0": "Blaze",
-            H: "Reckless"
+            "0": "Thick Fat",
+			"1": "Reckless",
+            H: "Blaze"
         },
         heightm: 1.6,
         weightkg: 150,
@@ -17073,7 +17074,7 @@ exports.BattlePokedex = {
         color: "Blue",
         prevo: "Oshawott",
         evoLevel: 17,
-        evos: ["Samurott", "Samurott-Hisui"],
+        evos: ["Samurott-Hisui"],
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -17101,8 +17102,6 @@ exports.BattlePokedex = {
         weightkg: 94.6,
         catchrate: 45,
         color: "Blue",
-        prevo: "Dewott",
-        evoLevel: 36,
         eggGroups: ["Field"],
         otherFormes: ["Samurott-Hisui"],
         formeOrder: ["Samurott", "Samurott-Hisui"],
@@ -17135,8 +17134,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Blue",
         prevo: "Dewott",
-        evoType: "useItem",
-        evoItem: "Dusk Stone",
+        evoLevel: 36,
         eggGroups: ["Field"],
         tier: "1"
     },
