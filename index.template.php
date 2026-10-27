@@ -38,7 +38,7 @@
 <?php if ($_SERVER['REQUEST_URI'][0] === '/' && !ctype_alnum($_SERVER['REQUEST_URI'][1])) { ?>
 		<form class="pokedex">
 			<h1>
-				<a href="/">Fleur-de-Lys Pok&eacute;dex</a>
+				<a href="/">Pok&eacute;dex</a>
 			</h1>
 			<ul class="tabbar centered" style="margin-bottom: 18px"><li><button class="button nav-first cur" value="">Search</button></li><li><button class="button" value="pokemon/">Pokémon</button></li><li><button class="button nav-last" value="moves/">Moves</button></li></ul>
 			<div class="searchboxwrapper">
