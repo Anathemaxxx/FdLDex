@@ -23,7 +23,7 @@
 		<div class="header">
 			<ul class="nav">
 				<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="/images/pokemonshowdownbeta.png" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
-				<li><a class="button cur" href="/">Fleur-de-Lys Pok&eacute;dex</a></li>
+				<li><a class="button cur" href="/">Pok&eacute;dex</a></li>
 				<li><a class="button" href="//replay.pokemonshowdown.com/">Replays</a></li>
 				<li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
 				<li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
