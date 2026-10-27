@@ -23544,7 +23544,7 @@ exports.BattlePokedex = {
     },
     gourgeistsmall: {
         num: 711,
-        name: "Gourgeist-Kalos",
+        name: "Gourgeist-Small",
         baseSpecies: "Gourgeist",
         forme: "Small",
         types: ["Ghost", "Grass"],
