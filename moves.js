@@ -6732,6 +6732,33 @@ exports.BattleMovedex = {
         desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
         shortDesc: "Has 1/4 recoil."
     },
+        headlongrush: {
+        num: 838,
+        accuracy: 100,
+        basePower: 120,
+        category: "Physical",
+        name: "Headlong Rush",
+        pp: 5,
+        priority: 0,
+        flags: {
+            contact: 1,
+            protect: 1,
+            mirror: 1,
+            punch: 1
+        },
+        self: {
+            boosts: {
+                def: -1,
+                spd: -1
+            }
+        },
+        secondary: null,
+        target: "normal",
+        type: "Ground",
+        contestType: "Tough",
+        desc: "Lowers the user's Defense and Special Defense by 1 stage.",
+        shortDesc: "Lowers the user's Defense and Sp. Def by 1."
+    },
     headsmash: {
         num: 457,
         accuracy: 80,
