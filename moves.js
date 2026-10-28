@@ -227,7 +227,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Agility",
-        pp: 30,
+        pp: 3,
         priority: 0,
         flags: {
             snatch: 1
@@ -297,7 +297,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Ally Switch",
-        pp: 15,
+        pp: 5,
         priority: 2,
         flags: {},
         stallingMove: true,
@@ -462,8 +462,8 @@ exports.BattleMovedex = {
     },
     aquatail: {
         num: 401,
-        accuracy: 95,
-        basePower: 90,
+        accuracy: 90,
+        basePower: 100,
         category: "Physical",
         name: "Aqua Tail",
         pp: 10,
@@ -483,7 +483,7 @@ exports.BattleMovedex = {
     armthrust: {
         num: 292,
         accuracy: 100,
-        basePower: 15,
+        basePower: 25,
         category: "Physical",
         name: "Arm Thrust",
         pp: 20,
@@ -596,7 +596,7 @@ exports.BattleMovedex = {
     astonish: {
         num: 310,
         accuracy: 100,
-        basePower: 40,
+        basePower: 60,
         category: "Physical",
         name: "Astonish",
         pp: 15,
@@ -744,7 +744,7 @@ exports.BattleMovedex = {
             mirror: 1
         },
         secondary: {
-            chance: 10,
+            chance: 30,
             boosts: {
                 atk: -1
             }
@@ -752,8 +752,8 @@ exports.BattleMovedex = {
         target: "normal",
         type: "Ice",
         contestType: "Beautiful",
-        desc: "Has a 10% chance to lower the target's Attack by 1 stage.",
-        shortDesc: "10% chance to lower the target's Attack by 1."
+        desc: "Has a 30% chance to lower the target's Attack by 1 stage.",
+        shortDesc: "30% chance to lower the target's Attack by 1."
     },
     auroraveil: {
         num: 694,
@@ -791,7 +791,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Autotomize",
-        pp: 15,
+        pp: 3,
         priority: 0,
         flags: {
             snatch: 1
@@ -917,7 +917,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Barrier",
-        pp: 20,
+        pp: 3,
         priority: 0,
         flags: {
             snatch: 1
@@ -941,7 +941,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Baton Pass",
-        pp: 40,
+        pp: 1,
         priority: 0,
         flags: {},
         self: {},
@@ -990,7 +990,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Physical",
         name: "Beat Up",
-        pp: 10,
+        pp: 5,
         priority: 0,
         flags: {
             protect: 1,
@@ -1034,7 +1034,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Belly Drum",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             snatch: 1
@@ -1109,7 +1109,7 @@ exports.BattleMovedex = {
     bind: {
         num: 20,
         accuracy: 100,
-        basePower: 15,
+        basePower: 40,
         category: "Physical",
         name: "Bind",
         pp: 20,
@@ -1602,28 +1602,23 @@ exports.BattleMovedex = {
     },
     bubble: {
         num: 145,
-        accuracy: 100,
-        basePower: 40,
+        accuracy: true,
+        basePower: 60,
         category: "Special",
         isNonstandard: "Past",
         name: "Bubble",
-        pp: 30,
+        pp: 20,
         priority: 0,
         flags: {
             protect: 1,
             mirror: 1
         },
-        secondary: {
-            chance: 10,
-            boosts: {
-                spe: -1
-            }
-        },
+        secondary: null,
         target: "allAdjacentFoes",
         type: "Water",
         contestType: "Cute",
-        desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
-        shortDesc: "10% chance to lower the foe(s) Speed by 1."
+        desc: "This move does not check accuracy.",
+        shortDesc: "This move does not check accuracy."
     },
     bubblebeam: {
         num: 61,
@@ -1638,7 +1633,7 @@ exports.BattleMovedex = {
             mirror: 1
         },
         secondary: {
-            chance: 10,
+            chance: 30,
             boosts: {
                 spe: -1
             }
@@ -1646,8 +1641,8 @@ exports.BattleMovedex = {
         target: "normal",
         type: "Water",
         contestType: "Beautiful",
-        desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
-        shortDesc: "10% chance to lower the target's Speed by 1."
+        desc: "Has a 30% chance to lower the target's Speed by 1 stage.",
+        shortDesc: "30% chance to lower the target's Speed by 1."
     },
     bugbite: {
         num: 450,
@@ -1701,7 +1696,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Bulk Up",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1
@@ -1843,7 +1838,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Calm Mind",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1
@@ -1979,7 +1974,7 @@ exports.BattleMovedex = {
     chargebeam: {
         num: 451,
         accuracy: 100,
-        basePower: 40,
+        basePower: 50,
         category: "Special",
         name: "Charge Beam",
         pp: 10,
@@ -1989,7 +1984,7 @@ exports.BattleMovedex = {
             mirror: 1
         },
         secondary: {
-            chance: 100,
+            chance: 70,
             self: {
                 boosts: {
                     spa: 1
@@ -1999,8 +1994,8 @@ exports.BattleMovedex = {
         target: "normal",
         type: "Electric",
         contestType: "Beautiful",
-        desc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
-        shortDesc: "100% chance to raise the user's Sp. Atk by 1."
+        desc: "Has a 70% chance to raise the user's Special Attack by 1 stage.",
+        shortDesc: "70% chance to raise the user's Sp. Atk by 1."
     },
     charm: {
         num: 204,
@@ -2008,7 +2003,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Charm",
-        pp: 5,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -2034,7 +2029,7 @@ exports.BattleMovedex = {
     chatter: {
         num: 448,
         accuracy: 100,
-        basePower: 65,
+        basePower: 90,
         category: "Special",
         isNonstandard: "Past",
         name: "Chatter",
@@ -2066,7 +2061,7 @@ exports.BattleMovedex = {
     chipaway: {
         num: 498,
         accuracy: 100,
-        basePower: 70,
+        basePower: 85,
         category: "Physical",
         isNonstandard: "Past",
         name: "Chip Away",
@@ -2088,7 +2083,7 @@ exports.BattleMovedex = {
     },
     circlethrow: {
         num: 509,
-        accuracy: 95,
+        accuracy: 100,
         basePower: 60,
         category: "Physical",
         name: "Circle Throw",
@@ -2111,7 +2106,7 @@ exports.BattleMovedex = {
     clamp: {
         num: 128,
         accuracy: 100,
-        basePower: 35,
+        basePower: 40,
         category: "Physical",
         isNonstandard: "Past",
         name: "Clamp",
@@ -2257,7 +2252,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Coil",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1
@@ -2533,7 +2528,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Cosmic Power",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1
@@ -2560,7 +2555,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Cotton Guard",
-        pp: 10,
+        pp: 2,
         priority: 0,
         flags: {
             snatch: 1
@@ -2584,7 +2579,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Cotton Spore",
-        pp: 40,
+        pp: 2,
         priority: 0,
         flags: {
             powder: 1,
@@ -2759,15 +2754,15 @@ exports.BattleMovedex = {
             slicing: 1
         },
         secondary: {
-            chance: 10,
+            chance: 30,
             status: "psn"
         },
         critRatio: 2,
         target: "normal",
         type: "Poison",
         contestType: "Cool",
-        desc: "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-        shortDesc: "High critical hit ratio. 10% chance to poison."
+        desc: "Has a 30% chance to poison the target and a higher chance for a critical hit.",
+        shortDesc: "High critical hit ratio. 30% chance to poison."
     },
     crunch: {
         num: 242,
@@ -2797,7 +2792,7 @@ exports.BattleMovedex = {
     },
     crushclaw: {
         num: 306,
-        accuracy: 95,
+        accuracy: 100,
         basePower: 75,
         category: "Physical",
         name: "Crush Claw",
@@ -2876,7 +2871,7 @@ exports.BattleMovedex = {
     cut: {
         num: 15,
         accuracy: 100,
-        basePower: 50,
+        basePower: 60,
         category: "Physical",
         name: "Cut",
         pp: 30,
@@ -2891,8 +2886,8 @@ exports.BattleMovedex = {
         target: "normal",
         type: "Normal",
         contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
+        desc: "Has a higher chance for a critical hit.",
+        shortDesc: "High critical hit ratio."
     },
     darkestlariat: {
         num: 663,
@@ -3113,7 +3108,7 @@ exports.BattleMovedex = {
             effect: "redirect"
         },
         contestType: "Clever",
-        desc: "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight. Fails if the user used this move successfully as its last move, disregarding moves used through the Dancer Ability.",
+        desc: "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight.",
         shortDesc: "If an opponent knocks out the user, it also faints."
     },
     detect: {
@@ -3144,7 +3139,7 @@ exports.BattleMovedex = {
     },
     diamondstorm: {
         num: 591,
-        accuracy: 100,
+        accuracy: 95,
         basePower: 100,
         category: "Physical",
         name: "Diamond Storm",
@@ -3229,7 +3224,7 @@ exports.BattleMovedex = {
     disarmingvoice: {
         num: 574,
         accuracy: true,
-        basePower: 40,
+        basePower: 60,
         category: "Special",
         name: "Disarming Voice",
         pp: 15,
@@ -3366,7 +3361,7 @@ exports.BattleMovedex = {
     doublehit: {
         num: 458,
         accuracy: 100,
-        basePower: 35,
+        basePower: 40,
         category: "Physical",
         name: "Double Hit",
         pp: 10,
@@ -3425,7 +3420,7 @@ exports.BattleMovedex = {
     doublekick: {
         num: 24,
         accuracy: 100,
-        basePower: 30,
+        basePower: 40,
         category: "Physical",
         name: "Double Kick",
         pp: 30,
@@ -3590,7 +3585,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Dragon Dance",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1,
@@ -3740,7 +3735,7 @@ exports.BattleMovedex = {
     },
     dragontail: {
         num: 525,
-        accuracy: 95,
+        accuracy: 100,
         basePower: 60,
         category: "Physical",
         name: "Dragon Tail",
@@ -3808,7 +3803,7 @@ exports.BattleMovedex = {
     dreameater: {
         num: 138,
         accuracy: 100,
-        basePower: 100,
+        basePower: 140,
         category: "Special",
         name: "Dream Eater",
         pp: 15,
@@ -3844,8 +3839,8 @@ exports.BattleMovedex = {
         target: "any",
         type: "Flying",
         contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
+        desc: "Has a higher chance for a critical hit.",
+        shortDesc: "High critical hit ratio."
     },
     drillrun: {
         num: 529,
@@ -4038,7 +4033,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Eerie Impulse",
-        pp: 5,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -4084,9 +4079,9 @@ exports.BattleMovedex = {
     },
     eggbomb: {
         num: 121,
-        accuracy: 75,
-        basePower: 100,
-        category: "Physical",
+        accuracy: 90,
+        basePower: 120,
+        category: "Special",
         isNonstandard: "Past",
         name: "Egg Bomb",
         pp: 10,
@@ -4098,7 +4093,7 @@ exports.BattleMovedex = {
         },
         secondary: null,
         target: "normal",
-        type: "Normal",
+        type: "Grass",
         contestType: "Cute",
         desc: "No additional effect.",
         shortDesc: "No additional effect."
@@ -4333,7 +4328,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Endure",
-        pp: 10,
+        pp: 5,
         priority: 4,
         flags: {
             noassist: 1,
@@ -4449,7 +4444,7 @@ exports.BattleMovedex = {
         basePower: 250,
         category: "Physical",
         name: "Explosion",
-        pp: 5,
+        pp: 1,
         priority: 0,
         flags: {
             protect: 1,
@@ -4603,7 +4598,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Fake Tears",
-        pp: 5,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -4672,7 +4667,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Feather Dance",
-        pp: 5,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -4957,7 +4952,7 @@ exports.BattleMovedex = {
     firespin: {
         num: 83,
         accuracy: 100,
-        basePower: 35,
+        basePower: 40,
         category: "Special",
         name: "Fire Spin",
         pp: 15,
@@ -5048,7 +5043,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Physical",
         name: "Flail",
-        pp: 15,
+        pp: 5,
         priority: 0,
         flags: {
             contact: 1,
@@ -5130,14 +5125,14 @@ exports.BattleMovedex = {
             defrost: 1
         },
         secondary: {
-            chance: 10,
+            chance: 30,
             status: "brn"
         },
         target: "normal",
         type: "Fire",
         contestType: "Beautiful",
-        desc: "Has a 10% chance to burn the target.",
-        shortDesc: "10% chance to burn the target. Thaws user."
+        desc: "Has a 30% chance to burn the target.",
+        shortDesc: "30% chance to burn the target. Thaws user."
     },
     flamethrower: {
         num: 53,
@@ -5470,7 +5465,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Focus Energy",
-        pp: 30,
+        pp: 1,
         priority: 0,
         flags: {
             snatch: 1
@@ -5651,7 +5646,7 @@ exports.BattleMovedex = {
     freezedry: {
         num: 573,
         accuracy: 100,
-        basePower: 70,
+        basePower: 85,
         category: "Special",
         name: "Freeze-Dry",
         pp: 20,
@@ -5835,7 +5830,7 @@ exports.BattleMovedex = {
     },
     furyswipes: {
         num: 154,
-        accuracy: 90,
+        accuracy: 100,
         basePower: 18,
         category: "Physical",
         name: "Fury Swipes",
@@ -6006,7 +6001,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Geomancy",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             charge: 1,
@@ -6333,8 +6328,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Clever",
-        desc: "For 5 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.",
-        shortDesc: "5 turns: no Ground immunities, 1.67x accuracy."
+        desc: "For 8 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.",
+        shortDesc: "8 turns: no Ground immunities, 1.67x accuracy."
     },
     growl: {
         num: 45,
@@ -6573,7 +6568,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Hail",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {},
         weather: "hail",
@@ -6672,7 +6667,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Haze",
-        pp: 30,
+        pp: 5,
         priority: 0,
         flags: {
             bypasssub: 1
@@ -6761,7 +6756,7 @@ exports.BattleMovedex = {
     },
     headsmash: {
         num: 457,
-        accuracy: 80,
+        accuracy: 85,
         basePower: 150,
         category: "Physical",
         name: "Head Smash",
@@ -6841,7 +6836,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Healing Wish",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             snatch: 1,
@@ -6864,7 +6859,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Heal Order",
-        pp: 10,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1,
@@ -6926,7 +6921,7 @@ exports.BattleMovedex = {
             volatileStatus: "flinch"
         },
         target: "normal",
-        type: "Psychic",
+        type: "Fairy",
         contestType: "Cute",
         desc: "Has a 30% chance to make the target flinch.",
         shortDesc: "30% chance to make the target flinch."
@@ -7578,7 +7573,7 @@ exports.BattleMovedex = {
     hornleech: {
         num: 532,
         accuracy: 100,
-        basePower: 75,
+        basePower: 85,
         category: "Physical",
         name: "Horn Leech",
         pp: 10,
@@ -7716,7 +7711,7 @@ exports.BattleMovedex = {
     hyperfang: {
         num: 158,
         accuracy: 100,
-        basePower: 80,
+        basePower: 90,
         category: "Physical",
         isNonstandard: "Past",
         name: "Hyper Fang",
@@ -15497,8 +15492,8 @@ exports.BattleMovedex = {
         target: "normal",
         type: "Ground",
         contestType: "Tough",
-        desc: "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
-        shortDesc: "Power doubles if the user's last move failed."
+        desc: "No additional effect.",
+        shortDesc: "No additional effect."
     },
     stoneedge: {
         num: 444,
