@@ -8,8 +8,6 @@ Expanded features include:
 - **Updated Move Data** - Moves have all their data matching their in game stats
 - **Updated Pokemon Data** - Learnsets, stats, are all matching as well as new data in catchrates, and held items
 
-Navigation: [Website](https://may8th1995.github.io/RBDex/) | [Client repository](https://github.com/May8th1995/RB-Client) | **Dex repository**
-
 Features
 ------------------------------------------------------------------------
 
