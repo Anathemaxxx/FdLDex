@@ -1,7 +1,7 @@
-RBDex Showdown Dex
+Fleur-de-Lys Showdown Dex
 ========================================================================
 
-This is a fork of the showdown dex made to support Pokemon Run&Bun
+This is a fork of the showdown dex made to support Pokémon Fleur-de-Lys.
 Expanded features include: 
 
 - **Location Information** - Entire new tab that supports pokemon locations and tracking
