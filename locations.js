@@ -1041,7 +1041,7 @@ exports.BattleLocationdex = {
     },
     anistarcity: {
         name:"Anistar City",
-        landslot1:"sigilpyh",
+        landslot1:"sigilyph",
         landslot2:"sigilyph",
         landslot3:"lunatone",
         landslot4:"solrock",
@@ -1321,7 +1321,7 @@ exports.BattleLocationdex = {
         superslot2:"qwilfish",
         superslot3:"dragonite",
     },
-    pokemonvillage: {
+    village: {
         name:"Pokémon Village",
         yellowslot1:"zapdos",
         yellowslot2:"zapdos",
