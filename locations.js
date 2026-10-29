@@ -1321,8 +1321,8 @@ exports.BattleLocationdex = {
         superslot2:"qwilfish",
         superslot3:"dragonite",
     },
-    village: {
-        name:"Pokémon Village",
+    pokevillage: {
+        name:"Pokemon Village",
         yellowslot1:"zapdos",
         yellowslot2:"zapdos",
         yellowslot3:"latias",
