@@ -4456,8 +4456,8 @@ exports.BattleMovedex = {
         target: "allAdjacent",
         type: "Normal",
         contestType: "Beautiful",
-        desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
-        shortDesc: "Hits adjacent Pokemon. The user faints."
+        desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability. It always results in a critical hit.",
+        shortDesc: "Hits adjacent Pokemon. Always results in a critical hit. The user faints."
     },
     extrasensory: {
         num: 326,
@@ -8122,7 +8122,7 @@ exports.BattleMovedex = {
     inferno: {
         num: 517,
         accuracy: 50,
-        basePower: 100,
+        basePower: 120,
         category: "Special",
         name: "Inferno",
         pp: 5,
@@ -8144,7 +8144,7 @@ exports.BattleMovedex = {
     infestation: {
         num: 611,
         accuracy: 100,
-        basePower: 20,
+        basePower: 40,
         category: "Special",
         name: "Infestation",
         pp: 20,
@@ -8926,7 +8926,7 @@ exports.BattleMovedex = {
     },
     lovelykiss: {
         num: 142,
-        accuracy: 80,
+        accuracy: 85,
         basePower: 0,
         category: "Status",
         isNonstandard: "Past",
@@ -9027,8 +9027,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Cute",
-        desc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
-        shortDesc: "For 5 turns, shields user's party from critical hits."
+        desc: "For 8 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
+        shortDesc: "For 8 turns, shields user's party from critical hits."
     },
     lunarblessing: {
         num: 849,
@@ -9099,7 +9099,7 @@ exports.BattleMovedex = {
     lusterpurge: {
         num: 295,
         accuracy: 100,
-        basePower: 70,
+        basePower: 95,
         category: "Special",
         isNonstandard: "Past",
         name: "Luster Purge",
@@ -9240,11 +9240,11 @@ exports.BattleMovedex = {
     },
     magmastorm: {
         num: 463,
-        accuracy: 90,
-        basePower: 100,
+        accuracy: 75,
+        basePower: 120,
         category: "Special",
         name: "Magma Storm",
-        pp: 5,
+        pp: 10,
         priority: 0,
         flags: {
             protect: 1,
@@ -9526,8 +9526,8 @@ exports.BattleMovedex = {
     },
     megakick: {
         num: 25,
-        accuracy: 85,
-        basePower: 120,
+        accuracy: 90,
+        basePower: 130,
         category: "Physical",
         name: "Mega Kick",
         pp: 5,
@@ -9571,7 +9571,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Memento",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             protect: 1,
@@ -9716,7 +9716,7 @@ exports.BattleMovedex = {
     meteormash: {
         num: 309,
         accuracy: 100,
-        basePower: 90,
+        basePower: 100,
         category: "Physical",
         name: "Meteor Mash",
         pp: 10,
@@ -10033,7 +10033,7 @@ exports.BattleMovedex = {
     mistball: {
         num: 296,
         accuracy: 100,
-        basePower: 70,
+        basePower: 95,
         category: "Special",
         isNonstandard: "Past",
         name: "Mist Ball",
@@ -10222,7 +10222,7 @@ exports.BattleMovedex = {
     },
     mudshot: {
         num: 341,
-        accuracy: 95,
+        accuracy: 100,
         basePower: 55,
         category: "Special",
         name: "Mud Shot",
@@ -10296,12 +10296,12 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Cute",
-        desc: "For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
-        shortDesc: "For 5 turns, Electric-type attacks have 1/3 power."
+        desc: "For 8 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
+        shortDesc: "For 8 turns, Electric-type attacks have 1/3 power."
     },
     muddywater: {
         num: 330,
-        accuracy: 95,
+        accuracy: 85,
         basePower: 90,
         category: "Special",
         name: "Muddy Water",
@@ -10406,7 +10406,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Nasty Plot",
-        pp: 20,
+        pp: 3,
         priority: 0,
         flags: {
             snatch: 1
@@ -10510,13 +10510,13 @@ exports.BattleMovedex = {
         },
         secondary: {
             chance: 30,
-            volatileStatus: "flinch"
+            status: "psn"
         },
         target: "normal",
         type: "Grass",
         contestType: "Clever",
-        desc: "Has a 30% chance to make the target flinch.",
-        shortDesc: "30% chance to make the target flinch."
+        desc: "Has a 30% chance to poison the target.",
+        shortDesc: "30% chance to poison the target."
     },
     nightdaze: {
         num: 539,
@@ -10744,7 +10744,7 @@ exports.BattleMovedex = {
     octazooka: {
         num: 190,
         accuracy: 100,
-        basePower: 80,
+        basePower: 85,
         category: "Special",
         isNonstandard: "Past",
         name: "Octazooka",
@@ -10852,7 +10852,7 @@ exports.BattleMovedex = {
     },
     originpulse: {
         num: 618,
-        accuracy: 100,
+        accuracy: 85,
         basePower: 110,
         category: "Special",
         name: "Origin Pulse",
@@ -10965,7 +10965,7 @@ exports.BattleMovedex = {
     paraboliccharge: {
         num: 570,
         accuracy: 100,
-        basePower: 65,
+        basePower: 75,
         category: "Special",
         name: "Parabolic Charge",
         pp: 20,
@@ -10989,7 +10989,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Parting Shot",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             protect: 1,
@@ -11051,7 +11051,7 @@ exports.BattleMovedex = {
     peck: {
         num: 64,
         accuracy: 100,
-        basePower: 35,
+        basePower: 40,
         category: "Physical",
         name: "Peck",
         pp: 35,
@@ -11316,7 +11316,7 @@ exports.BattleMovedex = {
     poisonfang: {
         num: 305,
         accuracy: 100,
-        basePower: 50,
+        basePower: 65,
         category: "Physical",
         name: "Poison Fang",
         pp: 15,
@@ -11438,10 +11438,10 @@ exports.BattleMovedex = {
     poisontail: {
         num: 342,
         accuracy: 100,
-        basePower: 50,
+        basePower: 80,
         category: "Physical",
         name: "Poison Tail",
-        pp: 25,
+        pp: 10,
         priority: 0,
         flags: {
             contact: 1,
@@ -11450,14 +11450,14 @@ exports.BattleMovedex = {
         },
         critRatio: 2,
         secondary: {
-            chance: 10,
+            chance: 30,
             status: "psn"
         },
         target: "normal",
         type: "Poison",
         contestType: "Clever",
-        desc: "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-        shortDesc: "High critical hit ratio. 10% chance to poison."
+        desc: "Has a 30% chance to poison the target and a 50% chance to lower the target's Defence by 1 stage.",
+        shortDesc: "30% chance to lower the target's Defense by 1. 10% chance to poison."
     },
     pollenpuff: {
         num: 676,
@@ -11525,7 +11525,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Powder",
-        pp: 20,
+        pp: 5,
         priority: 1,
         flags: {
             powder: 1,
@@ -11576,7 +11576,7 @@ exports.BattleMovedex = {
     powergem: {
         num: 408,
         accuracy: 100,
-        basePower: 80,
+        basePower: 90,
         category: "Special",
         name: "Power Gem",
         pp: 20,
@@ -11696,7 +11696,7 @@ exports.BattleMovedex = {
     poweruppunch: {
         num: 612,
         accuracy: 100,
-        basePower: 40,
+        basePower: 60,
         category: "Physical",
         isNonstandard: "Past",
         name: "Power-Up Punch",
@@ -12171,7 +12171,7 @@ exports.BattleMovedex = {
     pursuit: {
         num: 228,
         accuracy: 100,
-        basePower: 40,
+        basePower: 70,
         category: "Physical",
         isNonstandard: "Past",
         name: "Pursuit",
@@ -12265,7 +12265,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Quick Guard",
-        pp: 15,
+        pp: 5,
         priority: 3,
         flags: {
             snatch: 1
@@ -12293,7 +12293,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Quiver Dance",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1,
@@ -12419,7 +12419,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Rain Dance",
-        pp: 5,
+        pp: 1,
         priority: 0,
         flags: {},
         weather: "RainDance",
@@ -12432,8 +12432,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Beautiful",
-        desc: "For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
-        shortDesc: "For 5 turns, heavy rain powers Water moves."
+        desc: "The weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
+        shortDesc: "Heavy rain powers Water moves."
     },
     rapidspin: {
         num: 229,
@@ -12561,7 +12561,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Recycle",
-        pp: 10,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1
@@ -12794,7 +12794,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Physical",
         name: "Reversal",
-        pp: 15,
+        pp: 5,
         priority: 0,
         flags: {
             contact: 1,
@@ -12865,25 +12865,22 @@ exports.BattleMovedex = {
     roaroftime: {
         num: 459,
         accuracy: 100,
-        basePower: 150,
+        basePower: 90,
         category: "Special",
         name: "Roar of Time",
-        pp: 5,
+        pp: 10,
         priority: 0,
         flags: {
-            recharge: 1,
             protect: 1,
             mirror: 1
         },
-        self: {
-            volatileStatus: "mustrecharge"
-        },
+        forceSwitch: true,
         secondary: null,
         target: "normal",
         type: "Dragon",
         contestType: "Beautiful",
-        desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        shortDesc: "User cannot move next turn."
+        desc: "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target used Ingrain previously, has the Suction Cups Ability, or this move hit a substitute.",
+        shortDesc: "Forces the target to switch to a random ally."
     },
     rockblast: {
         num: 350,
@@ -12915,7 +12912,7 @@ exports.BattleMovedex = {
     rockclimb: {
         num: 431,
         accuracy: 95,
-        basePower: 90,
+        basePower: 100,
         category: "Physical",
         isNonstandard: "Past",
         name: "Rock Climb",
@@ -13102,7 +13099,7 @@ exports.BattleMovedex = {
     rollingkick: {
         num: 27,
         accuracy: 100,
-        basePower: 60,
+        basePower: 80,
         category: "Physical",
         isNonstandard: "Past",
         name: "Rolling Kick",
@@ -13233,7 +13230,7 @@ exports.BattleMovedex = {
         category: "Physical",
         isNonstandard: "Past",
         name: "Sacred Fire",
-        pp: 5,
+        pp: 10,
         priority: 0,
         flags: {
             protect: 1,
@@ -13279,7 +13276,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Safeguard",
-        pp: 25,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1
@@ -13299,8 +13296,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Beautiful",
-        desc: "For 5 turns, the user and its party members cannot have non-volatile status conditions or confusion inflicted on them by other Pokemon. Pokemon on the user's side cannot become affected by Yawn but can fall asleep from its effect. It is removed from the user's side if the user or an ally is successfully hit by Defog. Fails if the effect is already active on the user's side.",
-        shortDesc: "For 5 turns, protects user's party from status."
+        desc: "For 8 turns, the user and its party members cannot have non-volatile status conditions or confusion inflicted on them by other Pokemon. Pokemon on the user's side cannot become affected by Yawn but can fall asleep from its effect. It is removed from the user's side if the user or an ally is successfully hit by Defog. Fails if the effect is already active on the user's side.",
+        shortDesc: "For 8 turns, protects user's party from status."
     },
     sandattack: {
         num: 28,
@@ -13336,7 +13333,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Sandstorm",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             wind: 1
@@ -13351,13 +13348,13 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Tough",
-        desc: "For 5 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
-        shortDesc: "For 5 turns, a sandstorm rages. Rock: 1.5x SpD."
+        desc: "The weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
+        shortDesc: "A sandstorm rages. Rock: 1.5x SpD."
     },
     sandtomb: {
         num: 328,
         accuracy: 100,
-        basePower: 35,
+        basePower: 40,
         category: "Physical",
         name: "Sand Tomb",
         pp: 15,
@@ -13435,7 +13432,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Scary Face",
-        pp: 10,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -13507,7 +13504,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Screech",
-        pp: 5,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -13582,7 +13579,7 @@ exports.BattleMovedex = {
     secretsword: {
         num: 548,
         accuracy: 100,
-        basePower: 85,
+        basePower: 90,
         category: "Special",
         isNonstandard: "Past",
         overrideDefensiveStat: "def",
@@ -13676,7 +13673,7 @@ exports.BattleMovedex = {
         basePower: 200,
         category: "Physical",
         name: "Self-Destruct",
-        pp: 5,
+        pp: 1,
         priority: 0,
         flags: {
             protect: 1,
@@ -13744,7 +13741,7 @@ exports.BattleMovedex = {
     shadowclaw: {
         num: 421,
         accuracy: 100,
-        basePower: 70,
+        basePower: 80,
         category: "Physical",
         name: "Shadow Claw",
         pp: 15,
@@ -13793,7 +13790,7 @@ exports.BattleMovedex = {
     shadowpunch: {
         num: 325,
         accuracy: true,
-        basePower: 60,
+        basePower: 75,
         category: "Physical",
         name: "Shadow Punch",
         pp: 20,
@@ -13911,7 +13908,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Shell Smash",
-        pp: 15,
+        pp: 2,
         priority: 0,
         flags: {
             snatch: 1
@@ -13966,7 +13963,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Shift Gear",
-        pp: 10,
+        pp: 3,
         priority: 0,
         flags: {
             snatch: 1
@@ -14177,7 +14174,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Skill Swap",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             protect: 1,
@@ -14561,7 +14558,7 @@ exports.BattleMovedex = {
     smellingsalts: {
         num: 265,
         accuracy: 100,
-        basePower: 70,
+        basePower: 90,
         category: "Physical",
         isNonstandard: "Past",
         name: "Smelling Salts",
@@ -14581,7 +14578,7 @@ exports.BattleMovedex = {
     },
     smog: {
         num: 123,
-        accuracy: 90,
+        accuracy: 100,
         basePower: 30,
         category: "Special",
         name: "Smog",
@@ -14683,7 +14680,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Snatch",
-        pp: 10,
+        pp: 5,
         priority: 4,
         flags: {
             bypasssub: 1,
@@ -14892,7 +14889,7 @@ exports.BattleMovedex = {
     spark: {
         num: 209,
         accuracy: 100,
-        basePower: 65,
+        basePower: 90,
         category: "Physical",
         name: "Spark",
         pp: 20,
@@ -14903,14 +14900,14 @@ exports.BattleMovedex = {
             mirror: 1
         },
         secondary: {
-            chance: 30,
+            chance: 15,
             status: "par"
         },
         target: "normal",
         type: "Electric",
         contestType: "Cool",
-        desc: "Has a 30% chance to paralyze the target.",
-        shortDesc: "30% chance to paralyze the target."
+        desc: "Has a 15% chance to paralyze the target.",
+        shortDesc: "15% chance to paralyze the target."
     },
     sparklingaria: {
         num: 664,
@@ -15016,7 +15013,7 @@ exports.BattleMovedex = {
     spikecannon: {
         num: 131,
         accuracy: 100,
-        basePower: 20,
+        basePower: 25,
         category: "Physical",
         isNonstandard: "Past",
         name: "Spike Cannon",
@@ -15029,7 +15026,7 @@ exports.BattleMovedex = {
         multihit: [2, 5],
         secondary: null,
         target: "normal",
-        type: "Normal",
+        type: "Ground",
         maxMove: {
             basePower: 120
         },
@@ -15070,7 +15067,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Spiky Shield",
-        pp: 10,
+        pp: 5,
         priority: 4,
         flags: {
             noassist: 1,
@@ -15290,7 +15287,7 @@ exports.BattleMovedex = {
     },
     steameruption: {
         num: 592,
-        accuracy: 100,
+        accuracy: 95,
         basePower: 110,
         category: "Special",
         name: "Steam Eruption",
@@ -15315,7 +15312,7 @@ exports.BattleMovedex = {
     steamroller: {
         num: 537,
         accuracy: 100,
-        basePower: 65,
+        basePower: 75,
         category: "Physical",
         isNonstandard: "Past",
         name: "Steamroller",
@@ -15636,7 +15633,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "String Shot",
-        pp: 40,
+        pp: 2,
         priority: 0,
         flags: {
             protect: 1,
@@ -15758,11 +15755,11 @@ exports.BattleMovedex = {
     submission: {
         num: 66,
         accuracy: 100,
-        basePower: 80,
+        basePower: 100,
         category: "Physical",
         isNonstandard: "Past",
         name: "Submission",
-        pp: 20,
+        pp: 10,
         priority: 0,
         flags: {
             contact: 1,
@@ -15829,7 +15826,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Sunny Day",
-        pp: 5,
+        pp: 1,
         priority: 0,
         flags: {},
         weather: "sunnyday",
@@ -15842,8 +15839,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Beautiful",
-        desc: "For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
-        shortDesc: "For 5 turns, intense sunlight powers Fire moves."
+        desc: "The weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
+        shortDesc: "Intense sunlight powers Fire moves."
     },
     sunsteelstrike: {
         num: 713,
@@ -16041,7 +16038,7 @@ exports.BattleMovedex = {
     },
     sweetkiss: {
         num: 186,
-        accuracy: 80,
+        accuracy: 100,
         basePower: 0,
         category: "Status",
         name: "Sweet Kiss",
@@ -16071,7 +16068,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Sweet Scent",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             protect: 1,
@@ -16145,7 +16142,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Swords Dance",
-        pp: 20,
+        pp: 3,
         priority: 0,
         flags: {
             snatch: 1,
@@ -16233,7 +16230,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Tail Glow",
-        pp: 20,
+        pp: 2,
         priority: 0,
         flags: {
             snatch: 1
@@ -16387,7 +16384,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Taunt",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             protect: 1,
@@ -16890,8 +16887,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Cool",
-        desc: "Paralyzes the target. This move does not ignore type immunity. If an Electric-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move.",
-        shortDesc: "Paralyzes the target. Electric types can't miss."
+        desc: "Paralyzes the target. This move does not ignore type immunity.",
+        shortDesc: "Paralyzes the target."
     },
     tickle: {
         num: 321,
@@ -16899,7 +16896,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Tickle",
-        pp: 10,
+        pp: 5,
         priority: 0,
         flags: {
             protect: 1,
@@ -16930,7 +16927,7 @@ exports.BattleMovedex = {
         category: "Status",
         isNonstandard: "Past",
         name: "Topsy-Turvy",
-        pp: 20,
+        pp: 5,
         priority: 0,
         flags: {
             protect: 1,
@@ -17116,7 +17113,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Trick",
-        pp: 10,
+        pp: 1,
         priority: 0,
         flags: {
             protect: 1,
@@ -17380,7 +17377,7 @@ exports.BattleMovedex = {
     uproar: {
         num: 253,
         accuracy: 100,
-        basePower: 90,
+        basePower: 120,
         category: "Special",
         name: "Uproar",
         pp: 10,
@@ -17430,7 +17427,7 @@ exports.BattleMovedex = {
     },
     vcreate: {
         num: 557,
-        accuracy: 95,
+        accuracy: 100,
         basePower: 180,
         category: "Physical",
         name: "V-create",
@@ -17587,7 +17584,7 @@ exports.BattleMovedex = {
     volttackle: {
         num: 344,
         accuracy: 100,
-        basePower: 120,
+        basePower: 140,
         category: "Physical",
         name: "Volt Tackle",
         pp: 15,
@@ -17700,7 +17697,7 @@ exports.BattleMovedex = {
     waterpulse: {
         num: 352,
         accuracy: 100,
-        basePower: 60,
+        basePower: 80,
         category: "Special",
         name: "Water Pulse",
         pp: 20,
@@ -17724,7 +17721,7 @@ exports.BattleMovedex = {
     watershuriken: {
         num: 594,
         accuracy: 100,
-        basePower: 15,
+        basePower: 20,
         category: "Special",
         name: "Water Shuriken",
         pp: 20,
@@ -17733,13 +17730,13 @@ exports.BattleMovedex = {
             protect: 1,
             mirror: 1
         },
-        multihit: [2, 5],
+        multihit: [3],
         secondary: null,
         target: "normal",
         type: "Water",
         contestType: "Cool",
-        desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is an Ash-Greninja with the Battle Bond Ability, this move has a power of 20 and always hits three times.",
-        shortDesc: "Usually goes first. Hits 2-5 times in one turn."
+        desc: "Hits three times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
+        shortDesc: "Usually goes first. Hits 3 times in one turn."
     },
     watersport: {
         num: 346,
@@ -17769,8 +17766,8 @@ exports.BattleMovedex = {
             }
         },
         contestType: "Cute",
-        desc: "For 5 turns, all Fire-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
-        shortDesc: "For 5 turns, Fire-type attacks have 1/3 power."
+        desc: "For 8 turns, all Fire-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
+        shortDesc: "For 8 turns, Fire-type attacks have 1/3 power."
     },
     waterspout: {
         num: 323,
@@ -17840,7 +17837,7 @@ exports.BattleMovedex = {
     whirlpool: {
         num: 250,
         accuracy: 100,
-        basePower: 35,
+        basePower: 40,
         category: "Special",
         name: "Whirlpool",
         pp: 15,
@@ -17914,7 +17911,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Wide Guard",
-        pp: 10,
+        pp: 5,
         priority: 3,
         flags: {
             snatch: 1
@@ -17939,7 +17936,7 @@ exports.BattleMovedex = {
     wildcharge: {
         num: 528,
         accuracy: 100,
-        basePower: 90,
+        basePower: 120,
         category: "Physical",
         name: "Wild Charge",
         pp: 15,
@@ -17950,12 +17947,15 @@ exports.BattleMovedex = {
             mirror: 1
         },
         recoil: [1, 4],
-        secondary: null,
+        secondary: {
+            chance: 10,
+            status: "par"
+        },
         target: "normal",
         type: "Electric",
         contestType: "Tough",
-        desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-        shortDesc: "Has 1/4 recoil."
+        desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP. Has a 10% chance to paralyze the target.",
+        shortDesc: "Has 1/4 recoil. 10% chance to paralyze the target."
     },
     willowisp: {
         num: 261,
@@ -17986,7 +17986,7 @@ exports.BattleMovedex = {
     wingattack: {
         num: 17,
         accuracy: 100,
-        basePower: 60,
+        basePower: 90,
         category: "Physical",
         name: "Wing Attack",
         pp: 35,
@@ -18010,7 +18010,7 @@ exports.BattleMovedex = {
         basePower: 0,
         category: "Status",
         name: "Wish",
-        pp: 10,
+        pp: 5,
         priority: 0,
         flags: {
             snatch: 1,
@@ -18165,7 +18165,7 @@ exports.BattleMovedex = {
     wrap: {
         num: 35,
         accuracy: 100,
-        basePower: 15,
+        basePower: 60,
         category: "Physical",
         name: "Wrap",
         pp: 20,
