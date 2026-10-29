@@ -1910,6 +1910,27 @@ exports.BattleMovedex = {
         desc: "Lowers the target's Special Attack by 2 stages. The target is unaffected if both the user and the target are the same gender, or if either is genderless. Pokemon with the Oblivious Ability are immune.",
         shortDesc: "Lowers the foe(s) Sp. Atk by 2 if opposite gender."
     },
+    ceaselessedge: {
+        num: 845,
+        accuracy: 90,
+        basePower: 65,
+        category: "Physical",
+        name: "Ceaseless Edge",
+        pp: 15,
+        priority: 0,
+        flags: {
+            contact: 1,
+            protect: 1,
+            mirror: 1,
+            slicing: 1
+        },
+        secondary: null,
+        target: "normal",
+        type: "Dark",
+        contestType: "Cool",
+        desc: "Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to three times before failing. Opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
+        shortDesc: "Sets a layer of Spikes on the opposing side."
+    },
     celebrate: {
         num: 606,
         accuracy: true,
