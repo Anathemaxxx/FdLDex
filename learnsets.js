@@ -14277,7 +14277,7 @@ fly: ["9M"],
      learnset: {
 doubleslap: ["9L1"],
 babydolleyes: ["9L1"],
-helpnghand: ["9L4"],
+helpinghand: ["9L4"],
 superfang: ["9L8"],
 sing: ["9L12"],
 tickle: ["9L16"],
